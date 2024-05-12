@@ -1,5 +1,9 @@
 # SO-ARM-100
-Standard Open Arm 100 - Early alpha for testing prints and sizings.
+Standard Open Arm 100 - Early alpha for testing prints and sizings, all the prints are correctly orientated for z upwards to minimise supports.
+
+Settings should be for no supports for angles greater than 45 to the horizontal and no supports for areas under 3mm2.
+
+13% infill 2 surface layers in a high performance material like carbon reinforced nylon.
 
 Video instructions are on the @therobotstudio YouTube channel, https://youtube.com/@therobotstudio?si=oSLLP1eXrVeH-yzv
 
