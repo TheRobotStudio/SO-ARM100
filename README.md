@@ -1,6 +1,8 @@
 # SO-ARM-100
 Standard Open Arm 100 - Early alpha for testing prints and sizings.
 
+Video instructions are here: https://www.youtube.com/playlist?list=PLy7gxZH9jzfR0l8fYH8C1nyEc4pxSBrer
+
 The arm is intended for integration with the open source "Le Robot" system being developed by the community at Hugging Face.
 
 Six STS3215 servos are needed to actuate the five dof in the arm and the gripper.
