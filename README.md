@@ -9,6 +9,6 @@ At quantities of 1000 units even the higher power 12v version of the STS3215 ser
 
 Plus an adaptor board to connect to a computer and a clamp to fix it the desk.
 
-If 167 (1000/6 = 166.6666) people are all prepared to buy the servos at once, and assuming that everything else is 3d printed, that's a 5DOF arm with gripper (6 dof total) and a half kilo paylaod for 100 bucks.
+If 167 (1000/6 = 166.6666) people are all prepared to buy the servos at once, and assuming that everything else is 3d printed, that's a 5DOF arm with gripper (6 dof total) and a half kilo payload for 100 bucks.
 
 Join the project with some of the brightest minds in open AI and robotics development on the discord server at: https://discord.gg/TBDKjzuX
