@@ -1,7 +1,9 @@
 # SO-ARM-100
 Standard Open Arm 100 - Early alpha for testing prints and sizings.
 
-Video instructions are on the @therobotstudio YouTube channel, there's a playlist here: https://www.youtube.com/playlist?list=PLy7gxZH9jzfR0l8fYH8C1nyEc4pxSBrer
+Video instructions are on the @therobotstudio YouTube channel, https://youtube.com/@therobotstudio?si=oSLLP1eXrVeH-yzv
+
+There's a playlist here: https://www.youtube.com/playlist?list=PLy7gxZH9jzfR0l8fYH8C1nyEc4pxSBrer
 
 The arm is intended for integration with the open source "Le Robot" system being developed by the community at Hugging Face.
 
