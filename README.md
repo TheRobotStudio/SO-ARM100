@@ -15,7 +15,7 @@ The arm is intended for integration with the open source "Le Robot" system being
 
 Six STS3215 servos are needed to actuate the five dof in the arm and the gripper connected via one adaptor board.
 
-No other components except a PC and power supply.
+No other components except a PC and power supply with leads.
 
 Simple hand tools only and takes under an hour to assemble to first movements.
 
