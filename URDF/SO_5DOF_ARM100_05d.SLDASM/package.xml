@@ -1,10 +1,10 @@
 <package format="2">
-  <name>URDF_SO_5DOF_ARM100_05d.SLDASM</name>
+  <name>SO_5DOF_ARM100_05d.SLDASM</name>
   <version>1.0.0</version>
   <description>
-    <p>URDF Description package for URDF_SO_5DOF_ARM100_05d.SLDASM</p>
+    <p>URDF Description package for SO_5DOF_ARM100_05d.SLDASM</p>
     <p>This package contains configuration data, 3D models and launch files
-for URDF_SO_5DOF_ARM100_05d.SLDASM robot</p>
+for SO_5DOF_ARM100_05d.SLDASM robot</p>
   </description>
   <author>TODO</author>
   <maintainer email="TODO@email.com" />

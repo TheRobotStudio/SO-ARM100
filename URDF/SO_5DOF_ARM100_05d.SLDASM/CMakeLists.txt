@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 2.8.3)
 
-project(URDF_SO_5DOF_ARM100_05d.SLDASM)
+project(SO_5DOF_ARM100_05d.SLDASM)
 
 find_package(catkin REQUIRED)
 
