@@ -1,15 +1,51 @@
 # SO-ARM100
 Standard Open Arm 100 - Early alpha for testing prints and sizings, all the prints are correctly orientated for z upwards to minimise supports.
 
-Settings should be for no supports for angles greater than 45 to the horizontal and no supports for areas under 3mm2.
+The only components required to assemble the arm are the 3d printed parts and the six STS3215 servos with a single FE-URT adaptor board.
 
-13% infill 2 surface layers in a high performance material like carbon reinforced nylon.
+All the screws needed are provided with the servo. These can be fastened with a #0 and a #1 Philips screwdriver. Both sizes are standard in common precision screwdriver sets.
 
-Video instructions are on the @therobotstudio YouTube channel.
+For the electrical supply, you will also require a 6v power supply that can drive 4A, or an adjustable laboratory power supply with leads.
+
+For software, any Windows PC can connect over USB to program the servos and run initial tests.
+
+The list of components and tools to buy, assuming you have filament and a working 3d printer already, is:
+
+6 x STS3215 Feetech servos
+1 x FE-URT adaptor board
+1 x 6 piece precision screwdriver set
+1 x wire cutters
+1 x 6v power supply unit (PSU) or laboratory power supply with leads.
+
+The stl files for the 3d printed parts are in the /parts folder in three sub folders.
+
+3dprint a single copy of the three parts in /part/arm and 3dprint a single copy of the two parts in /parts/base for a total of five 3dprinted parts.
+
+There are several versions of the jaws in the /part/jaws folder, one each of the Wrist_Roll_x.STL and one each of the Moving_Jaw_x.STL should be 3d printed.
+
+The jaw parts are designed in pairs:
+
+Moving_Jaw_b.STL is paired with Wrist_Roll_e.STL
+Moving_Jaw_c.STL is paired with Wrist_Roll_f.STL
+Moving_Jaw_f.STL is paired with Wrist_Roll_g.STL
+
+If required for finer work, extra tips that can be screwed to the jaws with surplus screws from the servos are available in /parts/jaws/removable_jaws. Choose as required.
+
+The 3d printing settings should be for no supports for angles greater than 45 to the horizontal and no supports for areas under 3mm2.
+
+13% infill and 2 surface layers works well in high performance materials and probably fine for all materials due. We will soon test and confirm for common materials like PLA and Silk PLA.
+
+Detailed video instructions are on the @therobotstudio YouTube channel.
+
+Start with the instructions for programming the servos:
+
+https://youtu.be/fy6Jqq_QaGo?si=xjr0-Jur2sEGA9kf
+
+Then assemble the arm:
 
 https://youtu.be/QkIgxTCq3MY?si=S0YPFFkKXr_Xbh47
 
-There's a playlist here of the development too: https://www.youtube.com/playlist?list=PLy7gxZH9jzfR0l8fYH8C1nyEc4pxSBrer
+There is also a playlist here of the development process: https://www.youtube.com/playlist?list=PLy7gxZH9jzfR0l8fYH8C1nyEc4pxSBrer
 
 The arm is intended for integration with the open source "Le Robot" system being developed by the community at Hugging Face.
 
