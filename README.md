@@ -11,11 +11,11 @@ For software, any Windows PC can connect over USB to program the servos and run 
 
 The list of components and tools to buy, assuming you have filament and a working 3d printer already, is:
 
-6 x STS3215 Feetech servos
-1 x FE-URT adaptor board
-1 x 6 piece precision screwdriver set
-1 x wire cutters
-1 x 6v power supply unit (PSU) or laboratory power supply with leads.
+* 6 x STS3215 Feetech servos
+* 1 x FE-URT adaptor board
+* 1 x 6 piece precision screwdriver set
+* 1 x wire cutters
+* 1 x 6v power supply unit (PSU) or laboratory power supply with leads.
 
 The stl files for the 3d printed parts are in the /parts folder in three sub folders.
 
@@ -25,9 +25,9 @@ There are several versions of the jaws in the /part/jaws folder, one each of the
 
 The jaw parts are designed in pairs:
 
-Moving_Jaw_b.STL is paired with Wrist_Roll_e.STL
-Moving_Jaw_c.STL is paired with Wrist_Roll_f.STL
-Moving_Jaw_f.STL is paired with Wrist_Roll_g.STL
+* Moving_Jaw_b.STL is paired with Wrist_Roll_e.STL
+* Moving_Jaw_c.STL is paired with Wrist_Roll_f.STL
+* Moving_Jaw_f.STL is paired with Wrist_Roll_g.STL
 
 If required for finer work, extra tips that can be screwed to the jaws with surplus screws from the servos are available in /parts/jaws/removable_jaws. Choose as required.
 
