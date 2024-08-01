@@ -1,3 +1,8 @@
+## [v0.1.4] - 2024-07-18
+- Deleted previous stl files for the arm
+- Uploaded 2 stl files arranged with all parts for follower and all parts for leader as a single tray of parts with all orientations correct.
+- Uploaded gauges for lego.
+
 ## [v0.1.3] - 2024-07-18
 - Uploaded Gauge_tight_1
 
