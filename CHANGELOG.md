@@ -1,4 +1,7 @@
-## [v0.1.4] - 2024-07-18
+## [v0.1.5] - 2024-08-06
+- Updated read.me with clearer instructions related to the new stl file
+
+## [v0.1.4] - 2024-08-01
 - Deleted previous stl files for the arm
 - Uploaded 2 stl files arranged with all parts for follower and all parts for leader as a single tray of parts with all orientations correct.
 - Uploaded gauges for lego.
