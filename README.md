@@ -3,7 +3,9 @@ Standard Open Arm 100 - Beta version 1.0.
 
 The only components required to build the arm (leader or follower) are the 3d printed parts and the six STS3215 servos (6v or 12v version) plus a single adaptor board to connect to a PC.
 
-Before printing the parts for the arm check the accuracy of your printer by printing a gauge in the parts/gauges folder.
+Before printing the parts for the arm check the accuracy of your printer by printing a gauge in the code/parts/gauges folder.
+
+There are two types of gauge, one to check the size of print against standard 4x2 lego block and one against an STS3215 servo:
 
 https://youtu.be/dss8E3DG2rA
 
@@ -35,7 +37,9 @@ The list of components and tools to buy, assuming you have filament and a workin
 Feetech sell the 6 servos plus adaptor board here: https://www.alibaba.com/product-detail/6PCS-12V-30KG-STS3215-High-Torque_1601216757543.html?spm=a2747.product_manager.0.0.77a471d201w82i
 
 The Waveshare adaptor board is easier to use than the Feetch FE-URT adaptor board as it is fitted with a standard 5.5mm barrel jack.
- 
+
+https://www.waveshare.com/bus-servo-adapter-a.htm
+
 Detailed video instructions are on the @therobotstudio YouTube channel.
 
 Start with the instructions for programming the servos:
