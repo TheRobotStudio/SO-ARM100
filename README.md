@@ -29,12 +29,16 @@ For software, any Windows PC can connect over USB to program the servos and run 
 
 The list of components and tools to buy, assuming you have filament and a working 3d printer already, is:
 
-* 6 x STS3215 Feetech servos - 6v or 12v version
+* 6 x STS3215 Feetech servos - 7.4v or 12v version
 * 1 x Waveshare or Feetech FE-URT adaptor board
 * 1 x 6v or 12v power supply unit (PSU) or laboratory power supply with leads.
 * 1 x 6 piece precision screwdriver set with #0 and #1 crossheads
 
-Feetech sell the 6 servos plus adaptor board here: https://www.alibaba.com/product-detail/6PCS-12V-30KG-STS3215-High-Torque_1601216757543.html?spm=a2747.product_manager.0.0.77a471d201w82i
+Feetech sell the 6 servos plus adaptor board here: 
+
+https://www.alibaba.com/product-detail/6PCS-7-4V-STS3215-Servos-for_1600523509006.html?spm=a2747.product_manager.0.0.239671d2ci659e
+
+https://www.alibaba.com/product-detail/6PCS-12V-30KG-STS3215-High-Torque_1601216757543.html?spm=a2747.product_manager.0.0.77a471d201w82i
 
 The Waveshare adaptor board is easier to use than the Feetch FE-URT adaptor board as it is fitted with a standard 5.5mm barrel jack.
 
