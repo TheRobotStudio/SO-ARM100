@@ -60,3 +60,7 @@ The arm is intended for integration with the open source "Le Robot" system being
 
 Join the project with some of the brightest minds in open AI and robotics development on the discord server at: https://discord.gg/ggrqhPTsMe
 
+Handy URDF viewer here:
+
+https://gkjohnson.github.io/urdf-loaders/javascript/example/bundle/index.html
+
