@@ -1,5 +1,6 @@
 ## [v0.1.6] - 2024-09-25
 - Added URDF for SO_5DOF_ARM100_8j
+- Added link to URDF viewer at bottom of Readme
 
 ## [v0.1.5] - 2024-08-06
 - Updated read.me with clearer instructions related to the new stl files.
