@@ -1,3 +1,8 @@
+## [v0.1.7] - 2024-09-27
+- Added stl files for leader and follower arms.
+- Version SO_5DOF_ARM100_08j
+- Ready-to-print trays with max print areas for Ender (218mmx218mm) and Prusa/Up (202.5mm x 247.5mm).
+
 ## [v0.1.6] - 2024-09-25
 - Added URDF for SO_5DOF_ARM100_8j
 - Added link to URDF viewer at bottom of Readme
