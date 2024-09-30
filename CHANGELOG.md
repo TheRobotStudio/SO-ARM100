@@ -1,6 +1,7 @@
 ## [v0.1.8] - 2024-09-30
 - Uploaded CAD for Solidworks as zip: Version SO_5DOF_ARM100_08j
 - Both follower and leader in a single assembly.
+- Uploaded Alternative Leader Controllers with smaller sizes and sprung trigger.
 
 ## [v0.1.7] - 2024-09-27
 - Added stl files for leader and follower arms: Version SO_5DOF_ARM100_08j
