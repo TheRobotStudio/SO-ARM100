@@ -1,6 +1,9 @@
+## [v0.1.8] - 2024-09-30
+- Uploaded CAD for Solidworks as zip: Version SO_5DOF_ARM100_08j
+- Both follower and leader in a single assembly.
+
 ## [v0.1.7] - 2024-09-27
-- Added stl files for leader and follower arms.
-- Version SO_5DOF_ARM100_08j
+- Added stl files for leader and follower arms: Version SO_5DOF_ARM100_08j
 - Ready-to-print trays with max print areas for Ender (218mmx218mm) and Prusa/Up (202.5mm x 247.5mm).
 
 ## [v0.1.6] - 2024-09-25
