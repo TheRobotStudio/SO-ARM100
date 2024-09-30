@@ -1,3 +1,7 @@
+## [v0.1.9] - 2024-09-30
+- Replaced CAD for Solidworks as zip: Version SO_5DOF_ARM100_08k
+- Replaced stl files for leader and follower arms: Version SO_5DOF_ARM100_08k
+
 ## [v0.1.8] - 2024-09-30
 - Uploaded CAD for Solidworks as zip: Version SO_5DOF_ARM100_08j
 - Both follower and leader in a single assembly.
