@@ -1,29 +1,31 @@
 # SO-ARM100
-Standard Open Arm 100 - Beta version 1.0.
+Standard Open Arm 100 - Beta version 1.2
 
 The only components required to build the arm (leader or follower) are the 3d printed parts and the six STS3215 servos (6v or 12v version) plus a single adaptor board to connect to a PC.
 
-Before printing the parts for the arm check the accuracy of your printer by printing a gauge in the code/parts/gauges folder.
+Before printing the parts for the arm check the accuracy of your printer by printing a gauge from the stl_parts_for_printing/Gauges folder.
 
 There are two types of gauge, one to check the size of print against standard 4x2 lego block and one against an STS3215 servo:
 
 https://youtu.be/dss8E3DG2rA
 
-The stl files are provided ready to print on any FDM printer with a bed size of 210mm x 250mm or greater.
+The stl files are provided ready to print on many FDM printers with a minimum print area of an Ender 220mm x 220mm or a Prusa/Up with a minimum print area of 205mm x 250mm.
 
-All the parts for the leader or follower are in a single file, correctly orientated for z upwards to minimise supports.
+All the parts for the leader or follower are contained in a single file, correctly orientated for z upwards to minimise supports.
+
+Set for supports everywhere but ignore slopes greater than 45 degrees to the horizontal.
+
+There should be no supports in the screw holes with horizontal axes.
 
 Prints tested in PLA with minimal external layers and 20% infill.
 
 Print with 0.4mm nozzle at 0.2mm layers or 0.6mm nozzle at 0.4mm layer.
 
-Supports everywhere but ignore slopes greater than 45 degrees to the horizontal.
+All the screws needed are provided with the servos themselves.
 
-There should be no supports in the screw holes with horizontal axes.
+These can be fastened with a #0 and a #1 Philips screwdriver - both sizes are standard in common precision screwdriver sets.
 
-All the screws needed are provided with the servo. These can be fastened with a #0 and a #1 Philips screwdriver. Both sizes are standard in common precision screwdriver sets.
-
-For the electrical supply, you will also require a 6v or 12v power supply that can drive 4A, or an adjustable laboratory power supply with leads.
+For the electrical supply, you will also require a 5v or 12v power supply that can drive 4A, or an adjustable laboratory power supply with leads.
 
 For software, any Windows PC can connect over USB to program the servos and run initial tests.
 
@@ -31,7 +33,7 @@ The list of components and tools to buy, assuming you have filament and a workin
 
 * 6 x STS3215 Feetech servos - 7.4v or 12v version
 * 1 x Waveshare or Feetech FE-URT adaptor board
-* 1 x 6v or 12v power supply unit (PSU) or laboratory power supply with leads.
+* 1 x 5v or 12v power supply unit (PSU) or laboratory power supply with leads.
 * 1 x 6 piece precision screwdriver set with #0 and #1 crossheads
 
 Feetech sell the 6 servos plus adaptor board here: 
