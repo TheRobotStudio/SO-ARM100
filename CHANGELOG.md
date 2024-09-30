@@ -1,3 +1,8 @@
+## [v0.1.10] - 2024-09-30
+- 2 last bug fixes!
+- Replaced CAD for Solidworks as zip: Version SO_5DOF_ARM100_08k
+- Replaced stl files for leader and follower arms: Version SO_5DOF_ARM100_08k
+
 ## [v0.1.9] - 2024-09-30
 - Replaced CAD for Solidworks as zip: Version SO_5DOF_ARM100_08k
 - Replaced stl files for leader and follower arms: Version SO_5DOF_ARM100_08k
