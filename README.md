@@ -39,13 +39,10 @@ A variety of 3D printers are acceptable to print the parts necessary of the foll
    3. Infill Density: 20%
    4. Sample Printers: [Prusa Mini+](https://www.prusa3d.com/product/original-prusa-mini-semi-assembled-3d-printer-4/), [UP Plus 2](https://shop.tiertime.com/product/tiertime-up-plus-2-3d-printer/), [Ender3](https://www.amazon.com/Comgrow-Creality-Ender-Aluminum-220x220x250mm/dp/B07BR3F9N6/).
 2. Set up the printer
-   1. Materials:<sup>[4](#myfootnote4)</sup>
-      1. [Standard Glue Stick](https://www.amazon.com/Amazon-Basics-Washable-School-Sticks/dp/B0CRCWCGNW/)
-      2. [Putty Knife](https://www.amazon.com/Warner-ProGrip-Putty-Knife-90133/dp/B000I1VEK6/)
-   2. Setup and Takedown
+   1. Setup and Takedown
       1. Ensure that the printer is calibrated and the bed level is correctly set using the printer specific instructions.
       2. Clean the print bed, making sure it is free from dust, or grease. If cleaning the bed using water, or other liquid, dry the bed.
-      3. Use a standard glue stick and apply a thin, even layer of glue across the print area of the bed. Avoid clumping or uneven application.
+      3. If your printer recommends it, use a standard glue stick and apply a thin, even layer of glue across the print area of the bed. Avoid clumping or uneven application.
       4. Load the printer filament using printer specific instructions.
       5. Ensure the printer settings match the ones suggested above (most printers have multiple settings so choose the ones that most closely match).
       6. Set for supports everywhere but ignore slopes greater than 45 degrees to the horizontal.
@@ -68,9 +65,8 @@ A variety of 3D printers are acceptable to print the parts necessary of the foll
       1. `stl_files_for_3dprinting/Follower/Print_Follower_SO_ARM100_08_UP_Prusa.STL`
       2. `stl_files_for_3dprinting/Leader/Print_Leader_SO_ARM100_08_UP_Prusa.STL`
 5. Take Down
-   1. After the print is done, use the putty knife to scrape the the parts off the print bed.
+   1. After the print is done, use a putty knife to scrape the the parts off the print bed.
    2. Remove any support material from parts.
-   3. Reapply the glue stick before starting the next print.
 
 ## Programming
 1. For software, any Windows PC can connect over USB to program the servos and run initial tests. To do so download [Feetech Software](https://www.feetechrc.com/software.html). Note: This step is not necessary as motors can be configured using the LeRobot Library, but may be helpful for debugging.
@@ -88,7 +84,8 @@ Join the project with some of the brightest minds in open AI and robotics develo
 
 Check out this Handy [URDF viewer](https://gkjohnson.github.io/urdf-loaders/).
 
-<a name="myfootnote1">1</a>: The STS3215 arm comes in two sizes. The 7.4V has a stall torque of 16.5kg.cm at 6V (and likely slightly less for a 5V power supply). The 12V version has a stall torque of 30kg.cm. While we found the 7.4V to be sufficient, if you would like more powerful motors you can buy the 12V version [here](https://www.alibaba.com/product-detail/6PCS-12V-30KG-STS3215-High-Torque_1601216757543.html). Note if you do this, you will also have to buy a 12V power supply instead of a 5V one, but all other components will remain the same.\
-<a name="myfootnote2">2</a>: You can also use an adjustable laboratory power supply with leads. If you bought the STS3215 servos, it is recommended to buy a 12V 4A+ power supply.\
-<a name="myfootnote3">3</a>: You do not need to use this exact screwdriver set, but it is recommended to have phillips head screw driver sizes #000, #00, #0, and #1 for easiest screw removal. These are all standard sizes which will likely appear in most small screwdriver sets.\
+## Footnotes
+<a name="myfootnote1">1</a>: The STS3215 arm comes in two sizes. The 7.4V has a stall torque of 16.5kg.cm at 6V (and likely slightly less for a 5V power supply). The 12V version has a stall torque of 30kg.cm. While we found the 7.4V to be sufficient, if you would like more powerful motors you can buy the 12V version [here](https://www.alibaba.com/product-detail/6PCS-12V-30KG-STS3215-High-Torque_1601216757543.html). Note if you do this, you will also have to buy a 12V 5A+ power supply instead of a 5V one, but all other components will remain the same.\
+<a name="myfootnote2">2</a>: You can also use an adjustable laboratory power supply with leads.\
+<a name="myfootnote3">3</a>: You do not need to use this exact screwdriver set, but it is recommended to have phillips head screw driver sizes #0 and #1 for easiest screw removal. These are all standard sizes which will likely appear in most small screwdriver sets.\
 <a name="myfootnote4">4</a>: You do not need to buy these exact parts, but a glue stick and putty knife are almost always necessary for a good 3D print. The glue prevents parts from sticking to the print bed, and the putty knife helps scrape parts from the print bed. However, feel free to check with your specific printer instructions for if these parts are necessary.
