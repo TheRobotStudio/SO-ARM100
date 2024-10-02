@@ -1,4 +1,4 @@
-## [v0.1.11] - 2024-10-01
+## [v0.1.12] - 2024-10-01
 - Uploaded URDF for early draft of 7DOF SO-Arm to allow modelling to begin.
 
 ## [v0.1.11] - 2024-10-01
