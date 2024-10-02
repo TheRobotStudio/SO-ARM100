@@ -1,3 +1,11 @@
+## [v0.1.12] - 2024-10-01
+- Uploaded URDF for early draft of 7DOF SO-Arm to allow modelling to begin.
+
+## [v0.1.11] - 2024-10-01
+- Reverted Waveshare mounting design to earlier version.
+- Replaced CAD for Solidworks as zip: Version SO_5DOF_ARM100_08k
+- Replaced stl files for leader and follower arms: Version SO_5DOF_ARM100_08k
+
 ## [v0.1.10] - 2024-09-30
 - 2 last bug fixes!
 - Replaced CAD for Solidworks as zip: Version SO_5DOF_ARM100_08k
