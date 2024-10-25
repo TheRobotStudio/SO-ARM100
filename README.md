@@ -1,5 +1,5 @@
 # SO-ARM100
-Standard Open Arm 100 - Beta version 1.2
+Standard Open Arm 100 - Version 1.3
 
 ![Leader_And_Follower](./media/Leader_And_Follower.jpg)
 
