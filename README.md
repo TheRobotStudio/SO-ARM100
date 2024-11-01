@@ -11,7 +11,7 @@ Note: The follower and leader arm for this teleoperation setup will have the sam
 #### Parts For Two Arms (Standard Teleoperation Setup):
 | Part | Amount | Unit Cost (US) | Buy US | Unit Cost (EU) | Buy EU |
 |---|---|---|---|---|---|
-| STS3215 Servo<sup>[1](#myfootnote1)</sup> | 12 | $14 | [Alibaba](https://www.alibaba.com/product-detail/6PCS-7-4V-STS3215-Servos-for_1600523509006.html) | 13€ | [Alibaba](https://www.alibaba.com/product-detail/6PCS-7-4V-STS3215-Servos-for_1600523509006.html) |
+| STS3215 Servo<sup>[1](#myfootnote1)</sup> | 12 | $15 | [Alibaba](https://www.alibaba.com/product-detail/6PCS-7-4V-STS3215-Servos-for_1600523509006.html) | 13€ | [Alibaba](https://www.alibaba.com/product-detail/6PCS-7-4V-STS3215-Servos-for_1600523509006.html) |
 | Motor Control Board | 2 | $11 | [Amazon](https://www.amazon.com/Waveshare-Integrates-Control-Circuit-Supports/dp/B0CTMM4LWK/) | 12€ | [Amazon](https://www.amazon.fr/-/en/dp/B0CJ6TP3TP/)|
 | USB-C Cable 2 pcs | 1 | $7 | [Amazon](https://www.amazon.com/Charging-etguuds-Charger-Braided-Compatible/dp/B0B8NWLLW2/?th=1) | 7€ | [Amazon](https://www.amazon.fr/dp/B07BNF842T/) |
 | Power Supply<sup>[2](#myfootnote2)</sup> | 2 | $10 | [Amazon](https://www.amazon.com/Facmogu-Switching-Transformer-Compatible-5-5x2-1mm/dp/B087LY41PV/) | 13€ | [Amazon](https://www.amazon.fr/-/en/dp/B01HRR9GY4/) |
