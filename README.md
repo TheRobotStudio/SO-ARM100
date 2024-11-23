@@ -77,7 +77,7 @@ Detailed video instructions are on the [@therobotstudio YouTube channel](https:/
 
 1. Start with the instructions for programming the servos [here](https://youtu.be/fy6Jqq_QaGo?si=xjr0-Jur2sEGA9kf).
 2. Next, assemble the arm: [here](https://youtu.be/QkIgxTCq3MY?si=S0YPFFkKXr_Xbh47).
-3. Follow along with the full developement process playlist [here](https://www.youtube.com/playlist?list=PLy7gxZH9jzfR0l8fYH8C1nyEc4pxSBrer).
+3. Follow along with the full development process playlist [here](https://www.youtube.com/playlist?list=PLy7gxZH9jzfR0l8fYH8C1nyEc4pxSBrer).
 
 ## Other
 Join the project with some of the brightest minds in open AI and robotics development on the [discord server](https://discord.gg/ggrqhPTsMe).
