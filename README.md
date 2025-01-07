@@ -75,6 +75,12 @@ A variety of 3D printers are acceptable to print the parts necessary of the foll
 1. For software, any Windows PC can connect over USB to program the servos and run initial tests. To do so download [Feetech Software](https://www.feetechrc.com/software.html). Note: This step is not necessary as motors can be configured using the LeRobot Library, but may be helpful for debugging.
 2. The arm is intended for integration with the open source [LeRobot](https://github.com/huggingface/lerobot). To get started, follow the [Getting Started with Real-World Robots Tutorial](https://github.com/huggingface/lerobot/blob/main/examples/7_get_started_with_real_robot.md).
 
+## ROS2 Integration
+
+A ROS2 interface package is available that provides description packages and MoveIt configurations for the SO-ARM100. This package allows you to use the arm with standard ROS2 tools and MoveIt for motion planning and control.
+
+For installation instructions, configuration details, and usage examples, visit the [ros2_so_arm100](https://github.com/JafarAbdi/ros2_so_arm100/).
+
 ## Assembly
 Detailed video instructions are on the [@therobotstudio YouTube channel](https://www.youtube.com/channel/UC7r_cmRhdfrTGcatjX2aIPA).
 
