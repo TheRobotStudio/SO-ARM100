@@ -71,18 +71,18 @@ A variety of 3D printers are acceptable to print the parts necessary of the foll
    1. After the print is done, use a putty knife to scrape the the parts off the print bed.
    2. Remove any support material from parts.
 
-## Programming
-1. For software, any Windows PC can connect over USB to program the servos and run initial tests. To do so download [Feetech Software](https://www.feetechrc.com/software.html). Note: This step is not necessary as motors can be configured using the LeRobot Library, but may be helpful for debugging.
-2. The arm is intended for integration with the open source [LeRobot](https://github.com/huggingface/lerobot). To get started, follow the [Getting Started with Real-World Robots Tutorial](https://github.com/huggingface/lerobot/blob/main/examples/7_get_started_with_real_robot.md).
+## Assembly tutorial, data collection and AI training
 
-## Assembly
-Detailed video instructions are on the [@therobotstudio YouTube channel](https://www.youtube.com/channel/UC7r_cmRhdfrTGcatjX2aIPA).
+Follow the complete guide of LeRobot: https://github.com/huggingface/lerobot/blob/main/examples/10_use_so100.md
+It points out the video tutorial: https://www.youtube.com/watch?v=FioA2oeFZ5I&ab_channel=HuggingFace
+Note: we removed to auto-calibration at the end in favor of manual calibration which is more robust.
 
-1. Start with the instructions for programming the servos [here](https://youtu.be/fy6Jqq_QaGo?si=xjr0-Jur2sEGA9kf).
-2. Next, assemble the arm: [here](https://youtu.be/QkIgxTCq3MY?si=S0YPFFkKXr_Xbh47).
-3. Follow along with the full developement process playlist [here](https://www.youtube.com/playlist?list=PLy7gxZH9jzfR0l8fYH8C1nyEc4pxSBrer).
+## Programming outside LeRobot AI
+
+Optionally, you can follow this detailed guide to see how to communicate with the motors: [Getting Started with Real-World Robots Tutorial](https://github.com/huggingface/lerobot/blob/main/examples/7_get_started_with_real_robot.md).
 
 ## Other
+
 Join the project with some of the brightest minds in open AI and robotics development on the [discord server](https://discord.gg/ggrqhPTsMe).
 
 Check out this Handy [URDF viewer](https://gkjohnson.github.io/urdf-loaders/).
