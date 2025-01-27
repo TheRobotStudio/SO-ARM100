@@ -71,9 +71,6 @@ A variety of 3D printers are acceptable to print the parts necessary of the foll
    1. After the print is done, use a putty knife to scrape the the parts off the print bed.
    2. Remove any support material from parts.
 
-## Programming
-1. For software, any Windows PC can connect over USB to program the servos and run initial tests. To do so download [Feetech Software](https://www.feetechrc.com/software.html). For Ubuntu, you can use this [FT_SCServo_Debug_Qt](https://github.com/Kotakku/FT_SCServo_Debug_Qt) tool. Note: This step is not necessary as motors can be configured using the LeRobot Library, but may be helpful for debugging. 
-2. The arm is intended for integration with the open source [LeRobot](https://github.com/huggingface/lerobot). To get started, follow the [Getting Started with Real-World Robots Tutorial](https://github.com/huggingface/lerobot/blob/main/examples/7_get_started_with_real_robot.md).
 
 ## Assembly tutorial, data collection and AI training
 Follow the [complete guide of LeRobot](https://github.com/huggingface/lerobot/blob/main/examples/10_use_so100.md).
@@ -86,6 +83,9 @@ Note: we removed to auto-calibration at the end in favor of manual calibration w
 Join the project with some of the brightest minds in open AI and robotics development on the [discord server](https://discord.gg/ggrqhPTsMe).
 
 Check out this Handy [URDF viewer](https://gkjohnson.github.io/urdf-loaders/).
+
+## Debugging motors
+1. For software, any Windows PC can connect over USB to program the servos and run initial tests. To do so download [Feetech Software](https://www.feetechrc.com/software.html). For Ubuntu, you can use this [FT_SCServo_Debug_Qt](https://github.com/Kotakku/FT_SCServo_Debug_Qt) tool. Note: This step is not necessary as motors can be configured using the LeRobot Library, but may be helpful for debugging. 
 
 ## Footnotes
 <a name="myfootnote1">1</a>: The STS3215 arm comes in two sizes. The 7.4V has a stall torque of 16.5kg.cm at 6V (and likely slightly less for a 5V power supply). The 12V version has a stall torque of 30kg.cm. While we found the 7.4V to be sufficient, if you would like more powerful motors you can buy the 12V version [here](https://www.alibaba.com/product-detail/6PCS-12V-30KG-STS3215-High-Torque_1601216757543.html). Note if you do this, you will also have to buy a 12V 5A+ power supply instead of a 5V one, but all other components will remain the same.\
