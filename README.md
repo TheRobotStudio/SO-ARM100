@@ -73,8 +73,9 @@ A variety of 3D printers are acceptable to print the parts necessary of the foll
 
 ## Assembly tutorial, data collection and AI training
 
-Follow the complete guide of LeRobot: https://github.com/huggingface/lerobot/blob/main/examples/10_use_so100.md
-It points out the video tutorial: https://www.youtube.com/watch?v=FioA2oeFZ5I&ab_channel=HuggingFace
+Follow the [complete guide of LeRobot](https://github.com/huggingface/lerobot/blob/main/examples/10_use_so100.md).
+
+It points to [our video tutorial](https://www.youtube.com/watch?v=FioA2oeFZ5I&ab_channel=HuggingFace). 
 Note: we removed to auto-calibration at the end in favor of manual calibration which is more robust.
 
 ## Programming outside LeRobot AI
