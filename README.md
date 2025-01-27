@@ -1,5 +1,5 @@
 # SO-ARM100
-Standard Open Arm 100 - Beta version 1.2
+Standard Open Arm 100 - Version 1.3
 
 ![Leader_And_Follower](./media/Leader_And_Follower.jpg)
 
@@ -11,7 +11,7 @@ Note: The follower and leader arm for this teleoperation setup will have the sam
 #### Parts For Two Arms (Standard Teleoperation Setup):
 | Part | Amount | Unit Cost (US) | Buy US | Unit Cost (EU) | Buy EU |
 |---|---|---|---|---|---|
-| STS3215 Servo<sup>[1](#myfootnote1)</sup> | 12 | $14 | [Alibaba](https://www.alibaba.com/product-detail/6PCS-7-4V-STS3215-Servos-for_1600523509006.html) | 13€ | [Alibaba](https://www.alibaba.com/product-detail/6PCS-7-4V-STS3215-Servos-for_1600523509006.html) |
+| STS3215 Servo<sup>[1](#myfootnote1)</sup> | 12 | $15 | [Alibaba](https://www.alibaba.com/product-detail/6PCS-7-4V-STS3215-Servos-for_1600523509006.html) | 13€ | [Alibaba](https://www.alibaba.com/product-detail/6PCS-7-4V-STS3215-Servos-for_1600523509006.html) |
 | Motor Control Board | 2 | $11 | [Amazon](https://www.amazon.com/Waveshare-Integrates-Control-Circuit-Supports/dp/B0CTMM4LWK/) | 12€ | [Amazon](https://www.amazon.fr/-/en/dp/B0CJ6TP3TP/)|
 | USB-C Cable 2 pcs | 1 | $7 | [Amazon](https://www.amazon.com/Charging-etguuds-Charger-Braided-Compatible/dp/B0B8NWLLW2/?th=1) | 7€ | [Amazon](https://www.amazon.fr/dp/B07BNF842T/) |
 | Power Supply<sup>[2](#myfootnote2)</sup> | 2 | $10 | [Amazon](https://www.amazon.com/Facmogu-Switching-Transformer-Compatible-5-5x2-1mm/dp/B087LY41PV/) | 13€ | [Amazon](https://www.amazon.fr/-/en/dp/B01HRR9GY4/) |
@@ -29,6 +29,9 @@ Note: The follower and leader arm for this teleoperation setup will have the sam
 | Table Clamp 2pcs | 1 | $9 | [Amazon](https://www.amazon.com/Mr-Pen-Carpenter-Clamp-6inch/dp/B092L925J4/) | 8€ | [Amazon](https://www.amazon.fr/-/en/dp/B08HZ1QRBF/)|
 | Screwdriver Set<sup>[3](#myfootnote3)</sup> | 1 | $6 | [Amazon](https://www.amazon.com/Precision-Phillips-Screwdriver-Electronics-Computer/dp/B0DB227RTH) | 10€ | [Amazon](https://www.amazon.fr/dp/B08ZXVMVYD/) |
 | Total |---| $127 |---| 128€ |---|
+
+We can also find kits contained these items on seeed studio: [7.4V motors](https://www.seeedstudio.com/SO-ARM100-Low-Cost-AI-Arm-Kit.html) or [12V motors](https://www.seeedstudio.com/SO-ARM100-Low-Cost-AI-Arm-Kit-Pro-p-6343.html).
+Note that they don't include 3D printed parts for now.
 
 ## Printing the Parts
 A variety of 3D printers are acceptable to print the parts necessary of the follower and leader arm. Follow the steps below to ensure a good print.
@@ -72,14 +75,14 @@ A variety of 3D printers are acceptable to print the parts necessary of the foll
 1. For software, any Windows PC can connect over USB to program the servos and run initial tests. To do so download [Feetech Software](https://www.feetechrc.com/software.html). For Ubuntu, you can use this [FT_SCServo_Debug_Qt](https://github.com/Kotakku/FT_SCServo_Debug_Qt) tool. Note: This step is not necessary as motors can be configured using the LeRobot Library, but may be helpful for debugging. 
 2. The arm is intended for integration with the open source [LeRobot](https://github.com/huggingface/lerobot). To get started, follow the [Getting Started with Real-World Robots Tutorial](https://github.com/huggingface/lerobot/blob/main/examples/7_get_started_with_real_robot.md).
 
-## Assembly
-Detailed video instructions are on the [@therobotstudio YouTube channel](https://www.youtube.com/channel/UC7r_cmRhdfrTGcatjX2aIPA).
+## Assembly tutorial, data collection and AI training
+Follow the [complete guide of LeRobot](https://github.com/huggingface/lerobot/blob/main/examples/10_use_so100.md).
 
-1. Start with the instructions for programming the servos [here](https://youtu.be/fy6Jqq_QaGo?si=xjr0-Jur2sEGA9kf).
-2. Next, assemble the arm: [here](https://youtu.be/QkIgxTCq3MY?si=S0YPFFkKXr_Xbh47).
-3. Follow along with the full developement process playlist [here](https://www.youtube.com/playlist?list=PLy7gxZH9jzfR0l8fYH8C1nyEc4pxSBrer).
+It points to [our video tutorial](https://www.youtube.com/watch?v=FioA2oeFZ5I&ab_channel=HuggingFace). 
+Note: we removed to auto-calibration at the end in favor of manual calibration which is more robust.
 
 ## Other
+
 Join the project with some of the brightest minds in open AI and robotics development on the [discord server](https://discord.gg/ggrqhPTsMe).
 
 Check out this Handy [URDF viewer](https://gkjohnson.github.io/urdf-loaders/).
