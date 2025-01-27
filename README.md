@@ -71,8 +71,8 @@ A variety of 3D printers are acceptable to print the parts necessary of the foll
    1. After the print is done, use a putty knife to scrape the the parts off the print bed.
    2. Remove any support material from parts.
 
-## Assembly tutorial, data collection and AI training
 
+## Assembly tutorial, data collection and AI training
 Follow the [complete guide of LeRobot](https://github.com/huggingface/lerobot/blob/main/examples/10_use_so100.md).
 
 It points to [our video tutorial](https://www.youtube.com/watch?v=FioA2oeFZ5I&ab_channel=HuggingFace). 
@@ -83,6 +83,9 @@ Note: we removed to auto-calibration at the end in favor of manual calibration w
 Join the project with some of the brightest minds in open AI and robotics development on the [discord server](https://discord.gg/ggrqhPTsMe).
 
 Check out this Handy [URDF viewer](https://gkjohnson.github.io/urdf-loaders/).
+
+## Debugging motors
+For debugging, any Windows PC can connect over USB to program the servos and to debug or do tests. To do so download [Feetech Software](https://www.feetechrc.com/software.html). For Ubuntu, you can use [FT_SCServo_Debug_Qt](https://github.com/Kotakku/FT_SCServo_Debug_Qt). Note: This step is not necessary as motors can be configured using the LeRobot Library, but this can be helpful for debugging. 
 
 ## Footnotes
 <a name="myfootnote1">1</a>: The STS3215 arm comes in two sizes. The 7.4V has a stall torque of 16.5kg.cm at 6V (and likely slightly less for a 5V power supply). The 12V version has a stall torque of 30kg.cm. While we found the 7.4V to be sufficient, if you would like more powerful motors you can buy the 12V version [here](https://www.alibaba.com/product-detail/6PCS-12V-30KG-STS3215-High-Torque_1601216757543.html). Note if you do this, you will also have to buy a 12V 5A+ power supply instead of a 5V one, but all other components will remain the same.\
