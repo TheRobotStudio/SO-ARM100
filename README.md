@@ -78,10 +78,6 @@ Follow the [complete guide of LeRobot](https://github.com/huggingface/lerobot/bl
 It points to [our video tutorial](https://www.youtube.com/watch?v=FioA2oeFZ5I&ab_channel=HuggingFace). 
 Note: we removed to auto-calibration at the end in favor of manual calibration which is more robust.
 
-## Programming outside LeRobot AI
-
-Optionally, you can follow this detailed guide to see how to communicate with the motors: [Getting Started with Real-World Robots Tutorial](https://github.com/huggingface/lerobot/blob/main/examples/7_get_started_with_real_robot.md).
-
 ## Other
 
 Join the project with some of the brightest minds in open AI and robotics development on the [discord server](https://discord.gg/ggrqhPTsMe).
