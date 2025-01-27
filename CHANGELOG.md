@@ -1,3 +1,8 @@
+## [v0.1.13] - 2025-01-27
+- Uploaded individual step files in one folder
+- Added links for China and Australia/New Zealand
+
+
 ## [v0.1.12] - 2024-10-01
 - Uploaded URDF for early draft of 7DOF SO-Arm to allow modelling to begin.
 
