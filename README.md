@@ -67,6 +67,11 @@ A variety of 3D printers are acceptable to print the parts necessary of the foll
    2. For printer bed sizes of 205mm x 250mm (such as the Prusa/Up), print:
       1. `stl_files_for_3dprinting/Follower/Print_Follower_SO_ARM100_08_UP_Prusa.STL`
       2. `stl_files_for_3dprinting/Leader/Print_Leader_SO_ARM100_08_UP_Prusa.STL`
+   3. For BambuLabA1Mini 
+      1. `stl_files_for_3dprinting/Follower/Print_Follower_SO_ARM100_08k_UP_BambuLabA1Mini_part1.STL`
+      2. `stl_files_for_3dprinting/Follower/Print_Follower_SO_ARM100_08k_UP_BambuLabA1Mini_part2.STL`
+      3. `stl_files_for_3dprinting/Leader/Print_Follower_SO_ARM100_08k_UP_BambuLabA1Mini_part1.STL`
+      4. `stl_files_for_3dprinting/Follower/Print_Follower_SO_ARM100_08k_UP_BambuLabA1Mini_part2.STL`
 5. Take Down
    1. After the print is done, use a putty knife to scrape the the parts off the print bed.
    2. Remove any support material from parts.
