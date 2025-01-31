@@ -89,6 +89,10 @@ Join the project with some of the brightest minds in open AI and robotics develo
 
 Check out this Handy [URDF viewer](https://gkjohnson.github.io/urdf-loaders/).
 
+## SO-100 Robot Arm ROS2 Implementation
+
+The SO-100 robot arm is implemented in ROS2 through two packages: [so_100_arm](https://github.com/signalbotics/so-100-arm) providing the robot description, controllers, and MoveIt2 integration, and [so_arm_100_hardware](https://github.com/signalbotics/so_arm_100_hardware) providing the hardware interface for Feetech SMS/STS servos. Together they enable complete ROS2 Control integration, Gazebo simulation, and hardware control.
+
 ## Debugging motors
 For debugging, any Windows PC can connect over USB to program the servos and to debug or do tests. To do so download [Feetech Software](https://www.feetechrc.com/software.html). For Ubuntu, you can use [FT_SCServo_Debug_Qt](https://github.com/Kotakku/FT_SCServo_Debug_Qt). Note: This step is not necessary as motors can be configured using the LeRobot Library, but this can be helpful for debugging. 
 
