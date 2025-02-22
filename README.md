@@ -89,6 +89,8 @@ Join the project with some of the brightest minds in open AI and robotics develo
 
 Check out this Handy [URDF viewer](https://gkjohnson.github.io/urdf-loaders/).
 
+Adding a wrist camera can be done by following this guide: `Optional/Camera_Holder/README.md`
+
 ## Debugging motors
 For debugging, any Windows PC can connect over USB to program the servos and to debug or do tests. To do so download [Feetech Software](https://www.feetechrc.com/software.html). For Ubuntu, you can use [FT_SCServo_Debug_Qt](https://github.com/Kotakku/FT_SCServo_Debug_Qt). Note: This step is not necessary as motors can be configured using the LeRobot Library, but this can be helpful for debugging. 
 
