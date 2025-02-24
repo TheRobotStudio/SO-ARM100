@@ -40,7 +40,7 @@ A variety of 3D printers are acceptable to print the parts necessary of the foll
    1. Material: PLA
    2. Nozzle Diameter and Precision: 0.4mm nozzle diameter at 0.2mm layer height or 0.6mm nozzle at 0.4mm layer height.
    3. Infill Density: 13%
-   4. Sample Printers: [Prusa Mini+](https://www.prusa3d.com/product/original-prusa-mini-semi-assembled-3d-printer-4/), [UP Plus 2](https://shop.tiertime.com/product/tiertime-up-plus-2-3d-printer/), [Ender3](https://www.amazon.com/Comgrow-Creality-Ender-Aluminum-220x220x250mm/dp/B07BR3F9N6/).
+   4. Sample Printers: [Prusa MINI+](https://www.prusa3d.com/product/original-prusa-mini-semi-assembled-3d-printer-4/), [UP Plus 2](https://shop.tiertime.com/product/tiertime-up-plus-2-3d-printer/), [Creality Ender 3](https://www.amazon.com/Comgrow-Creality-Ender-Aluminum-220x220x250mm/dp/B07BR3F9N6/), [Bambu Lab A/P/X-series](https://bambulab.com)
 2. Set up the printer
    1. Setup and Takedown
       1. Ensure that the printer is calibrated and the bed level is correctly set using the printer specific instructions.
@@ -51,27 +51,29 @@ A variety of 3D printers are acceptable to print the parts necessary of the foll
       6. Set for supports everywhere but ignore slopes greater than 45 degrees to the horizontal.
       7. There should be no supports in the screw holes with horizontal axes.
 3. Check Printer Accuracy
-   1.  In `stl_parts_for_printing/Gauges` folder, there are two types of gauges, one to check the size of print against standard 4x2 lego block and one against an STS3215 servo. 
-       1.  If you have a STS3215 servo print: 
-           1. `stl_files_for_3dprinting/Gauges/Gauge_0.STL`
-           2. `stl_files_for_3dprinting/Gauges/Gauge_tight_1.STL`
-       2.  If you have a standard lego block print:
-           1. `stl_files_for_3dprinting/Gauges/Lego_Size_Test_02_zero.STL`
-           2. `stl_files_for_3dprinting/Gauges/Lego_Size_Test_minuspoint1.STL` 
+   1.  In the [Gauges](/stl_files_for_3dprinting/Gauges) folder, there are two types of gauges, one to check the size of print against a standard 4x2 lego block and one against a STS3215 servo. 
+       1.  If you have a STS3215 servo, print: 
+           1. [Gauge Zero](/stl_files_for_3dprinting/Gauges/Gauge_0.STL)
+           2. [Gauge Tight](/stl_files_for_3dprinting/Gauges/Gauge_tight_1.STL)
+       2.  If you have a standard lego block, print:
+           1. [Gauge Zero](/stl_files_for_3dprinting/Gauges/Lego_Size_Test_02_zero.STL)
+           2. [Gauge -0.1](/stl_files_for_3dprinting/Gauges/Lego_Size_Test_02_minuspoint1.STL)
    2.  Test the gauge 0 against your given object (Lego or Servo). The fit should be similar to this [tutorial](https://youtu.be/dss8E3DG2rA).
    3.  If the fit is appropriate, go onto Step 4, otherwise, change your printer settings and try again or create an issue.
 4. Print the parts: All the parts for the leader or follower are contained in a single file, correctly orientated for z upwards to minimize supports.
-   1. For printer bed sizes of 220mmx220mm (such as the Ender), print:
-      1. `stl_files_for_3dprinting/Follower/Print_Follower_SO_ARM100_08_Ender.STL`
-      2. `stl_files_for_3dprinting/Leader/Print_Leader_SO_ARM100_08_Ender.STL`
-   2. For printer bed sizes of 205mm x 250mm (such as the Prusa/Up), print:
-      1. `stl_files_for_3dprinting/Follower/Print_Follower_SO_ARM100_08_UP_Prusa.STL`
-      2. `stl_files_for_3dprinting/Leader/Print_Leader_SO_ARM100_08_UP_Prusa.STL`
-   3. For BambuLabA1Mini 
-      1. `stl_files_for_3dprinting/Follower/Print_Follower_SO_ARM100_08k_UP_BambuLabA1Mini_part1.STL`
-      2. `stl_files_for_3dprinting/Follower/Print_Follower_SO_ARM100_08k_UP_BambuLabA1Mini_part2.STL`
-      3. `stl_files_for_3dprinting/Leader/Print_Follower_SO_ARM100_08k_UP_BambuLabA1Mini_part1.STL`
-      4. `stl_files_for_3dprinting/Follower/Print_Follower_SO_ARM100_08k_UP_BambuLabA1Mini_part2.STL`
+   1. For printer bed sizes of 220mmx220mm (such as the Ender), print these files:
+      1. [Follower](/stl_files_for_3dprinting/Follower/Print_Follower_SO_ARM100_08k_Ender.STL)
+      2. [Leader](/stl_files_for_3dprinting/Leader/Print_Leader_SO_ARM100_08k_Ender.STL)
+   2. For printer bed sizes of 205mm x 250mm (such as the Prusa/Up):
+      1. [Follower](/stl_files_for_3dprinting/Follower/Print_Follower_SO_ARM100_08k_UP_Prusa.STL)
+      2. [Leader](/stl_files_for_3dprinting/Leader/Print_Leader_SO_ARM100_08k_UP_Prusa.STL)
+   3. For Bambu Lab A-series:
+      1. Follower ([Part 1](/stl_files_for_3dprinting/Follower/Print_Follower_SO_ARM100_08k_UP_BambuLabA1Mini_part1.STL)) ([Part 2](/stl_files_for_3dprinting/Follower/Print_Follower_SO_ARM100_08k_UP_BambuLabA1Mini_part2.STL))
+      2. Leader ([Part 1](/stl_files_for_3dprinting/Leader/Print_Leader_SO_ARM100_08k_UP_BambuLabA1Mini_part1.stl)) ([Part 2](/stl_files_for_3dprinting/Leader/Print_Leader_SO_ARM100_08k_UP_BambuLabA1Mini_part2.stl))
+  
+   4. For Bambu Lab P-series & X-series
+      1. [Follower](/stl_files_for_3dprinting/Follower/Print_Follower_Bambu_P1P.3mf)
+      2. [Leader](/stl_files_for_3dprinting/Leader/Print_Leader_Bambu_P1P.3mf)
 5. Take Down
    1. After the print is done, use a putty knife to scrape the the parts off the print bed.
    2. Remove any support material from parts.
