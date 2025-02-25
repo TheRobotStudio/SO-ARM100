@@ -92,6 +92,7 @@ Note: we removed to auto-calibration at the end in favor of manual calibration w
 ### Hardware
 - **Wrist camera**: Adding a wrist camera can be done by following this guide: `Optional/Camera_Holder/README.md`
 - **Tactile sensing**: You can find an AnySkin tactile sensor for the SO100 here: [WOWROBO](https://shop.wowrobo.com/products/enhanced-anyskin-premium-crafted-editionwowskin)
+- **Raised leader base**: You can raise the base of leader arm for easier teleoperation near the ground plane by printing this extension: `Optional/Raised_Leader_Base_SO100/SO100 Leader Base Extension.stl`
 
 ### Software
 Check out this Handy [URDF viewer](https://gkjohnson.github.io/urdf-loaders/).
