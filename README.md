@@ -81,6 +81,8 @@ A variety of 3D printers are acceptable to print the parts necessary of the foll
    1. After the print is done, use a putty knife to scrape the the parts off the print bed.
    2. Remove any support material from parts.
 
+### Don't Own a 3D printer?
+Go here: [Printing services](./3DPRINT.md)
 
 ## Assembly tutorial, data collection and AI training
 Follow the [complete guide of LeRobot](https://github.com/huggingface/lerobot/blob/main/examples/10_use_so100.md).
