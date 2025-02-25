@@ -3,6 +3,8 @@ Standard Open Arm 100 - Version 1.3
 
 ![Leader_And_Follower](./media/Leader_And_Follower.jpg)
 
+Join the project with some of the brightest minds in open AI and robotics development on the [discord server](https://discord.gg/ggrqhPTsMe).
+
 ## Sourcing Parts
 Note: The follower and leader arm for this teleoperation setup will have the same off the shelf parts. If you plan on creating the classic teleoperation set up to be used with the `LeRobot` library please buy from the Parts for Two Arms below. Note prices and items may vary depending on geographic location.
 
@@ -30,8 +32,11 @@ Note: The follower and leader arm for this teleoperation setup will have the sam
 | Screwdriver Set<sup>[3](#myfootnote3)</sup> | 1 | $6 | [Amazon](https://www.amazon.com/Precision-Phillips-Screwdriver-Electronics-Computer/dp/B0DB227RTH) | 10€ | [Amazon](https://www.amazon.fr/dp/B08ZXVMVYD/) | ￥14.9 | [TaoBao](https://detail.tmall.com/item.htm?id=675684600845&skuId=4856851392176) |
 | Total |---| $127 |---| 128€ |---|￥682.23|---|
 
-We can also find kits contained these items on seeed studio: [7.4V motors](https://www.seeedstudio.com/SO-ARM100-Low-Cost-AI-Arm-Kit.html) or [12V motors](https://www.seeedstudio.com/SO-ARM100-Low-Cost-AI-Arm-Kit-Pro-p-6343.html).
-Note that they don't include 3D printed parts for now.
+#### Kits
+We can also find kits for the SO100 arms here:
+- Seeed studio [7.4V motors](https://www.seeedstudio.com/SO-ARM100-Low-Cost-AI-Arm-Kit.html) or [12V motors](https://www.seeedstudio.com/SO-ARM100-Low-Cost-AI-Arm-Kit-Pro-p-6343.html).
+(Note that they don't include 3D printed parts for now)
+- [WOWROBO](https://shop.wowrobo.com/products/so-arm100-diy-kit-assembled-version) (They include 3D printed parts and assembled versions)
 
 ## Printing the Parts
 A variety of 3D printers are acceptable to print the parts necessary of the follower and leader arm. Follow the steps below to ensure a good print.
@@ -84,12 +89,12 @@ It points to [our video tutorial](https://www.youtube.com/watch?v=FioA2oeFZ5I&ab
 Note: we removed to auto-calibration at the end in favor of manual calibration which is more robust.
 
 ## Other
+### Hardware
+- **Wrist camera**: Adding a wrist camera can be done by following this guide: `Optional/Camera_Holder/README.md`
+- **Tactile sensing**: You can find an AnySkin tactile sensor for the SO100 here: [WOWROBO](https://shop.wowrobo.com/products/enhanced-anyskin-premium-crafted-editionwowskin)
 
-Join the project with some of the brightest minds in open AI and robotics development on the [discord server](https://discord.gg/ggrqhPTsMe).
-
+### Software
 Check out this Handy [URDF viewer](https://gkjohnson.github.io/urdf-loaders/).
-
-Adding a wrist camera can be done by following this guide: `Optional/Camera_Holder/README.md`
 
 ## Debugging motors
 For debugging, any Windows PC can connect over USB to program the servos and to debug or do tests. To do so download [Feetech Software](https://www.feetechrc.com/software.html). For Ubuntu, you can use [FT_SCServo_Debug_Qt](https://github.com/Kotakku/FT_SCServo_Debug_Qt). Note: This step is not necessary as motors can be configured using the LeRobot Library, but this can be helpful for debugging. 
