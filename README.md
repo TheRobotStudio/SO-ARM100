@@ -32,11 +32,11 @@ Note: The follower and leader arm for this teleoperation setup will have the sam
 | Screwdriver Set<sup>[3](#myfootnote3)</sup> | 1 | $6 | [Amazon](https://www.amazon.com/Precision-Phillips-Screwdriver-Electronics-Computer/dp/B0DB227RTH) | 10€ | [Amazon](https://www.amazon.fr/dp/B08ZXVMVYD/) | ￥14.9 | [TaoBao](https://detail.tmall.com/item.htm?id=675684600845&skuId=4856851392176) |
 | Total |---| $123 |---| 128€ |---|￥682.23|---|
 
-#### Kits
-We can also find kits for the SO100 arms here:
+## Kits
+You can also find kits for the SO100 arms here:
 - Seeed studio [7.4V motors](https://www.seeedstudio.com/SO-ARM100-Low-Cost-AI-Arm-Kit.html) or [12V motors](https://www.seeedstudio.com/SO-ARM100-Low-Cost-AI-Arm-Kit-Pro-p-6343.html).
 (Note that they don't include 3D printed parts for now)
-- [WOWROBO](https://shop.wowrobo.com/products/so-arm100-diy-kit-assembled-version) (They include 3D printed parts and assembled versions)
+- [WOWROBO](https://shop.wowrobo.com/products/so-arm100-diy-kit-assembled-version) (They include 3D printed parts and **assembled** versions!)
 
 ## Printing the Parts
 A variety of 3D printers are acceptable to print the parts necessary of the follower and leader arm. Follow the steps below to ensure a good print.
