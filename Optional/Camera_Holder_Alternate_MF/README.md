@@ -4,37 +4,36 @@
 ## Overview
 This guide provides step-by-step instructions for installing a **Wrist Camera** (alternate "McGartholl-Fung" design) on the SO100 robot using a **Camera Module** and a 3D-printed **Jaw Replacement Part**.
 
-#### Advantages to main design:
+## Comparison to Main Design
+#### Advantages:
 - smaller
 - fewer parts
 
-#### Disdvantages to main design:
+#### Disdvantages:
 - requires removal/replacement of existing **Moving Jaw** vs an add-on
-
-
 
 ## Required Components
 ### Hardware:
-- **USB Camera Module** (1) - this is the [recommended model]((https://www.amazon.com/innomaker-Computer-Raspberry-Support-Windows/dp/B0CNCSFQC1/ref=pd_lpo_d_sccl_3/132-7372155-9780230?pd_rd_w=eYz4L&content-id=amzn1.sym.4c8c52db-06f8-4e42-8e56-912796f2ea6c&pf_rd_p=4c8c52db-06f8-4e42-8e56-912796f2ea6c&pf_rd_r=XC3EXZRSSXKDB1G0Z5D7&pd_rd_wg=1wTpn&pd_rd_r=932b1976-9ac7-4cef-9774-f0f9c3acb804&pd_rd_i=B0CNCSFQC1&psc=1)), but any 32mm x 32mm USB camera module with min 720p / 30 fps spec will likely work
+- **USB Camera Module** (1) - this is the [recommended model](https://www.amazon.com/innomaker-Computer-Raspberry-Support-Windows/dp/B0CNCSFQC1/ref=pd_lpo_d_sccl_3/132-7372155-9780230?pd_rd_w=eYz4L&content-id=amzn1.sym.4c8c52db-06f8-4e42-8e56-912796f2ea6c&pf_rd_p=4c8c52db-06f8-4e42-8e56-912796f2ea6c&pf_rd_r=XC3EXZRSSXKDB1G0Z5D7&pd_rd_wg=1wTpn&pd_rd_r=932b1976-9ac7-4cef-9774-f0f9c3acb804&pd_rd_i=B0CNCSFQC1&psc=1), but any 32mm x 32mm USB camera module with min 720p / 30 fps spec will likely work
 - [3D-printed Moving Jaw Replacement](stl/Camera_Holder_Alternate_MF.stl) (1)
-- **M3 Screws** (4) - these are smaller screws that come with your Feetech servos
+- **M3 Screws** (4) - these are the smaller screws that came with your Feetech servos.
 
 
 ## Assembly Instructions
-### Step 1: Remove the old jaw and replace with the new one
+### Step 1: Replace the old Jaw with the new one
 1. If a [Moving Jaw](../../stl_files_for_3dprinting/Individual/Individual_Parts_SO_ARM100_Follower_AND_Leader/Print_Follower_SO_ARM100_08k_UP_Prusa%20-%20Moving_Jaw_08d-1.STL) is already installed on the arm, detach it by:
  - unscrewing all 8 **M3 Screws** from the front and back servo motor horns 
  - gently pulling the part out
 2. 3D print the **Moving Jaw Replacement**.
 
-3. Attach the **Moving Jaw Replacement** by doing the reverse of (1)
+3. Attach the **Moving Jaw Replacement** by doing the reverse of (1).
 
 
 ### Step 2: Install the Camera
-1. Take out the **Camera Module**
-2. Align the 4 holes of the **Camera Module** with the **Moving Jaw Replacement**, and attach using 4 **M3 Screws**
+1. Take out the **Camera Module**.
+2. Align the 4 holes of the **Camera Module** with the **Moving Jaw Replacement**, and attach using 4 **M3 Screws**.
 
 ### Step 3: Configure Software and Adjust Focus
 1. In your software, set your resolution and FPS. 
 - **Note**: You will likely want to set your resolution to *640 x 480* and FPS to *30* even if the camera module's max resolution/frame rate is higher, as most models work with lower resolutions and any higher will just be data bloat.
-2. Turn on your arm.  Look at the video feed from your newly installed camera.  Adjust the focus by twisting the lens counterclockwise or clockwise until the video feed is clear.
+2. Turn on your arm.  Look at the video feed from your newly installed camera (On Mac, you can also use *QuickTime*->*New Movie Recording* to see this feed).  Adjust the focus by twisting the lens counterclockwise or clockwise until the video feed is clear.
