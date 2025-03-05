@@ -24,7 +24,7 @@ This guide provides step-by-step instructions for installing a **Wrist Camera** 
 
 ## Assembly Instructions
 ### Step 1: Replace the old Jaw with the new one
-1. If a [Moving Jaw](../../stl_files_for_3dprinting/Individual/Individual_Parts_SO_ARM100_Follower_AND_Leader/Print_Follower_SO_ARM100_08k_UP_Prusa%20-%20Moving_Jaw_08d-1.STL) is already installed on the arm, detach it by:
+1. If a [Moving Jaw](../../stl_files_for_3dprinting/Individual/Follower/Print_Follower_SO_ARM100_08k_UP_Prusa%20-%20Moving_Jaw_08d-1.STL) is already installed on the arm, detach it by:
  - unscrewing all 8 **M3 Screws** from the front and back servo motor horns 
  - gently pulling the part out
 2. 3D print the **Moving Jaw Replacement**.
