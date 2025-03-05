@@ -3,7 +3,7 @@
 <img height="300" src="https://github.com/user-attachments/assets/c3816e51-f116-44f0-aaf8-302b3836c210" />
 
 ## Overview
-This guide provides step-by-step instructions for installing a **Wrist Camera** (alternate "McGartholl-Fung" design) on the SO100 robot using a **Camera Module** and a 3D-printed **Jaw Replacement Part**.
+This guide provides step-by-step instructions for installing a **Wrist Camera** (alternate "McGartoll-Fung" design) on the SO100 robot using a **Camera Module** and a 3D-printed **Jaw Replacement Part**.
 
 ## Comparison to Main Design
 #### Advantages:
