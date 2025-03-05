@@ -1,5 +1,6 @@
 # Wrist Camera (MF) Installation Guide for SO100
 
+<img height="300" src="https://github.com/user-attachments/assets/c3816e51-f116-44f0-aaf8-302b3836c210" />
 
 ## Overview
 This guide provides step-by-step instructions for installing a **Wrist Camera** (alternate "McGartholl-Fung" design) on the SO100 robot using a **Camera Module** and a 3D-printed **Jaw Replacement Part**.
@@ -19,6 +20,8 @@ This guide provides step-by-step instructions for installing a **Wrist Camera** 
 - **M3 Screws** (4) - these are the smaller screws that came with your Feetech servos.
 
 
+<img height="200" alt="Screenshot 2025-03-04 at 7 43 33 PM" src="https://github.com/user-attachments/assets/18099e1d-754c-4877-871f-9113a0dff062" />
+
 ## Assembly Instructions
 ### Step 1: Replace the old Jaw with the new one
 1. If a [Moving Jaw](../../stl_files_for_3dprinting/Individual/Individual_Parts_SO_ARM100_Follower_AND_Leader/Print_Follower_SO_ARM100_08k_UP_Prusa%20-%20Moving_Jaw_08d-1.STL) is already installed on the arm, detach it by:
@@ -32,6 +35,9 @@ This guide provides step-by-step instructions for installing a **Wrist Camera** 
 ### Step 2: Install the Camera
 1. Take out the **Camera Module**.
 2. Align the 4 holes of the **Camera Module** with the **Moving Jaw Replacement**, and attach using 4 **M3 Screws**.
+
+<img height="300" src="https://github.com/user-attachments/assets/ea5af652-9311-44c7-8ae8-525f42cb4703" />
+
 
 ### Step 3: Configure Software and Adjust Focus
 1. In your software, set your resolution and FPS. 
