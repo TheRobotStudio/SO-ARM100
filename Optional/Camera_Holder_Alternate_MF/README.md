@@ -1,9 +1,9 @@
-# Wrist Camera (MF) Installation Guide for SO100
+# Wrist Camera (MF) Installation Guide for SO-100
 
 <img height="300" src="https://github.com/user-attachments/assets/c3816e51-f116-44f0-aaf8-302b3836c210" />
 
 ## Overview
-This guide provides step-by-step instructions for installing a **Wrist Camera** (alternate "McGartoll-Fung" design) on the SO100 robot using a **Camera Module** and a 3D-printed **Jaw Replacement Part**.
+This guide provides step-by-step instructions for installing a **Wrist Camera** (alternate "McGartoll-Fung" design) on the SO-100 robot using a **Camera Module** and a 3D-printed **Jaw Replacement Part**.
 
 ## Comparison to Main Design
 #### Advantages:
@@ -44,4 +44,5 @@ This guide provides step-by-step instructions for installing a **Wrist Camera** 
 ### Step 3: Configure Software and Adjust Focus
 1. In your software, set your resolution and FPS. 
 - **Note**: You will likely want to set your resolution to *640 x 480* and FPS to *30* even if the camera module's max resolution/frame rate is higher, as most models work with lower resolutions and any higher will just be data bloat.
-2. Turn on your arm.  Look at the video feed from your newly installed camera (On Mac, you can also use *QuickTime*->*New Movie Recording* to see this feed).  Adjust the focus by twisting the lens counterclockwise or clockwise until the video feed is clear.
+2. Turn on your arm.  Look at the video feed from your newly installed camera (On Mac, you can also use *QuickTime*->*New Movie Recording* to see this feed).  
+- **Note**: The focus on the camera is manual and will look very blurry initially. Adjust the focus by twisting the lens counterclockwise or clockwise until the video feed is clear.
