@@ -38,6 +38,8 @@ You can also find kits for the SO100 arms here:
 (Note that they don't include 3D printed parts for now)
 - [WOWROBO](https://shop.wowrobo.com/products/so-arm100-diy-kit-assembled-version) (They include 3D printed parts and **assembled** versions!)
 
+Additionnally you can find SO100 follower arm kit (without leader arm) on [Phospho](https://robots.phospho.ai). It can be especially useful if you own a VR headset.
+
 ## Printing the Parts
 A variety of 3D printers are acceptable to print the parts necessary of the follower and leader arm. Follow the steps below to ensure a good print.
 
