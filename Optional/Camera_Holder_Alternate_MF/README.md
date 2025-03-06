@@ -11,30 +11,32 @@ This guide provides step-by-step instructions for installing a **Wrist Camera** 
 - fewer parts
 
 #### Disdvantages:
-- requires removal/replacement of existing **Moving Jaw** vs an add-on
+- requires removal/replacement of existing **Wrist Roll** vs an add-on
 
 ## Required Components
 ### Hardware:
 - **USB Camera Module** (1) - this is the [recommended model](https://www.amazon.com/innomaker-Computer-Raspberry-Support-Windows/dp/B0CNCSFQC1/ref=pd_lpo_d_sccl_3/132-7372155-9780230?pd_rd_w=eYz4L&content-id=amzn1.sym.4c8c52db-06f8-4e42-8e56-912796f2ea6c&pf_rd_p=4c8c52db-06f8-4e42-8e56-912796f2ea6c&pf_rd_r=XC3EXZRSSXKDB1G0Z5D7&pd_rd_wg=1wTpn&pd_rd_r=932b1976-9ac7-4cef-9774-f0f9c3acb804&pd_rd_i=B0CNCSFQC1&psc=1), but any 32mm x 32mm USB camera module with min 720p / 30 fps spec will likely work
-- [3D-printed Moving Jaw Replacement](stl/Camera_Holder_Alternate_MF.stl) (1)
-- **M3 Screws** (4) - these are the smaller screws that came with your Feetech servos.
+- [3D-printed Wrist Roll Replacement](stl/Camera_Holder_Alternate_MF.stl) (1)
+- **M2 Screws** (4) - these are the smaller screws that came with your Feetech servos.
 
 
 <img height="200" alt="Screenshot 2025-03-04 at 7 43 33 PM" src="https://github.com/user-attachments/assets/18099e1d-754c-4877-871f-9113a0dff062" />
 
 ## Assembly Instructions
-### Step 1: Replace the old Jaw with the new one
-1. If a [Moving Jaw](../../stl_files_for_3dprinting/Individual/Follower/Print_Follower_SO_ARM100_08k_UP_Prusa%20-%20Moving_Jaw_08d-1.STL) is already installed on the arm, detach it by:
- - unscrewing all 8 **M3 Screws** from the front and back servo motor horns 
- - gently pulling the part out
-2. 3D print the **Moving Jaw Replacement**.
+### Step 1: Replace the old [Wrist Roll](../../stl_files_for_3dprinting/Individual/Follower/Print_Follower_SO_ARM100_08k_UP_Prusa%20-%20Wrist_Roll_08c-1.STL) piece with the new one
+1. If a [Moving Jaw](../../stl_files_for_3dprinting/Individual/Follower/Print_Follower_SO_ARM100_08k_UP_Prusa%20-%20Moving_Jaw_08d-1.STL) is already installed on the arm, leave it attached. Remove the gripper servo from the existing Wrist Roll piece:
+ - unscrewing all 6 of **M3 Screws** from the front and back of the servo attaching it to the Wrist Roll piece 
+ - gently pulling the motor out
+ - unscrew the remaining 4 **M3 Screws** holding the Wrist Roll piece to the next servo
+   
+2. 3D print the **Wrist Roll Replacement**.
 
-3. Attach the **Moving Jaw Replacement** by doing the reverse of (1).
+3. Attach the **Wrist Roll Replacement** by doing the reverse of (1).
 
 
 ### Step 2: Install the Camera
 1. Take out the **Camera Module**.
-2. Align the 4 holes of the **Camera Module** with the **Moving Jaw Replacement**, and attach using 4 **M3 Screws**.
+2. Align the 4 holes of the **Camera Module** with the **Moving Jaw Replacement**, and attach using 4 **M2 Screws**.
 
 <img height="300" src="https://github.com/user-attachments/assets/ea5af652-9311-44c7-8ae8-525f42cb4703" />
 
