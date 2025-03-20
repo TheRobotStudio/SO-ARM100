@@ -8,7 +8,7 @@ For those who want to connect with other makers and get their 3D printed parts a
 For those who prefer using a professional 3D printing service:
 - [Commerical services](#commercial-services)
 
-## Prusa World
+## [Prusa World](https://world.prusa3d.com)
 **Prusa World** is a platform where you can find people with a Prusa 3D printer. This is not a direct service, but it is a way to find people nearby who might want to print your SO100 arms. This is usally cheaper than commercial services and you get the change to meet people who are excited about 3D printing and building things. You, need to reach out to them yourself and agree on a price.
 
 Go to [Prusa World](https://world.prusa3d.com) and select the option `Print on demand`. Then find people nearby who own a Prusa 3D printer and send them a message via `Send a message` to ask if they would like to print the SO100 arms for you. You can refer them to this repo for the 3D printing files and instructions. Please make sure you have a good agreement with the person in case anything goes wrong and they don't keep their promise or if the print fails, discussing these things beforehand helps in preventing miscommunications. Furthermore, we advise printing with PLA+ instead of PLA and our experience tells us that it matters to use PLA+ because PLA can in some cases not be strong enough to use in the SO100 arm.
@@ -19,11 +19,40 @@ Go to [Prusa World](https://world.prusa3d.com) and select the option `Print on d
 
 ## Commercial services
 
-- [Europe](#pcbway)
-- [US](#pcbway)
-- [China](#pcbway) (PCBWay)
+- [Europe](#craftcloud3d) (Craftcloud3d) :fr: :de: :uk: :it: :es:
+- [US](#craftcloud3d) (Craftcloud3d) :us:
+- [China](#pcbway) (PCBWay) :cn:
 
-### PCBWay 
+### [Craftcloud3d](https://craftcloud3d.com)
+**PCBWay** ships worldwide and has partners in different countries that produce the parts. This makes it flexible, although pricing can vary.
+
+To get your parts made you can go to [craftcloud3d.com](https://craftcloud3d.com/upload) and upload all files inside these two folders (25 files in total): `stl_files_for_3dprinting/Individual/Follower` and `stl_files_for_3dprinting/Individual/Leader` here:
+
+![Craftcloud3d](./media/3dprinting/craftcloud1.png)
+
+Then click `See Materials & Pricing` button, and on the next page select the material. In our case `PLA+`.
+
+![Craftcloud3d](./media/3dprinting/craftcloud2.png)
+
+Click `Select Material` button and you then have to select the finish. Here choose:
+- `Finish` = Standard 
+- `Infill` = 20% (If you don't see the infill options, wait until the price is calculated)
+
+And click `Select Finish` to move to the next page.
+
+![Craftcloud3d](./media/3dprinting/craftcloud3.png)
+
+Next choose the color, and click `See offers`.
+
+![Craftcloud3d](./media/3dprinting/craftcloud4.png)
+
+Finally choose your manufacturer. You can choose manufacturer based on price, delivery date and production location.
+
+![Craftcloud3d](./media/3dprinting/craftcloud5.png)
+
+And thats it, once the parts arrive you are ready to assemble your SO100!
+
+### [PCBWay](pcbway.com)
 **PCBWay** ships worldwide but outside of China import taxes should be paid. This makes it more expensive to order here.
 
 To get your parts made you can go to [pcbway.com](https://www.pcbway.com/rapid-prototyping/manufacture/?type=2) and upload these two files `stl_files_for_3dprinting/Leader/Print_Leader_SO_ARM100_08k_Ender.STL` and `stl_files_for_3dprinting/Follower/Print_Follower_SO_ARM100_08k_Ender.STL` here:
