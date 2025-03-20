@@ -17,9 +17,9 @@ Note: The follower and leader arm for this teleoperation setup will have the sam
 | Motor Control Board | 2 | $11 | [Amazon](https://www.amazon.com/Waveshare-Integrates-Control-Circuit-Supports/dp/B0CTMM4LWK/) | 12€ | [Amazon](https://www.amazon.fr/-/en/dp/B0CJ6TP3TP/)| ￥27 | [TaoBao](https://detail.tmall.com/item.htm?id=738817173460&skuId=5096283384143) |
 | USB-C Cable 2 pcs | 1 | $7 | [Amazon](https://www.amazon.com/Charging-etguuds-Charger-Braided-Compatible/dp/B0B8NWLLW2/?th=1) | 7€ | [Amazon](https://www.amazon.fr/dp/B07BNF842T/) | ￥23.9*2 | [TaoBao](https://detail.tmall.com/item.htm?id=44425281296&skuId=5611379016222) |
 | Power Supply<sup>[2](#myfootnote2)</sup> | 2 | $10 | [Amazon](https://www.amazon.com/Facmogu-Switching-Transformer-Compatible-5-5x2-1mm/dp/B087LY41PV/) | 13€ | [Amazon](https://www.amazon.fr/-/en/dp/B01HRR9GY4/) | ￥22.31 | [TaoBao](https://item.taobao.com/item.htm?id=544824248494&skuId=4974994129990) |
-| Table Clamp 4pcs | 1 | $18 | [Amazon](https://www.amazon.com/WORKPRO-Clamps-Woodworking-One-Handed-Spreader/dp/B0CQYDJWS8/) | 21€ | [Amazon](https://www.amazon.fr/dp/B08HW9VFM8/)| ￥9.2 | [TaoBao](https://detail.tmall.com/item.htm?id=801399113134&skuId=5633627126649) |
+| Table Clamp 4pcs | 1 | $9 | [Amazon](https://www.amazon.com/TAODAN-Trigger-Ratchet-Woodworking-Processes/dp/B0DJNXF8WH?rps=1&sr=1-18)| ￥9.2 | [TaoBao](https://detail.tmall.com/item.htm?id=801399113134&skuId=5633627126649) |
 | Screwdriver Set<sup>[3](#myfootnote3)</sup> | 1 | $6 | [Amazon](https://www.amazon.com/Precision-Phillips-Screwdriver-Electronics-Computer/dp/B0DB227RTH) | 10€ | [Amazon](https://www.amazon.fr/dp/B08ZXVMVYD/) | ￥14.9 | [TaoBao](https://detail.tmall.com/item.htm?id=675684600845&skuId=4856851392176) |
-| Total |---| $241 |---| 244€ |---|￥1343.16|---|
+| Total |---| $232 |---| 244€ |---|￥1343.16|---|
 
 #### Parts for One Arm:
 | Part | Amount | Unit Cost (US) | Buy US | Unit Cost (EU) | Buy EU | Unit Cost (RMB) | Buy CN |
@@ -28,15 +28,17 @@ Note: The follower and leader arm for this teleoperation setup will have the sam
 | Motor Control Board | 1 | $11 | [Amazon](https://www.amazon.com/Waveshare-Integrates-Control-Circuit-Supports/dp/B0CTMM4LWK/) | 12€ | [Amazon](https://www.amazon.fr/-/en/dp/B0CJ6TP3TP/)| ￥27 | [TaoBao](https://detail.tmall.com/item.htm?id=738817173460&skuId=5096283384143) |
 | USB-C Cable 2 pcs | 1 | $7 | [Amazon](https://www.amazon.com/Charging-etguuds-Charger-Braided-Compatible/dp/B0B8NWLLW2/?th=1) | 7€ | [Amazon](https://www.amazon.fr/dp/B07BNF842T/) | ￥23.9 | [TaoBao](https://detail.tmall.com/item.htm?id=44425281296&skuId=5611379016222) |
 | Power Supply<sup>[2](#myfootnote2)</sup> | 1 | $10 | [Amazon](https://www.amazon.com/Facmogu-Switching-Transformer-Compatible-5-5x2-1mm/dp/B087LY41PV/) | 13€ | [Amazon](https://www.amazon.fr/-/en/dp/B01HRR9GY4/) | ￥22.31 | [TaoBao](https://item.taobao.com/item.htm?id=544824248494&skuId=4974994129990) |
-| Table Clamp 2pcs | 1 | $9 | [Amazon](https://www.amazon.com/Mr-Pen-Carpenter-Clamp-6inch/dp/B092L925J4/) | 8€ | [Amazon](https://www.amazon.fr/-/en/dp/B08HZ1QRBF/)| ￥7.8 | [TaoBao](https://detail.tmall.com/item.htm?id=738636473238&skuId=5505939904942) |
+| Table Clamp 2pcs | 1 | $5 | [Amazon](https://www.amazon.com/Mr-Pen-Carpenter-Clamp-6inch/dp/B092L925J4/) | 8€ | [Amazon](https://www.amazon.fr/-/en/dp/B08HZ1QRBF/)| ￥7.8 | [TaoBao](https://detail.tmall.com/item.htm?id=738636473238&skuId=5505939904942) |
 | Screwdriver Set<sup>[3](#myfootnote3)</sup> | 1 | $6 | [Amazon](https://www.amazon.com/Precision-Phillips-Screwdriver-Electronics-Computer/dp/B0DB227RTH) | 10€ | [Amazon](https://www.amazon.fr/dp/B08ZXVMVYD/) | ￥14.9 | [TaoBao](https://detail.tmall.com/item.htm?id=675684600845&skuId=4856851392176) |
-| Total |---| $127 |---| 128€ |---|￥682.23|---|
+| Total |---| $123 |---| 128€ |---|￥682.23|---|
 
-#### Kits
-We can also find kits for the SO100 arms here:
-- Seeed studio [7.4V motors](https://www.seeedstudio.com/SO-ARM100-Low-Cost-AI-Arm-Kit.html) or [12V motors](https://www.seeedstudio.com/SO-ARM100-Low-Cost-AI-Arm-Kit-Pro-p-6343.html).
-(Note that they don't include 3D printed parts for now)
-- [WOWROBO](https://shop.wowrobo.com/products/so-arm100-diy-kit-assembled-version) (They include 3D printed parts and assembled versions)
+## Kits
+You can also find kits for the SO100 arms here:
+- Seeed studio [Bazaar](https://www.seeedstudio.com/SO-ARM100-3D-printed-Enclosure-p-6409.html) or [Taobao](https://item.taobao.com/item.htm?id=878010637397&skuId=5915703371829&spm=a213gs.v2success.0.0.4cbf4831mkqWLn).
+
+- [WOWROBO](https://shop.wowrobo.com/products/so-arm100-diy-kit-assembled-version) or [Taobao](https://item.taobao.com/item.htm?ft=t&id=860171734711) (They include **assembled** versions!)
+
+Additionally you can find SO100 follower arm kit (without leader arm) on [Phospho](https://robots.phospho.ai). It can be especially useful if you own a VR headset.
 
 ## Printing the Parts
 A variety of 3D printers are acceptable to print the parts necessary of the follower and leader arm. Follow the steps below to ensure a good print.
@@ -45,7 +47,7 @@ A variety of 3D printers are acceptable to print the parts necessary of the foll
    1. Material: PLA
    2. Nozzle Diameter and Precision: 0.4mm nozzle diameter at 0.2mm layer height or 0.6mm nozzle at 0.4mm layer height.
    3. Infill Density: 13%
-   4. Sample Printers: [Prusa Mini+](https://www.prusa3d.com/product/original-prusa-mini-semi-assembled-3d-printer-4/), [UP Plus 2](https://shop.tiertime.com/product/tiertime-up-plus-2-3d-printer/), [Ender3](https://www.amazon.com/Comgrow-Creality-Ender-Aluminum-220x220x250mm/dp/B07BR3F9N6/).
+   4. Sample Printers: [Prusa MINI+](https://www.prusa3d.com/product/original-prusa-mini-semi-assembled-3d-printer-4/), [UP Plus 2](https://shop.tiertime.com/product/tiertime-up-plus-2-3d-printer/), [Creality Ender 3](https://www.amazon.com/Comgrow-Creality-Ender-Aluminum-220x220x250mm/dp/B07BR3F9N6/), [Bambu Lab A/P/X-series](https://bambulab.com)
 2. Set up the printer
    1. Setup and Takedown
       1. Ensure that the printer is calibrated and the bed level is correctly set using the printer specific instructions.
@@ -56,27 +58,29 @@ A variety of 3D printers are acceptable to print the parts necessary of the foll
       6. Set for supports everywhere but ignore slopes greater than 45 degrees to the horizontal.
       7. There should be no supports in the screw holes with horizontal axes.
 3. Check Printer Accuracy
-   1.  In `stl_parts_for_printing/Gauges` folder, there are two types of gauges, one to check the size of print against standard 4x2 lego block and one against an STS3215 servo. 
-       1.  If you have a STS3215 servo print: 
-           1. `stl_files_for_3dprinting/Gauges/Gauge_0.STL`
-           2. `stl_files_for_3dprinting/Gauges/Gauge_tight_1.STL`
-       2.  If you have a standard lego block print:
-           1. `stl_files_for_3dprinting/Gauges/Lego_Size_Test_02_zero.STL`
-           2. `stl_files_for_3dprinting/Gauges/Lego_Size_Test_minuspoint1.STL` 
+   1.  In the [Gauges](/stl_files_for_3dprinting/Gauges) folder, there are two types of gauges, one to check the size of print against a standard 4x2 lego block and one against a STS3215 servo. 
+       1.  If you have a STS3215 servo, print: 
+           1. [Gauge Zero](/stl_files_for_3dprinting/Gauges/Gauge_0.STL)
+           2. [Gauge Tight](/stl_files_for_3dprinting/Gauges/Gauge_tight_1.STL)
+       2.  If you have a standard lego block, print:
+           1. [Gauge Zero](/stl_files_for_3dprinting/Gauges/Lego_Size_Test_02_zero.STL)
+           2. [Gauge -0.1](/stl_files_for_3dprinting/Gauges/Lego_Size_Test_02_minuspoint1.STL)
    2.  Test the gauge 0 against your given object (Lego or Servo). The fit should be similar to this [tutorial](https://youtu.be/dss8E3DG2rA).
    3.  If the fit is appropriate, go onto Step 4, otherwise, change your printer settings and try again or create an issue.
 4. Print the parts: All the parts for the leader or follower are contained in a single file, correctly orientated for z upwards to minimize supports.
-   1. For printer bed sizes of 220mmx220mm (such as the Ender), print:
-      1. `stl_files_for_3dprinting/Follower/Print_Follower_SO_ARM100_08_Ender.STL`
-      2. `stl_files_for_3dprinting/Leader/Print_Leader_SO_ARM100_08_Ender.STL`
-   2. For printer bed sizes of 205mm x 250mm (such as the Prusa/Up), print:
-      1. `stl_files_for_3dprinting/Follower/Print_Follower_SO_ARM100_08_UP_Prusa.STL`
-      2. `stl_files_for_3dprinting/Leader/Print_Leader_SO_ARM100_08_UP_Prusa.STL`
-   3. For BambuLabA1Mini 
-      1. `stl_files_for_3dprinting/Follower/Print_Follower_SO_ARM100_08k_UP_BambuLabA1Mini_part1.STL`
-      2. `stl_files_for_3dprinting/Follower/Print_Follower_SO_ARM100_08k_UP_BambuLabA1Mini_part2.STL`
-      3. `stl_files_for_3dprinting/Leader/Print_Follower_SO_ARM100_08k_UP_BambuLabA1Mini_part1.STL`
-      4. `stl_files_for_3dprinting/Follower/Print_Follower_SO_ARM100_08k_UP_BambuLabA1Mini_part2.STL`
+   1. For printer bed sizes of 220mmx220mm (such as the Ender), print these files:
+      1. [Follower](/stl_files_for_3dprinting/Follower/Print_Follower_SO_ARM100_08k_Ender.STL)
+      2. [Leader](/stl_files_for_3dprinting/Leader/Print_Leader_SO_ARM100_08k_Ender.STL)
+   2. For printer bed sizes of 205mm x 250mm (such as the Prusa/Up):
+      1. [Follower](/stl_files_for_3dprinting/Follower/Print_Follower_SO_ARM100_08k_UP_Prusa.STL)
+      2. [Leader](/stl_files_for_3dprinting/Leader/Print_Leader_SO_ARM100_08k_UP_Prusa.STL)
+   3. For Bambu Lab A-series:
+      1. Follower ([Part 1](/stl_files_for_3dprinting/Follower/Print_Follower_SO_ARM100_08k_UP_BambuLabA1Mini_part1.STL)) ([Part 2](/stl_files_for_3dprinting/Follower/Print_Follower_SO_ARM100_08k_UP_BambuLabA1Mini_part2.STL))
+      2. Leader ([Part 1](/stl_files_for_3dprinting/Leader/Print_Leader_SO_ARM100_08k_UP_BambuLabA1Mini_part1.stl)) ([Part 2](/stl_files_for_3dprinting/Leader/Print_Leader_SO_ARM100_08k_UP_BambuLabA1Mini_part2.stl))
+  
+   4. For Bambu Lab P-series & X-series
+      1. [Follower](/stl_files_for_3dprinting/Follower/Print_Follower_Bambu_P1P.3mf)
+      2. [Leader](/stl_files_for_3dprinting/Leader/Print_Leader_Bambu_P1P.3mf)
 5. Take Down
    1. After the print is done, use a putty knife to scrape the the parts off the print bed.
    2. Remove any support material from parts.
@@ -93,6 +97,7 @@ Note: we removed to auto-calibration at the end in favor of manual calibration w
 ## Other
 ### Hardware
 - **Wrist camera**: Adding a wrist camera can be done by following this guide: `Optional/Camera_Holder/README.md`
+- **Integrated wrist camera**: Print a wrist camera built into existing SO-100 gripper by following this guide: `Optional/Camera_Holder_Alternate_MF/README.md`
 - **Tactile sensing**: You can find an AnySkin tactile sensor for the SO100 here: [WOWROBO](https://shop.wowrobo.com/products/enhanced-anyskin-premium-crafted-editionwowskin)
 - **Raised leader base**: You can raise the base of leader arm for easier teleoperation near the ground plane by printing this extension: `Optional/Raised_Leader_Base_SO100/SO100 Leader Base Extension.stl`
 - **Back plate motor attachement**: You can attach the WaveShare servo bus controller to you back plate (with smaller holes) by printing it here: `Optional/Backplate_ServoBus/WaveShare_Mounting_Plate.stl`
