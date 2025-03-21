@@ -97,7 +97,7 @@ Note: we removed to auto-calibration at the end in favor of manual calibration w
 **Wrist Cameras**
 | Webcam (Vinmooog) | 32x32mm UVC Module | RealSense™ D405 |
 | --- | ---| --- |
-| <img src="media/cam_mount3.jpg" height="150" >     |  <img height="150" src="https://github.com/user-attachments/assets/c3816e51-f116-44f0-aaf8-302b3836c210" />   | <img src="media/d405_mount.jpg" height="150"/> |
+| <img src="media/cam_mount3.jpg" height="150" >     |  <img height="150" src="media/UVC_cam_mount.jpeg" />   | <img src="media/d405_mount.jpg" height="150"/> |
 | [Instructions](Optional/Wrist_Cam_Mount_Vinmoog_Webcam)     |   [Instructions](Optional/Wrist_Cam_Mount_32x32_UVC_Module)   | [Instructions](Optional/Wrist_Cam_Mount_RealSense_D405) |
 
 
