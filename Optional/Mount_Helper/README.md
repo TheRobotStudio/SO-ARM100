@@ -6,4 +6,4 @@ To make it easier to assemble, we propose this helper piece that will allow you 
 
 Here's a short video of how to use it.
 
-<video controls src="Mount Helper.mp4" title="How to use the 3D piece"></video>
+https://github.com/user-attachments/assets/e1095e7a-b974-4ff0-b3d9-2820359dface
