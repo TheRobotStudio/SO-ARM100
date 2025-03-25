@@ -34,9 +34,8 @@ Note: The follower and leader arm for this teleoperation setup will have the sam
 
 ## Kits
 You can also find kits for the SO100 arms here:
-- Seeed studio [Bazaar](https://www.seeedstudio.com/SO-ARM100-3D-printed-Enclosure-p-6409.html) or [Taobao](https://item.taobao.com/item.htm?id=878010637397&skuId=5915703371829&spm=a213gs.v2success.0.0.4cbf4831mkqWLn).
-
-- [WOWROBO](https://shop.wowrobo.com/products/so-arm100-diy-kit-assembled-version) or [Taobao](https://item.taobao.com/item.htm?ft=t&id=860171734711) (They include **assembled** versions!)
+- from Seeed studio: [International](https://www.seeedstudio.com/SO-ARM100-Low-Cost-AI-Arm-Kit.html) or [China](https://item.taobao.com/item.htm?id=878010637397&skuId=5915703371829&spm=a213gs.v2success.0.0.4cbf4831mkqWLn) (They include **3d printed kits**!)
+- from WowRobo: [International](https://shop.wowrobo.com/products/so-arm100-diy-kit-assembled-version) or [China](https://item.taobao.com/item.htm?ft=t&id=860171734711) (They include **assembled** versions!)
 
 Additionally you can find SO100 follower arm kit (without leader arm) on [Phospho](https://robots.phospho.ai). It can be especially useful if you own a VR headset.
 
