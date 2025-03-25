@@ -34,9 +34,8 @@ Note: The follower and leader arm for this teleoperation setup will have the sam
 
 ## Kits
 You can also find kits for the SO100 arms here:
-- Seeed studio [Bazaar](https://www.seeedstudio.com/SO-ARM100-3D-printed-Enclosure-p-6409.html) or [Taobao](https://item.taobao.com/item.htm?id=878010637397&skuId=5915703371829&spm=a213gs.v2success.0.0.4cbf4831mkqWLn).
-
-- [WOWROBO](https://shop.wowrobo.com/products/so-arm100-diy-kit-assembled-version) (They include **assembled** versions!)
+- from Seeed studio: [International](https://www.seeedstudio.com/SO-ARM100-Low-Cost-AI-Arm-Kit.html) or [China](https://item.taobao.com/item.htm?id=878010637397&skuId=5915703371829&spm=a213gs.v2success.0.0.4cbf4831mkqWLn) (They include **3d printed kits**!)
+- from WowRobo: [International](https://shop.wowrobo.com/products/so-arm100-diy-kit-assembled-version) or [China](https://item.taobao.com/item.htm?ft=t&id=860171734711) (They include **assembled** versions!)
 
 Additionally you can find SO100 follower arm kit (without leader arm) on [Phospho](https://robots.phospho.ai). It can be especially useful if you own a VR headset.
 
@@ -94,10 +93,16 @@ Note: we removed to auto-calibration at the end in favor of manual calibration w
 
 ## Other
 ### Hardware
-- **Wrist camera**: Adding a wrist camera can be done by following this guide: `Optional/Camera_Holder/README.md`
-- **Integrated wrist camera**: Print a wrist camera built into existing SO-100 gripper by following this guide: `Optional/Camera_Holder_Alternate_MF/README.md`
-- **Tactile sensing**: You can find an AnySkin tactile sensor for the SO100 here: [WOWROBO](https://shop.wowrobo.com/products/enhanced-anyskin-premium-crafted-editionwowskin)
-- **Raised leader base**: You can raise the base of leader arm for easier teleoperation near the ground plane by printing this extension: `Optional/Raised_Leader_Base_SO100/SO100 Leader Base Extension.stl`
+**Wrist Cameras**
+| Webcam (Vinmooog) | 32x32mm UVC Module | RealSense™ D405 |
+| --- | ---| --- |
+| <img src="media/cam_mount2.jpg" height="150" >     |  <img height="150" src="media/UVC_cam_mount.jpeg" />   | <img src="media/d405_mount.jpg" height="150"/> |
+| [Instructions](Optional/Wrist_Cam_Mount_Vinmooog_Webcam)     |   [Instructions](Optional/Wrist_Cam_Mount_32x32_UVC_Module)   | [Instructions](Optional/Wrist_Cam_Mount_RealSense_D405) |
+
+
+**Tactile sensing**: You can find an AnySkin tactile sensor for the SO100 here: [WOWROBO](https://shop.wowrobo.com/products/enhanced-anyskin-premium-crafted-editionwowskin)
+
+**Raised leader base**: You can raise the base of leader arm for easier teleoperation near the ground plane by printing this extension: `Optional/Raised_Leader_Base_SO100/SO100 Leader Base Extension.stl`
 
 ### Software
 Check out this Handy [URDF viewer](https://gkjohnson.github.io/urdf-loaders/).
