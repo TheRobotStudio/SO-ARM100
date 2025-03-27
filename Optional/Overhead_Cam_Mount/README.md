@@ -1,15 +1,15 @@
 # Overhead Camera Installation Guide for SO-100
 
-
 ## Overview
-This guide provides step-by-step instructions for installing a **Overhead Camera** on the SO-100 robot using a **Web Camera** and a 3D-printed **Arm Base and Camera Mount**.
+This guide provides step-by-step instructions for installing an **Overhead Camera** on the SO-100 robot using a **Web Camera** and a 3D-printed **Arm Base** and **Camera Mount**.
 
-## Design Goals
+## Camera Design Aims
 
-Design Aims:
-1. To create camera data which can be used as model input, either by itself or in conjunction with wrist camera(s) footage.
-2. To provide a camera that can provide a overhead view of the entire manipulation space.
-3. To make this camera usable as-is in the two most popular configurations, either in a single follower arm setup, or a double follower ("bi-manual") arm setup.
+1. Create camera data usable as model input, independently or with wrist camera footage
+2. Provide overhead view of entire manipulation space
+3. Support both single follower arm and double follower ("bi-manual") arm setups
+4. Ensure consistent data across SO-100 arm users through standardized camera positioning
+
 
 
 ## Required Components
@@ -25,11 +25,21 @@ Design Aims:
 
 ## Assembly Instructions
 ### Step 1: Remove the existing base from the *webcam*
-### Step 2: Attach the *webcam* onto the *camera mount top*
-### Step 3: Attach the *camera mount top* to the *camera mount bottom*.
-### Step 4: Attach the *arm base* to the *camera mount bottom*.
-### Step 5: Attach the *SO-100 follower arm* to the *arm base*.
+On the webcam, go to the joint where the base is attached.  
+1. Remove the soft plastic cover from the joint.
+2. Unscrew/remove the screw in the joint.
+3. You should now be able to remove the base from the camera module.
 
+### Step 2: Attach the *webcam* onto the *camera mount top*
+1. Push the *webcam* into the *camera mount top* by aligning the round joint holes.
+2. Screw *M2* screws into the 2 round holes on either side of the *camera mount top* round joint.
+### Step 3: Attach the *camera mount top* to the *camera mount bottom*.
+1. Push the *camera mount top* into the *camera mount bottom* by aligning the linear joint lines on the bottom of *camera mount top* with the top of the *camera mount bottom*.
+2. Screw an *M2* screw into each of the 4 holes in the linear joint.
+### Step 4: Attach the *arm base* to the *camera mount bottom*.
+1. Push the *arm base* into the joint lines on the side of the *camera mount bottom*.  (Do twice if you have 2 follower arms.)
+### Step 5: Attach the *SO-100 follower arm* to the *arm base*.
+1. Align the bottom of the SO-100 follower arm with the top of the *arm base*. (Do twice if you have 2 follower arms.)
 ### Step 6: Configure Software 
 1. In your software, add your overhead cam, including setting its resolution and FPS. 
 - **Note**: You will likely want to set your resolution to *640 x 480* and FPS to *30* even if the camera module's max resolution/frame rate is higher or wider, as most models work with lower resolutions and any higher will just be data bloat.  This camera mount was specifically designed for 640 x 480 resolution and width.
