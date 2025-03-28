@@ -64,4 +64,4 @@ On the webcam, go to the joint where the base is attached.
 - Conor McGartholl
     - Design and R & D
 - Philip Fung
-    - R & D
+    - Testing
