@@ -18,8 +18,8 @@ This guide provides step-by-step instructions for installing an **Overhead Camer
 
 ## Required Components
 - **Web Camera** (1) - this is the [recommended model](https://www.amazon.com/dp/B082X91MPP)
-- 3D-printed parts
-    - [Arm Base](stl/arm_base.stl) (1)
+- **3D-printed parts**
+    - [Arm Base](stl/arm_base.stl) (1 per follower arm)
     - [Camera Mount Bottom](stl/cam_mount_bottom.stl) (1)
     - [Camera Mount Top](stl/cam_mount_top.stl) (1)
 - **M2 Screws** (8) - these are the smaller screws that came with your Feetech servos.
