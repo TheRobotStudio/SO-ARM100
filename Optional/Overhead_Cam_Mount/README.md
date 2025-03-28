@@ -1,5 +1,9 @@
 # Overhead Camera Installation Guide for SO-100
 
+<img height="400" src="https://github.com/user-attachments/assets/db58533f-e737-48e0-9504-2fde5199fe70" />
+<img height="400" src="https://github.com/user-attachments/assets/c7113f2b-9a72-4ea8-80bb-15efe04b7f0d" />
+
+
 ## Overview
 This guide provides step-by-step instructions for installing an **Overhead Camera** on the SO-100 robot using a **Web Camera** and a 3D-printed **Arm Base** and **Camera Mount**.
 
