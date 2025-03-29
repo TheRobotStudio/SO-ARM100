@@ -1,6 +1,7 @@
 # Plug Wrist Camera (MF) Installation Guide for SO-100
 
-<img height="300" src="https://github.com/user-attachments/assets/c3816e51-f116-44f0-aaf8-302b3836c210" />
+<img height="300" src="https://github.com/user-attachments/assets/139be1c3-d446-4304-b0f4-c90a996789d6" />
+<img height="300" src="https://github.com/user-attachments/assets/6c2f0f47-9663-4224-ac4e-220d1d71c162" />
 
 ## Overview
 This guide provides step-by-step instructions for installing a **Wrist Camera** (alternate "McGartoll-Fung" design) on the SO-100 robot using a **Camera Module** and a 3D-printed **Plug-in Camera adapter**.
@@ -36,6 +37,8 @@ This an adapatation of [Wrist Camera (MF) UVC Module](../Wrist_Cam_Mount_32x32_U
     1. The hole fit into the [Gripper hole](../../STEP/Follower_specific/Moving_Jaw_08d%20v1.step)
 
 4. Secure it with the M2 screws
+
+
 
 
 ### Step 2: Install the Camera
