@@ -2,23 +2,6 @@
 
 There are different ways to get your parts 3D printed, below are the options and which one to choose. We will add more services once we verify them. If you tried another service please let us know so we can add it here.
 
-For those who want to connect with other makers and get their 3D printed parts affordably:
-- [Community](#prusa-world)
-
-For those who prefer using a professional 3D printing service:
-- [Commerical services](#commercial-services)
-
-## [Prusa World](https://world.prusa3d.com)
-**Prusa World** is a platform where you can find people with a Prusa 3D printer. This is not a direct service, but it is a way to find people nearby who might want to print your SO100 arms. This is usally cheaper than commercial services and you get the change to meet people who are excited about 3D printing and building things. You, need to reach out to them yourself and agree on a price.
-
-Go to [Prusa World](https://world.prusa3d.com) and select the option `Print on demand`. Then find people nearby who own a Prusa 3D printer and send them a message via `Send a message` to ask if they would like to print the SO100 arms for you. You can refer them to this repo for the 3D printing files and instructions. Please make sure you have a good agreement with the person in case anything goes wrong and they don't keep their promise or if the print fails, discussing these things beforehand helps in preventing miscommunications. Furthermore, we advise printing with PLA+ instead of PLA and our experience tells us that it matters to use PLA+ because PLA can in some cases not be strong enough to use in the SO100 arm.
-
-![Prusaworld](./media/3dprinting/prusaworld.png)
-![Prusaworld](./media/3dprinting/prusaworld2.png)
-![Prusaworld](./media/3dprinting/prusaworld3.png)
-
-## Commercial services
-
 - [Europe](#craftcloud3d) (Craftcloud3d) :fr: :de: :uk: :it: :es:
 - [US](#craftcloud3d) (Craftcloud3d) :us:
 - [China](#pcbway) (PCBWay) :cn:
