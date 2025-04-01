@@ -31,5 +31,4 @@ This guide provides step-by-step instructions for installing a **wrist camera** 
 2. Use **two M3x35mm bolts** to secure the camera from the back and insert the nuts in the slots.
 
     <img src="../../media/cam_mount2.jpg" width="300" />
-    <img src="../../media/cam_mount3.jpg" width="300" />
 

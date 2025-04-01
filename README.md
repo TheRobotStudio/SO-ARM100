@@ -92,6 +92,9 @@ A variety of 3D printers are acceptable to print the parts necessary of the foll
    1. After the print is done, use a putty knife to scrape the the parts off the print bed.
    2. Remove any support material from parts.
 
+### Don't Own a 3D printer?
+Go here: [Printing services](./3DPRINT.md)
+
 ## Assembly tutorial, data collection and AI training
 
 Follow the [complete guide of LeRobot](https://github.com/huggingface/lerobot/blob/main/examples/10_use_so100.md).
@@ -114,6 +117,8 @@ Note: we removed to auto-calibration at the end in favor of manual calibration w
 **Tactile sensing**: You can find an AnySkin tactile sensor for the SO100 here: [WOWROBO](https://shop.wowrobo.com/products/enhanced-anyskin-premium-crafted-editionwowskin)
 
 **Raised leader base**: You can raise the base of leader arm for easier teleoperation near the ground plane by printing this extension: `Optional/Raised_Leader_Base_SO100/SO100 Leader Base Extension.stl`
+
+- **Back plate motor attachement**: You can attach the WaveShare servo bus controller to you back plate (with smaller holes) by printing it here: `Optional/Backplate_ServoBus/WaveShare_Mounting_Plate.stl`
 
 ### Software
 
