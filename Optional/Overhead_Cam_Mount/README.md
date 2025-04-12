@@ -6,6 +6,7 @@
 ## Overview
 This guide provides step-by-step instructions for installing an **Overhead Camera** on the SO-100 robot using a **Web Camera** and a 3D-printed **Arm Base** and **Camera Mount**.
 
+
 ## Design Goals
 
 1. Provide overhead view of entire manipulation space
@@ -55,6 +56,9 @@ Take the **Webcam** out of its package, and:
 1. In your software, add your overhead cam, including setting its resolution and FPS. 
 - **Note**: You will likely want to set your resolution to *640 x 480* and FPS to *30* even if the camera module's max resolution/frame rate is higher or wider, as most models work with lower resolutions and any higher will just be data bloat.  This camera mount was specifically designed for 640 x 480 resolution and width.
 2. Look at the video feed from your newly installed camera (On Mac, you can also use *QuickTime*->*New Movie Recording* to see this feed).  You should be able to see the workspace of the arm(s).
+
+<img height="300" alt="Screenshot 2025-04-12 at 4 48 35 PM" src="https://github.com/user-attachments/assets/a0aded4e-6abf-4d19-a514-6d4be90ebe1b" />
+<img height="300" alt="Screenshot 2025-04-12 at 4 52 09 PM" src="https://github.com/user-attachments/assets/d33287bd-0263-4a03-b7d9-54e360ef5a36" /></br>
 
 ### Step 7: (Optional) Add Gripper Cameras
 <img height="250" src="https://github.com/user-attachments/assets/8e8fbf60-f62e-4d8c-8451-3ca5a864497c"/></br>
