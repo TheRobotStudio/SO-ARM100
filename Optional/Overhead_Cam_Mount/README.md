@@ -10,7 +10,7 @@ This guide provides step-by-step instructions for installing an **Overhead Camer
 
 1. Provide overhead view of entire manipulation space
 2. Support both single follower arm and double follower ("bi-manual") arm setups
-3. Ensure consistent data across SO-100 arm users through standardized camera positioning
+3. Ensure consistent data across SO-100 arm users through standardized camera positioning and arm spacing (bi-manual)
 
 ## Required Components
 - **Web Camera** (1) - this is the [recommended model](https://www.amazon.com/dp/B082X91MPP)
