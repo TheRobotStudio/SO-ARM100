@@ -115,6 +115,8 @@ Note: we removed to auto-calibration at the end in favor of manual calibration w
 
 **Raised leader base**: You can raise the base of leader arm for easier teleoperation near the ground plane by printing this extension: `Optional/Raised_Leader_Base_SO100/SO100 Leader Base Extension.stl`
 
+**Overhead Camera Mount**: You can mount an overhead camera for one or two (bi-manual) arm setups: [Instructions](Optional/Overhead_cam_Mount)
+
 ### Software
 
 Check out this Handy [URDF viewer](https://gkjohnson.github.io/urdf-loaders/).
