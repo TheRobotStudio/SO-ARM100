@@ -113,9 +113,9 @@ Note: we removed to auto-calibration at the end in favor of manual calibration w
 
 **Tactile sensing**: You can find an AnySkin tactile sensor for the SO100 here: [WOWROBO](https://shop.wowrobo.com/products/enhanced-anyskin-premium-crafted-editionwowskin)
 
-**Raised leader base**: You can raise the base of leader arm for easier teleoperation near the ground plane by printing this extension: `Optional/Raised_Leader_Base_SO100/SO100 Leader Base Extension.stl`
-
 **Overhead Camera Mount**: You can mount an overhead camera for one or two (bi-manual) arm setups: [Instructions](Optional/Overhead_cam_Mount)
+
+**Raised leader base**: You can raise the base of leader arm for easier teleoperation near the ground plane by printing this extension: `Optional/Raised_Leader_Base_SO100/SO100 Leader Base Extension.stl`
 
 ### Software
 
