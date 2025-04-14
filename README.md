@@ -117,6 +117,8 @@ Note: we removed to auto-calibration at the end in favor of manual calibration w
 
 **Tactile sensing**: You can find an AnySkin tactile sensor for the SO100 here: [WOWROBO](https://shop.wowrobo.com/products/enhanced-anyskin-premium-crafted-editionwowskin)
 
+**Overhead Camera Mount**: You can mount an overhead camera for one or two (bi-manual) arm setups: [Instructions](Optional/Overhead_cam_Mount)
+
 **Raised leader base**: You can raise the base of leader arm for easier teleoperation near the ground plane by printing this extension: `Optional/Raised_Leader_Base_SO100/SO100 Leader Base Extension.stl`
 
 - **Back plate motor attachement**: You can attach the WaveShare servo bus controller to you back plate (with smaller holes) by printing it here: `Optional/Backplate_ServoBus/WaveShare_Mounting_Plate.stl`
