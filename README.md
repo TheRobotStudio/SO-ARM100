@@ -103,27 +103,49 @@ Follow the [complete guide of LeRobot](https://github.com/huggingface/lerobot/bl
 It points to [our video tutorial](https://www.youtube.com/watch?v=FioA2oeFZ5I&ab_channel=HuggingFace).
 Note: we removed to auto-calibration at the end in favor of manual calibration which is more robust.
 
-## Other
+## Optional Hardware
 
-### Hardware
+#### Back Plate Motor Attachment
+You can [attach the WaveShare servo bus controller to you back plate](Optional/Backplate_ServoBus/WaveShare_Mounting_Plate.stl) (with smaller holes).
 
-**Wrist Cameras**
+<img height="150" src="media/backplate_motor_attachment.png" />
+
+#### Mount Helper
+Print this [mount helper](Optional/Mount_Helper/README.md) to make your SO-100 easier to assemble.
+
+<img height="150" src="media/mount_helper.png" />
+
+#### Overhead Camera Mount
+You can [mount an overhead camera](Optional/Overhead_Cam_Mount/README.md) for one or two (bi-manual) arm setups.
+
+<img height="150" src="https://github.com/user-attachments/assets/a652e133-8672-448d-baa0-bdd494a0a515" />
+
+#### Raised Leader Base
+You can [raise the base of leader arm](Optional/Raised_Leader_Base_SO100/SO100%20Leader%20Base%20Extension.stl) for easier teleoperation near the ground plane.
+
+<img height="150" src="media/raised_leader_base.png" />
+
+#### Tactile Sensing
+You can find an AnySkin tactile sensor for the SO-100 at [WOWROBO](https://shop.wowrobo.com/products/enhanced-anyskin-premium-crafted-editionwowskin).
+
+<img height="150" src="media/tactile_sensor_anyskin.png" />
+
+#### Wrist Cameras
 | Webcam (Vinmooog) | 32x32mm UVC Module | RealSense™ D405 |
 | --- | ---| --- |
 | <img src="media/cam_mount2.jpg" height="150" > | <img height="150" src="media/UVC_cam_mount.jpeg" /> | <img src="media/d405_mount.jpg" height="150"/> |
 | [Instructions](Optional/Wrist_Cam_Mount_Vinmooog_Webcam) | [Instructions](Optional/Wrist_Cam_Mount_32x32_UVC_Module) | [Instructions](Optional/Wrist_Cam_Mount_RealSense_D405) |
 
-**Mount helper**: You can print this part to make your so100 easier to assemble here: `Optional/Mount_Helper/stl/mount_helper v2.stl`
 
-**Tactile sensing**: You can find an AnySkin tactile sensor for the SO100 here: [WOWROBO](https://shop.wowrobo.com/products/enhanced-anyskin-premium-crafted-editionwowskin)
 
-**Overhead Camera Mount**: You can mount an overhead camera for one or two (bi-manual) arm setups: [Instructions](Optional/Overhead_cam_Mount)
 
-**Raised leader base**: You can raise the base of leader arm for easier teleoperation near the ground plane by printing this extension: `Optional/Raised_Leader_Base_SO100/SO100 Leader Base Extension.stl`
 
-- **Back plate motor attachement**: You can attach the WaveShare servo bus controller to you back plate (with smaller holes) by printing it here: `Optional/Backplate_ServoBus/WaveShare_Mounting_Plate.stl`
 
-### Software
+
+
+
+
+## Optional Software
 
 Check out this Handy [URDF viewer](https://gkjohnson.github.io/urdf-loaders/).
 
