@@ -131,10 +131,10 @@ You can find an AnySkin tactile sensor for the SO-100 at [WOWROBO](https://shop.
 <img height="150" src="media/tactile_sensor_anyskin.png" />
 
 #### Wrist Cameras
-| Webcam (Vinmooog) | 32x32mm UVC Module | RealSense™ D405 |
-| --- | ---| --- |
-| <img src="media/cam_mount2.jpg" height="150" > | <img height="150" src="media/UVC_cam_mount.jpeg" /> | <img src="media/d405_mount.jpg" height="150"/> |
-| [Instructions](Optional/Wrist_Cam_Mount_Vinmooog_Webcam) | [Instructions](Optional/Wrist_Cam_Mount_32x32_UVC_Module) | [Instructions](Optional/Wrist_Cam_Mount_RealSense_D405) |
+| Webcam (Vinmooog) | 32x32mm UVC Module | 32x32mm UVC Module (Plugin) | RealSense™ D405 |
+| --- | ---| --- | --- |
+| <img src="media/cam_mount2.jpg" height="150" > | <img height="150" src="media/UVC_cam_mount.jpeg" /> | <img height="150" src="media/UVC_cam_mount_plugin.jpg" />  | <img src="media/d405_mount.jpg" height="150"/> |
+| [Instructions](Optional/Wrist_Cam_Mount_Vinmooog_Webcam) | [Instructions](Optional/Wrist_Cam_Mount_32x32_UVC_Module) | [Instructions](Optional/Wrist_Cam_Plug_Mount_32x32_UVC_Module) | [Instructions](Optional/Wrist_Cam_Mount_RealSense_D405) |
 
 
 
