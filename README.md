@@ -5,13 +5,13 @@
       src="media/SO101_Follower.webp?raw=true"
       alt="SO-101 follower arm"
       title="SO-101 follower arm"
-      style="width: 50%;"
+      style="width: 40%;"
     />
    <img
       src="media/SO101_Leader.webp?raw=true"
       alt="SO-101 leader arm"
       title="SO-101 leader arm"
-      style="width: 50%;"
+      style="width: 40%;"
     />
 </div>
 
