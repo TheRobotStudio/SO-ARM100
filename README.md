@@ -1,6 +1,7 @@
-<h1 align="center">Standard Open SO-100 & SO-101 Arms</h1>
+<div align="center">
 
-<div style="display: flex; gap: 1rem; justify-content: center; align-items: center;" >
+   <h1>Standard Open SO-100 & SO-101 Arms</h1>
+   <div style="display: flex; gap: 1rem; justify-content: center; align-items: center;" >
    <img
       src="media/SO101_Follower.webp?raw=true"
       alt="SO-101 follower arm"
@@ -15,13 +16,15 @@
     />
 </div>
 
-<h2 align="center">
+<h2>
     <p>Build Your Own SO-101 Robot!</p>
 </h2>
 
 The SO‑101 is the next‑generation version of the SO‑100 robot arm, originally designed by the [RobotStudio](https://www.therobotstudio.com) in collaboration with [Hugging Face](https://huggingface.co/lerobot). It has improved wiring, is easier to assembly and uses updated motors for the leader arm.
 
 These arms are designed to work seamlessly with the open‑source 🤗 LeRobot library. Join our community on [Discord](https://discord.gg/ggrqhPTsMe) to collaborate on both hardware and software, and help make end‑to‑end AI for robotics more accessible.
+
+</div>
 
 ### Documentation 📖
 - For the SO‑101 docs, follow this page further.
