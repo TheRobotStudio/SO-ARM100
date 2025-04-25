@@ -28,7 +28,7 @@ These arms are designed to work seamlessly with the open‑source 🤗 LeRobot l
 
 ### Documentation 📖
 - For the SO‑101 docs, follow this page further.
-- Here can you find the the [SO‑100 docs](SO100.md).
+- Here can you find the [SO‑100 docs](SO100.md) which is depreciated.
 
 ### Getting Your Own SO‑101 
 You have two options:
