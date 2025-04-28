@@ -17,7 +17,7 @@ This guide provides step-by-step instructions for installing a **Wrist Camera** 
 ## Required Components
 ### Hardware:
 - **USB Camera Module** (1) - this is the [recommended model](https://www.amazon.com/innomaker-Computer-Raspberry-Support-Windows/dp/B0CNCSFQC1/ref=pd_lpo_d_sccl_3/132-7372155-9780230?pd_rd_w=eYz4L&content-id=amzn1.sym.4c8c52db-06f8-4e42-8e56-912796f2ea6c&pf_rd_p=4c8c52db-06f8-4e42-8e56-912796f2ea6c&pf_rd_r=XC3EXZRSSXKDB1G0Z5D7&pd_rd_wg=1wTpn&pd_rd_r=932b1976-9ac7-4cef-9774-f0f9c3acb804&pd_rd_i=B0CNCSFQC1&psc=1), but any 32mm x 32mm USB camera module with min 720p / 30 fps spec will likely work
-- [3D-printed Wrist Roll Replacement](stl/Camera_Holder_Alternate_MF.stl) (1)
+- [3D-printed Wrist Roll Replacement](Optional/Wrist_Cam_Mount_32x32_UVC_Module/stl/Camera_Holder_Alternate_MF.stl) (1)
 - **M2 Screws** (4) - these are the smaller screws that came with your Feetech servos.
 
 
