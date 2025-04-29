@@ -82,8 +82,8 @@ We only have links for US, EU and CN for now. If you find links for other countr
 | Screwdriver Set<sup>[1](#myfootnote1)</sup> | 1      | $6             | [Amazon](https://www.amazon.com/Precision-Phillips-Screwdriver-Electronics-Computer/dp/B0DB227RTH)        | €9            | [Amazon](https://www.amazon.fr/Vinabo-Magnétique-Electronique-Réparation-Informatique/dp/B0BNQBNFFJ)                                                    | ￥14.9          | [TaoBao](https://detail.tmall.com/item.htm?id=675684600845&skuId=4856851392176) |
 | Total                                       | ---    | $470           | ---                                                                                                       | €226.3           | ---                                                                                               | ￥1343.16       | ---                                                                             |
 
-[^leaderkit]: You can order **3 × 1/147, 2 × 1/191 and 1 × 1/345 STS3215 servos** in one pack \
-from Alibaba [Alibaba](https://www.alibaba.com/product-detail/6PCS-7-4V-STS3215-Servos-for_1601428584027.html?spm=a2747.product_manager.0.0.757c2c3clU7uH3).
+<a name="leaderbundle">2</a>: You can buy **all six STS3215 servos needed for the SO-101 leader arm**  
+(3 × 1/147 gear, 2 × 1/191 gear, 1 × 1/345 gear) in a single bundle on [Alibaba](https://www.alibaba.com/product-detail/6PCS-7-4V-STS3215-Servos-for_1601428584027.html?spm=a2747.product_manager.0.0.757c2c3clU7uH3).
 
 #### Parts for One Follower Arm:
 
