@@ -20,7 +20,7 @@
     <p>Build Your Own SO-101 Robot!</p>
 </h2>
 
-The SO‑101 is the next‑generation version of the SO‑100 robot arm, originally designed by the [RobotStudio](https://www.therobotstudio.com) in collaboration with [Hugging Face](https://huggingface.co/lerobot). It has improved wiring, is easier to assembly (no gear removal) and uses updated motors for the leader arm.
+The SO‑101 is the next‑generation version of the SO‑100 robot arm, originally designed by the [RobotStudio](https://www.therobotstudio.com) in collaboration with [Hugging Face](https://huggingface.co/lerobot). It has improved wiring, is easier to assemble (no gear removal) and uses updated motors for the leader arm.
 
 These arms are designed to work seamlessly with the open‑source 🤗 LeRobot library. Join our community on [Discord](https://discord.gg/ggrqhPTsMe) to collaborate on both hardware and software, and help make end‑to‑end AI for robotics more accessible.
 
@@ -28,7 +28,7 @@ These arms are designed to work seamlessly with the open‑source 🤗 LeRobot l
 
 ### Documentation 📖
 - For the SO‑101 docs, follow this page further.
-- Here can you find the [SO‑100 docs](SO100.md) which is depreciated.
+- Here you can find the [SO‑100 docs](SO100.md) which is depreciated.
 
 ### Getting Your Own SO‑101 
 You have two options:
@@ -38,7 +38,7 @@ You have two options:
    - Follow our [Assembly Guide](https://github.com/huggingface/lerobot/blob/main/examples/12_use_so101.md).
 - **Buy a kit**
    - Buy assembled arms or a parts kit from one of the vendors [here](https://github.com/TheRobotStudio/SO-ARM100?tab=readme-ov-file#kits).
-   - Optinally follow our [Assembly Guide](https://github.com/huggingface/lerobot/blob/main/examples/12_use_so101.md).
+   - Optionally follow our [Assembly Guide](https://github.com/huggingface/lerobot/blob/main/examples/12_use_so101.md).
 
 ### Setup with LeRobot 🤗
 After sourcing all parts you can setup your SO-101 with LeRobot [tutorial](https://github.com/huggingface/lerobot/blob/main/examples/10_use_so100.md). 
