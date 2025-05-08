@@ -32,22 +32,20 @@ These arms are designed to work seamlessly with the open‑source 🤗 LeRobot l
 
 ### Getting Your Own SO‑101 
 You have two options:
-- **Build it yourself**
-   - Source the components from the [Bill of materials](https://github.com/TheRobotStudio/SO-ARM100#sourcing-parts).
-   - 3D print the parts (or order the 3D printed parts), explained in [Printing the parts](https://github.com/TheRobotStudio/SO-ARM100?tab=readme-ov-file#printing-the-parts).
+- **Build it Yourself**
+   - Source the components from the [Bill of Materials](#sourcing-parts).
+   - 3D print the parts (or order the 3D printed parts), explained in [Printing the Parts](#printing-the-parts).
    - Follow our [Assembly Guide](https://github.com/huggingface/lerobot/blob/main/examples/12_use_so101.md).
-- **Buy a kit**
-   - Buy assembled arms or a parts kit from one of the vendors [here](https://github.com/TheRobotStudio/SO-ARM100?tab=readme-ov-file#kits).
+- **Buy a Kit**
+   - Buy assembled arms or a parts kit from one of the vendors [here](#kits).
    - Optionally follow our [Assembly Guide](https://github.com/huggingface/lerobot/blob/main/examples/12_use_so101.md).
 
 ### Setup with LeRobot 🤗
 After sourcing all parts you can setup your SO-101 with LeRobot [tutorial](https://github.com/huggingface/lerobot/blob/main/examples/10_use_so100.md). 
 
-### Optional Hardware
+### Optional Hardware 🔧
+This repository also includes a range of optional hardware designs such as a raised leader base and different camera mounts. Here you can explore the [full list](#optional-hardware).
 
-This repository also includes a range of optional hardware designs such as a raised leader base and different camera mounts. Here you can explore the [full list](https://github.com/TheRobotStudio/SO-ARM100?tab=readme-ov-file#optional-hardware).
-
----
 
 ## Kits
 
@@ -103,14 +101,14 @@ We only have links for US, EU and CN for now. If you find links for other countr
 
 A variety of 3D printers are acceptable to print the parts necessary of the follower and leader arm. Follow the steps below to ensure a good print.
 
-### Step 1: Choose a printer
+### Step 1: Choose a Printer
 The STL files provided are ready to print on many FDM printers. Below are the tested and suggested settings though others may work.
    1. Material: PLA+
    2. Nozzle Diameter and Precision: 0.4mm nozzle diameter at 0.2mm layer height or 0.6mm nozzle at 0.4mm layer height.
    3. Infill Density: 15%
    4. Sample Printers: [Prusa MINI+](https://www.prusa3d.com/product/original-prusa-mini-semi-assembled-3d-printer-4/), [UP Plus 2](https://shop.tiertime.com/product/tiertime-up-plus-2-3d-printer/), [Creality Ender 3](https://www.amazon.com/Comgrow-Creality-Ender-Aluminum-220x220x250mm/dp/B07BR3F9N6/), [Bambu Lab A/P/X-series](https://bambulab.com)
 
-### Step 2: Set up the printer
+### Step 2: Set up the Printer
    1. Ensure that the printer is calibrated and the bed level is correctly set using the printer specific instructions.
    2. Clean the print bed, making sure it is free from dust, or grease. If cleaning the bed using water, or other liquid, dry the bed.
    3. If your printer recommends it, use a standard glue stick and apply a thin, even layer of glue across the print area of the bed. Avoid clumping or uneven application.
@@ -128,7 +126,7 @@ The STL files provided are ready to print on many FDM printers. Below are the te
          2. [Gauge -0.1](STL/Gauges/Lego_Size_Test_02_minuspoint1.STL)
    2. Test the gauge 0 against your given object (Lego or Servo). The fit should be similar to this [tutorial](https://youtu.be/dss8E3DG2rA).
    3. If the fit is appropriate, go onto Step 4, otherwise, change your printer settings and try again or create an issue.
-### Step 4: Print the parts
+### Step 4: Print the Parts
 All the parts for the leader or follower are for easy 3D printing already contained in a **single file**, correctly orientated for z upwards to minimize supports.
    1. For printer bed sizes of 220mmx220mm (such as the Ender), print these files:
       - [Follower](STL/SO101/Follower/Ender_Follower_SO101.stl)
@@ -139,7 +137,7 @@ All the parts for the leader or follower are for easy 3D printing already contai
 
 This table contains all individual files:
 <details>
-<summary>Table</summary>
+<summary>Individual Part Files</summary>
 
 #### Common Parts
 
@@ -171,16 +169,16 @@ This table contains all individual files:
 | Wrist_Roll_Follower_SO101.stl   | [Wrist_Roll_Follower_SO101.stl](STL/SO101/Individual/Wrist_Roll_Follower_SO101.stl) |
 </details>
 
-### Step 5: Remove support
+### Step 5: Remove Supports
    1. After the print is done, use a putty knife to scrape the the parts off the print bed.
    2. Remove any support material from parts.
 
 ### Don't Own a 3D printer?
 Go here: [Printing services](./3DPRINT.md)
 
-### Optional Hardware  🔧
-
-Extend your SO‑100/SO‑101 with these add ons
+## Optional Hardware
+<!--Note: no hardware emoji here so links work correctly-->
+Extend your SO‑100/SO‑101 with these add-ons.
 <details>
 <summary>Add‑ons</summary>
 
@@ -222,6 +220,6 @@ Add touch sensing to your gripper.
 
 </details>
 
-## Debugging motors 
+## Debugging Motors
 For debugging, any Windows PC can connect over USB to program the servos and to debug or do tests. To do so download [Feetech Software](https://www.feetechrc.com/software.html). For Ubuntu, you can use [FT_SCServo_Debug_Qt](https://github.com/Kotakku/FT_SCServo_Debug_Qt). Note: This step is not necessary as motors can be configured using the LeRobot Library, but this can be helpful for debugging.
 
