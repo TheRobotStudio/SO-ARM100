@@ -177,8 +177,8 @@
   </link>
 
 
-  <!-- Joints -->
-  <joint name="Rotation" type="revolute">
+  <!-- Joint from base to shoulder -->
+  <joint name="1" type="revolute">
     <parent link="base"/>
     <child link="shoulder"/>
     <origin xyz="0 -0.0452 0.0165" rpy="1.57079 0 0"/>
@@ -197,7 +197,8 @@
     </actuator>
   </transmission>
 
-  <joint name="Pitch" type="revolute">
+  <!-- Joint from shoulder to upper_arm -->
+  <joint name="2" type="revolute">
     <parent link="shoulder"/>
     <child link="upper_arm"/>
     <origin xyz="0 0.1025 0.0306" rpy="-1.8 0 0"/>
@@ -216,7 +217,8 @@
     </actuator>
   </transmission>
 
-  <joint name="Elbow" type="revolute">
+  <!-- Joint from upper_arm to lower_arm -->
+  <joint name="3" type="revolute">
     <parent link="upper_arm"/>
     <child link="lower_arm"/>
     <origin xyz="0 0.11257 0.028" rpy="1.57079 0 0"/>
@@ -235,7 +237,8 @@
     </actuator>
   </transmission>
 
-  <joint name="Wrist_Pitch" type="revolute">
+  <!-- Joint from lower_arm to wrist -->
+  <joint name="4" type="revolute">
     <parent link="lower_arm"/>
     <child link="wrist"/>
     <origin xyz="0 0.0052 0.1349" rpy="-1 0 0"/>
@@ -254,6 +257,7 @@
     </actuator>
   </transmission>
 
+  <!-- Joint from wrist to gripper -->
   <joint name="5" type="revolute">
     <parent link="wrist"/>
     <child link="gripper"/>
@@ -288,63 +292,6 @@
       <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
     </joint>
     <actuator name="motor6">
-      <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
-      <mechanicalReduction>1</mechanicalReduction>
-    </actuator>
-  </transmission>
-
-  
-  <!-- Transmission -->
-  <transmission name="Rotation_trans">
-    <type>transmission_interface/SimpleTransmission</type>
-    <joint name="Rotation">
-      <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
-    </joint>
-    <actuator name="Rotation_motor">
-      <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
-      <mechanicalReduction>1</mechanicalReduction>
-    </actuator>
-  </transmission>
-
-  <transmission name="Pitch_trans">
-    <type>transmission_interface/SimpleTransmission</type>
-    <joint name="Pitch">
-      <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
-    </joint>
-    <actuator name="Pitch_motor">
-      <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
-      <mechanicalReduction>1</mechanicalReduction>
-    </actuator>
-  </transmission>
-
-  <transmission name="Elbow_trans">
-    <type>transmission_interface/SimpleTransmission</type>
-    <joint name="Elbow">
-      <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
-    </joint>
-    <actuator name="Elbow_motor">
-      <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
-      <mechanicalReduction>1</mechanicalReduction>
-    </actuator>
-  </transmission>
-
-  <transmission name="Wrist_Pitch_trans">
-    <type>transmission_interface/SimpleTransmission</type>
-    <joint name="Wrist_Pitch">
-      <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
-    </joint>
-    <actuator name="Wrist_Pitch_motor">
-      <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
-      <mechanicalReduction>1</mechanicalReduction>
-    </actuator>
-  </transmission>
-
-  <transmission name="Wrist_Roll_trans">
-    <type>transmission_interface/SimpleTransmission</type>
-    <joint name="Wrist_Roll">
-      <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
-    </joint>
-    <actuator name="Wrist_Roll_motor">
       <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
       <mechanicalReduction>1</mechanicalReduction>
     </actuator>
