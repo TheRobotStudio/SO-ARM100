@@ -179,8 +179,6 @@ Go here: [Printing services](./3DPRINT.md)
 ## Optional Hardware
 <!--Note: no hardware emoji here so links work correctly-->
 Extend your SO‑100/SO‑101 with these add-ons.
-<details>
-<summary>Add‑ons</summary>
 
 #### 1. Mount Helper  
 Print the handy mount jig for easier alignment during assembly.  
@@ -192,9 +190,10 @@ Print the handy mount jig for easier alignment during assembly.
 #### 2. Overhead Camera Mount  
 For bird’s‑eye views in single or bi‑manual setups.  
 
-[→ View README](Optional/Overhead_Cam_Mount/README.md)
-
-<img src="https://github.com/user-attachments/assets/a652e133-8672-448d-baa0-bdd494a0a515"  alt="Overhead Camera Mount" width="150">
+| Webcam  | 32×32 Cam Module |
+|:---------------------:|:-------------------:|
+<img src="https://github.com/user-attachments/assets/a652e133-8672-448d-baa0-bdd494a0a515" height="200"> | <img src="media/overhead_cam_two_followers.png" height="200"> 
+| [Instructions](Optional/Overhead_Cam_Mount_Webcam/README.md) | [Instructions](Optional/Overhead_Cam_Mount_32x32_UVC_Module/README.md) 
 
 #### 3. Raised Leader Base  
 Lift your leader arm for low‑ground tasks.
@@ -218,7 +217,6 @@ Add touch sensing to your gripper.
 | <img src="media/cam_mount2.jpg" height="100"> | <img src="media/UVC_cam_mount.jpeg" height="100"> | <img src="media/UVC_cam_mount_plugin.jpg" height="100"> | <img src="media/d405_mount.jpg" height="100"> | <img src="media/UVC_cam_mount_so101.jpg" height="100"> |
 | [Instructions](Optional/Wrist_Cam_Mount_Vinmooog_Webcam) | [Instructions](Optional/Wrist_Cam_Mount_32x32_UVC_Module) | [Instructions](Optional/Wrist_Cam_Plug_Mount_32x32_UVC_Module) | [Instructions](Optional/Wrist_Cam_Mount_RealSense_D405) | [Instructions](Optional/SO101_Wrist_Cam_Hex-Nut_Mount_32x32_UVC_Module) |
 
-</details>
 
 ## Debugging Motors
 For debugging, any Windows PC can connect over USB to program the servos and to debug or do tests. To do so download [Feetech Software](https://www.feetechrc.com/software.html). For Ubuntu, you can use [FT_SCServo_Debug_Qt](https://github.com/Kotakku/FT_SCServo_Debug_Qt). Note: This step is not necessary as motors can be configured using the LeRobot Library, but this can be helpful for debugging.
