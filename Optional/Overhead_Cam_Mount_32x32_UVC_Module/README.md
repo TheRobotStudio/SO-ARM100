@@ -34,7 +34,7 @@ This guide provides step-by-step instructions for installing an **Overhead Camer
 ### Step 1: Attach the **Camera Module** onto the **Mount Top**
 
 1. Push the **Camera Module** lens through the hole in **Camera Mount Top**.
-<img height="250" src="../../media/overhead_cam_step1a.jpg" /> </br>
+</br><img height="250" src="../../media/overhead_cam_step1a.jpg" /> 
 
 2. Use 4 screws to secure the **Camera Module** to the **Mount Top**.
 </br><img height="250" src="../../media/overhead_cam_step1b.jpg" /> 
