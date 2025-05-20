@@ -1,5 +1,5 @@
 <mujoco model="scene">
-    <include file="so101.xml" />
+    <include file="so101_new_calib.xml" />
 
     <visual>
         <headlight diffuse="0.6 0.6 0.6" ambient="0.3 0.3 0.3" specular="0 0 0" />
