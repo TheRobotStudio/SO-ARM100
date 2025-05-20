@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<robot name="so100">
+
+    <!-- for motion planner libs that read srdfs disable adjacent collisions -->
+    <disable_collisions link1="Base" link2="Rotation_Pitch" reason="Adjacent"/>
+    <disable_collisions link1="Rotation_Pitch" link2="Upper_Arm" reason="Adjacent"/>
+    <disable_collisions link1="Upper_Arm" link2="Lower_Arm" reason="Adjacent"/>
+    <disable_collisions link1="Lower_Arm" link2="Wrist_Pitch_Roll" reason="Adjacent"/>
+    <disable_collisions link1="Wrist_Pitch_Roll" link2="Moving_Jaw" reason="Adjacent"/>
+    <disable_collisions link1="Moving_Jaw" link2="Fixed_Jaw" reason="Adjacent"/>
+    <!-- Some additional impossible collisions due to kinematic constraints -->
+    <disable_collisions link1="Rotation_Pitch" link2="Lower_Arm" reason="Default"/>
+    <disable_collisions link1="Rotation_Pitch" link2="Wrist_Pitch_Roll" reason="Default"/>
+    <disable_collisions link1="Upper_Arm" link2="Wrist_Pitch_Roll" reason="Default"/>
+    <disable_collisions link1="Upper_Arm" link2="Base" reason="Default"/>
+    <disable_collisions link1="Moving_Jaw" link2="Wrist_Pitch_Roll" reason="Default"/>
+</robot>
