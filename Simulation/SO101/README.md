@@ -5,6 +5,7 @@ This repository contains the URDF and MuJoCo (MJCF) files for the SO101 robot.
 ## Overview
 
 - The robot model files were generated using the [onshape-to-robot](https://github.com/Rhoban/onshape-to-robot) plugin from a CAD model designed in Onshape.
+- The generated URDFs were modified to allow meshes with relative paths instead of `package://...`.
 - Base collision meshes were removed due to problematic collision behavior during simulation and planning.
 
 ## Calibration Methods
