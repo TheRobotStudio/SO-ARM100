@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+date-released: 2024
+message: "If you use this hardware, please cite it as below."
+title: "Standard Open SO-100 & SO-101 Arms"
+url: "https://github.com/TheRobotStudio/SO-ARM100"
+address: "Online"
+authors:
+- family-names: "Knight"
+  given-names: "Rob"
+- family-names: "Kooijmans"
+  given-names: "Pepijn"
+- family-names: Wolf
+  given-names: Thomas
+- family-names: "Alibert"
+  given-names: "Simon"
+- family-names: "Aractingi"
+  given-names: "Michel"
+- family-names: "Aubakirova"
+  given-names: "Dana"
+- family-names: "Zouitine"
+  given-names: "Adil"
+- family-names: "Martino"
+  given-names: "Russi"
+- family-names: "Palma"
+  given-names: "Steven"
+- family-names: "Pascal"
+  given-names: "Caroline"
+- family-names: "Cadene"
+  given-names: "Remi"
