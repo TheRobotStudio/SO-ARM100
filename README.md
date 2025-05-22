@@ -192,9 +192,10 @@ Print the handy mount jig for easier alignment during assembly.
 #### 2. Overhead Camera Mount  
 For bird’s‑eye views in single or bi‑manual setups.  
 
-[→ View README](Optional/Overhead_Cam_Mount/README.md)
-
-<img src="https://github.com/user-attachments/assets/a652e133-8672-448d-baa0-bdd494a0a515"  alt="Overhead Camera Mount" width="150">
+| Webcam  | 32×32 Cam Module |
+|:---------------------:|:-------------------:|
+<img src="https://github.com/user-attachments/assets/a652e133-8672-448d-baa0-bdd494a0a515" height="200"> | <img src="media/overhead_cam_two_followers.png" height="200"> 
+| [Instructions](Optional/Overhead_Cam_Mount_Webcam/README.md) | [Instructions](Optional/Overhead_Cam_Mount_32x32_UVC_Module/README.md) 
 
 #### 3. Raised Leader Base  
 Lift your leader arm for low‑ground tasks.

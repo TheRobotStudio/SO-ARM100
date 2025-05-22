@@ -1,4 +1,5 @@
-# Overhead Camera Installation Guide for SO-100
+# Overhead Camera (Webcam) Installation Guide for SO-100/101
+<img height="200" alt="Screenshot 2025-04-12 at 2 52 49 PM" src="../../media/overhead_cam_webcam.jpg" />
 <img height="400" alt="Screenshot 2025-04-12 at 2 52 49 PM" src="https://github.com/user-attachments/assets/a652e133-8672-448d-baa0-bdd494a0a515" />
 <img height="400" alt="Screenshot 2025-04-12 at 2 53 09 PM" src="https://github.com/user-attachments/assets/050387cb-b701-47ed-bfb9-dabd29689272" />
 <img height="400" alt="Screenshot 2025-04-12 at 2 47 38 PM" src="https://github.com/user-attachments/assets/519d884d-dcb6-42a4-bff4-927858672f8b" />
@@ -6,15 +7,19 @@
 ## Overview
 This guide provides step-by-step instructions for installing an **Overhead Camera** on the SO-100 robot using a **Web Camera** and a 3D-printed **Arm Base** and **Camera Mount**.
 
+## Related Designs
+* [Overhead Camera w/ 32x32 Camera Module](../Overhead_Cam_Mount_32x32_UVC_Module/README.md)
+
 
 ## Design Goals
 
-1. Provide overhead view of entire manipulation space
-2. Support both single follower arm and double follower ("bi-manual") arm setups
-3. Ensure consistent data across SO-100 arm users through standardized camera positioning and arm spacing (bi-manual)
+1. Ensure consistent data across SO-100 arm users through standardized camera positioning and arm spacing (bi-manual).
+2. Provide overhead view of entire manipulation space.
+3. Support both single follower arm and double follower ("bi-manual") arm setups.
+
 
 ## Required Components
-- **Web Camera** (1) - this is the [recommended model](https://www.amazon.com/dp/B082X91MPP)
+- **Web Camera** (1) - this is the [recommended model](https://www.amazon.com/dp/B082X91MPP).
 - **3D-printed parts**
     - [Arm Base](stl/arm_base.stl) (1 per follower arm)
     - [Camera Mount Bottom](stl/cam_mount_bottom.stl) (1)
@@ -63,6 +68,7 @@ Take the **Webcam** out of its package, and:
 ### Step 7: (Optional) Add Gripper Cameras
 <img height="250" src="https://github.com/user-attachments/assets/8e8fbf60-f62e-4d8c-8451-3ca5a864497c"/></br>
 1. For optimal training data, add [**Gripper Cameras**](../Wrist_Cam_Mount_32x32_UVC_Module) designed specifically alongside this camera mount setup.
+
 
 ## Acknowledgements
 
