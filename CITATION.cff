@@ -11,8 +11,6 @@ authors:
   given-names: "Pepijn"
 - family-names: Wolf
   given-names: Thomas
-- family-names: "Cadene"
-  given-names: "Remi"
 - family-names: "Alibert"
   given-names: "Simon"
 - family-names: "Aractingi"
@@ -27,3 +25,5 @@ authors:
   given-names: "Steven"
 - family-names: "Pascal"
   given-names: "Caroline"
+- family-names: "Cadene"
+  given-names: "Remi"
