@@ -35,13 +35,13 @@ You have two options:
 - **Build it Yourself**
    - Source the components from the [Bill of Materials](#sourcing-parts).
    - 3D print the parts (or order the 3D printed parts), explained in [Printing the Parts](#printing-the-parts).
-   - Follow our [Assembly Guide](https://github.com/huggingface/lerobot/blob/main/examples/12_use_so101.md).
+   - Follow our [Assembly Guide](https://huggingface.co/docs/lerobot/so101).
 - **Buy a Kit**
    - Buy assembled arms or a parts kit from one of the vendors [here](#kits).
-   - Optionally follow our [Assembly Guide](https://github.com/huggingface/lerobot/blob/main/examples/12_use_so101.md).
+   - Optionally follow our [Assembly Guide](https://huggingface.co/docs/lerobot/so101).
 
 ### Setup with LeRobot 🤗
-After sourcing all parts you can setup your SO-101 with LeRobot [tutorial](https://github.com/huggingface/lerobot/blob/main/examples/10_use_so100.md). 
+After sourcing all parts you can setup your SO-101 with LeRobot [tutorial](https://huggingface.co/docs/lerobot/so101). 
 
 ### Optional Hardware 🔧
 This repository also includes a range of optional hardware designs such as a raised leader base and different camera mounts. Here you can explore the [full list](#optional-hardware).
