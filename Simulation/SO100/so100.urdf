@@ -261,7 +261,7 @@
   <joint name="5" type="revolute">
     <parent link="wrist"/>
     <child link="gripper"/>
-    <origin xyz="0 -0.0601 0" rpy="0 1.57079 0"/>
+    <origin xyz="0 -0.0601 0" rpy="0 3.14158 0"/>
     <axis xyz="0 1 0"/>
     <limit lower="-3.14158" upper="3.14158" effort="35" velocity="1"/>
   </joint>
@@ -281,9 +281,9 @@
   <joint name="6" type="revolute">
     <parent link="gripper"/>
     <child link="jaw"/>
-    <origin xyz="-0.0202 -0.0244 0" rpy="0 3.14158 -0.9"/>
+    <origin xyz="-0.0202 -0.0244 0" rpy="0 3.14158 0"/>
     <axis xyz="0 0 1"/>
-    <limit lower="-1.1" upper="1.1" effort="35" velocity="1"/>
+    <limit lower="-0.2" upper="2.0" effort="35" velocity="1"/>
   </joint>
 
   <transmission name="6_trans">
