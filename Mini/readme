@@ -1,0 +1,5 @@
+This is an experiment in printing the entire SO-Arm as a single piece that can then articulate once the supports are removed.
+The clearances are only 0.2mm on average which has proven to be ok in test pieces, but I find hard to believe will work on the whole thing.
+I shall know by tomorrow morning whether it will move after printing on a Bambu A1, with a 0.4mm brass nozzle, 0.2mm layer thickness with supports above 30degrees in light green PLA+.
+Yes, the colour of PLA effects the end result. Probably due to subtle chemical differences in the dyes but I've no clear hard evidence or research to support this guess.
+I'd welcome any feedback on different machines and settings and whether the finished print can be made to move freely with the present clearance between parts.
