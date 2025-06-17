@@ -1,7 +1,16 @@
-<?xml version="1.0" ?>
+<?xml version='1.0' encoding='utf-8'?>
 <!-- Generated using onshape-to-robot -->
 <!-- Onshape https://cad.onshape.com/documents/7715cc284bb430fe6dab4ffd/w/4fd0791b683777b02f8d975a/e/826c553ede3b7592eb9ca800 -->
 <robot name="so101_new_calib">
+
+  <!-- Materials -->
+  <material name="3d_printed">
+    <color rgba="1.0 0.82 0.12 1.0"/>
+  </material>
+  <material name="sts3215">
+    <color rgba="0.1 0.1 0.1 1.0"/>
+  </material>
+
   <!-- Link base -->
   <link name="base">
     <inertial>
@@ -13,7 +22,7 @@
     <visual>
       <origin xyz="-0.169402 -0.168167 0.0300817" rpy="1.5708 -1.67685e-15 1.5708"/>
       <geometry>
-        <mesh filename="package://assets/base_motor_holder_so101_v1.stl"/>
+        <mesh filename="assets/base_motor_holder_so101_v1.stl"/>
       </geometry>
       <material name="base_motor_holder_so101_v1_material">
         <color rgba="0.964706 0.964706 0.952941 1.0"/>
@@ -22,14 +31,14 @@
     <collision>
       <origin xyz="-0.169402 -0.168167 0.0300817" rpy="1.5708 -1.67685e-15 1.5708"/>
       <geometry>
-        <mesh filename="package://assets/base_motor_holder_so101_v1.stl"/>
+        <mesh filename="assets/base_motor_holder_so101_v1.stl"/>
       </geometry>
     </collision>
     <!-- Part base_so101_v2 -->
     <visual>
       <origin xyz="-0.169402 -0.168068 0.0300817" rpy="1.5708 -1.6144e-15 1.5708"/>
       <geometry>
-        <mesh filename="package://assets/base_so101_v2.stl"/>
+        <mesh filename="assets/base_so101_v2.stl"/>
       </geometry>
       <material name="base_so101_v2_material">
         <color rgba="0.964706 0.964706 0.952941 1.0"/>
@@ -38,14 +47,14 @@
     <collision>
       <origin xyz="-0.169402 -0.168068 0.0300817" rpy="1.5708 -1.6144e-15 1.5708"/>
       <geometry>
-        <mesh filename="package://assets/base_so101_v2.stl"/>
+        <mesh filename="assets/base_so101_v2.stl"/>
       </geometry>
     </collision>
     <!-- Part sts3215_03a_v1 -->
     <visual>
       <origin xyz="-0.136702 -0.168068 0.0761817" rpy="-8.21148e-16 7.84513e-18 1.249e-15"/>
       <geometry>
-        <mesh filename="package://assets/sts3215_03a_v1.stl"/>
+        <mesh filename="assets/sts3215_03a_v1.stl"/>
       </geometry>
       <material name="sts3215_03a_v1_material">
         <color rgba="0.627451 0.627451 0.627451 1.0"/>
@@ -54,14 +63,14 @@
     <collision>
       <origin xyz="-0.136702 -0.168068 0.0761817" rpy="-8.21148e-16 7.84513e-18 1.249e-15"/>
       <geometry>
-        <mesh filename="package://assets/sts3215_03a_v1.stl"/>
+        <mesh filename="assets/sts3215_03a_v1.stl"/>
       </geometry>
     </collision>
     <!-- Part waveshare_mounting_plate_so101_v2 -->
     <visual>
       <origin xyz="-0.19402 -0.168267 0.0798817" rpy="1.5708 -1.35493e-14 1.5708"/>
       <geometry>
-        <mesh filename="package://assets/waveshare_mounting_plate_so101_v2.stl"/>
+        <mesh filename="assets/waveshare_mounting_plate_so101_v2.stl"/>
       </geometry>
       <material name="waveshare_mounting_plate_so101_v2_material">
         <color rgba="0.964706 0.964706 0.952941 1.0"/>
@@ -70,7 +79,7 @@
     <collision>
       <origin xyz="-0.19402 -0.168267 0.0798817" rpy="1.5708 -1.35493e-14 1.5708"/>
       <geometry>
-        <mesh filename="package://assets/waveshare_mounting_plate_so101_v2.stl"/>
+        <mesh filename="assets/waveshare_mounting_plate_so101_v2.stl"/>
       </geometry>
     </collision>
   </link>
@@ -100,7 +109,7 @@
     <visual>
       <origin xyz="-0.0303992 0.000422241 -0.0417" rpy="1.5708 1.5708 0"/>
       <geometry>
-        <mesh filename="package://assets/sts3215_03a_v1.stl"/>
+        <mesh filename="assets/sts3215_03a_v1.stl"/>
       </geometry>
       <material name="sts3215_03a_v1_2_material">
         <color rgba="0.627451 0.627451 0.627451 1.0"/>
@@ -109,14 +118,14 @@
     <collision>
       <origin xyz="-0.0303992 0.000422241 -0.0417" rpy="1.5708 1.5708 0"/>
       <geometry>
-        <mesh filename="package://assets/sts3215_03a_v1.stl"/>
+        <mesh filename="assets/sts3215_03a_v1.stl"/>
       </geometry>
     </collision>
     <!-- Part motor_holder_so101_base_v1 -->
     <visual>
       <origin xyz="-0.0675992 -0.000177759 0.0158499" rpy="1.5708 -1.5708 0"/>
       <geometry>
-        <mesh filename="package://assets/motor_holder_so101_base_v1.stl"/>
+        <mesh filename="assets/motor_holder_so101_base_v1.stl"/>
       </geometry>
       <material name="motor_holder_so101_base_v1_material">
         <color rgba="0.964706 0.964706 0.952941 1.0"/>
@@ -125,14 +134,14 @@
     <collision>
       <origin xyz="-0.0675992 -0.000177759 0.0158499" rpy="1.5708 -1.5708 0"/>
       <geometry>
-        <mesh filename="package://assets/motor_holder_so101_base_v1.stl"/>
+        <mesh filename="assets/motor_holder_so101_base_v1.stl"/>
       </geometry>
     </collision>
     <!-- Part rotation_pitch_so101_v1 -->
     <visual>
       <origin xyz="0.0122008 2.22413e-05 0.0464" rpy="-1.5708 2.35221e-33 0"/>
       <geometry>
-        <mesh filename="package://assets/rotation_pitch_so101_v1.stl"/>
+        <mesh filename="assets/rotation_pitch_so101_v1.stl"/>
       </geometry>
       <material name="rotation_pitch_so101_v1_material">
         <color rgba="0.964706 0.964706 0.952941 1.0"/>
@@ -141,7 +150,7 @@
     <collision>
       <origin xyz="0.0122008 2.22413e-05 0.0464" rpy="-1.5708 2.35221e-33 0"/>
       <geometry>
-        <mesh filename="package://assets/rotation_pitch_so101_v1.stl"/>
+        <mesh filename="assets/rotation_pitch_so101_v1.stl"/>
       </geometry>
     </collision>
   </link>
@@ -156,7 +165,7 @@
     <visual>
       <origin xyz="-0.11257 -0.0155 0.0187" rpy="-3.14159 -5.27356e-16 -1.5708"/>
       <geometry>
-        <mesh filename="package://assets/sts3215_03a_v1.stl"/>
+        <mesh filename="assets/sts3215_03a_v1.stl"/>
       </geometry>
       <material name="sts3215_03a_v1_3_material">
         <color rgba="0.627451 0.627451 0.627451 1.0"/>
@@ -165,14 +174,14 @@
     <collision>
       <origin xyz="-0.11257 -0.0155 0.0187" rpy="-3.14159 -5.27356e-16 -1.5708"/>
       <geometry>
-        <mesh filename="package://assets/sts3215_03a_v1.stl"/>
+        <mesh filename="assets/sts3215_03a_v1.stl"/>
       </geometry>
     </collision>
     <!-- Part upper_arm_so101_v1 -->
     <visual>
       <origin xyz="-0.065085 0.012 0.0182" rpy="3.14159 -0 -1.30911e-30"/>
       <geometry>
-        <mesh filename="package://assets/upper_arm_so101_v1.stl"/>
+        <mesh filename="assets/upper_arm_so101_v1.stl"/>
       </geometry>
       <material name="upper_arm_so101_v1_material">
         <color rgba="0.964706 0.964706 0.952941 1.0"/>
@@ -181,7 +190,7 @@
     <collision>
       <origin xyz="-0.065085 0.012 0.0182" rpy="3.14159 -0 -1.30911e-30"/>
       <geometry>
-        <mesh filename="package://assets/upper_arm_so101_v1.stl"/>
+        <mesh filename="assets/upper_arm_so101_v1.stl"/>
       </geometry>
     </collision>
   </link>
@@ -196,7 +205,7 @@
     <visual>
       <origin xyz="-0.0648499 -0.032 0.0182" rpy="3.14159 -0 6.67202e-31"/>
       <geometry>
-        <mesh filename="package://assets/under_arm_so101_v1.stl"/>
+        <mesh filename="assets/under_arm_so101_v1.stl"/>
       </geometry>
       <material name="under_arm_so101_v1_material">
         <color rgba="0.964706 0.964706 0.952941 1.0"/>
@@ -205,14 +214,14 @@
     <collision>
       <origin xyz="-0.0648499 -0.032 0.0182" rpy="3.14159 -0 6.67202e-31"/>
       <geometry>
-        <mesh filename="package://assets/under_arm_so101_v1.stl"/>
+        <mesh filename="assets/under_arm_so101_v1.stl"/>
       </geometry>
     </collision>
     <!-- Part motor_holder_so101_wrist_v1 -->
     <visual>
       <origin xyz="-0.0648499 -0.032 0.018" rpy="-3.14159 -2.55351e-15 -2.56146e-31"/>
       <geometry>
-        <mesh filename="package://assets/motor_holder_so101_wrist_v1.stl"/>
+        <mesh filename="assets/motor_holder_so101_wrist_v1.stl"/>
       </geometry>
       <material name="motor_holder_so101_wrist_v1_material">
         <color rgba="0.964706 0.964706 0.952941 1.0"/>
@@ -221,14 +230,14 @@
     <collision>
       <origin xyz="-0.0648499 -0.032 0.018" rpy="-3.14159 -2.55351e-15 -2.56146e-31"/>
       <geometry>
-        <mesh filename="package://assets/motor_holder_so101_wrist_v1.stl"/>
+        <mesh filename="assets/motor_holder_so101_wrist_v1.stl"/>
       </geometry>
     </collision>
     <!-- Part sts3215_03a_v1_4 -->
     <visual>
       <origin xyz="-0.1224 0.0052 0.0187" rpy="-3.14159 -7.88861e-31 -3.14159"/>
       <geometry>
-        <mesh filename="package://assets/sts3215_03a_v1.stl"/>
+        <mesh filename="assets/sts3215_03a_v1.stl"/>
       </geometry>
       <material name="sts3215_03a_v1_4_material">
         <color rgba="0.627451 0.627451 0.627451 1.0"/>
@@ -237,7 +246,7 @@
     <collision>
       <origin xyz="-0.1224 0.0052 0.0187" rpy="-3.14159 -7.88861e-31 -3.14159"/>
       <geometry>
-        <mesh filename="package://assets/sts3215_03a_v1.stl"/>
+        <mesh filename="assets/sts3215_03a_v1.stl"/>
       </geometry>
     </collision>
   </link>
@@ -252,7 +261,7 @@
     <visual>
       <origin xyz="5.55112e-17 -0.0424 0.0306" rpy="1.5708 1.5708 0"/>
       <geometry>
-        <mesh filename="package://assets/sts3215_03a_no_horn_v1.stl"/>
+        <mesh filename="assets/sts3215_03a_no_horn_v1.stl"/>
       </geometry>
       <material name="sts3215_03a_no_horn_v1_material">
         <color rgba="0.627451 0.627451 0.627451 1.0"/>
@@ -261,14 +270,14 @@
     <collision>
       <origin xyz="5.55112e-17 -0.0424 0.0306" rpy="1.5708 1.5708 0"/>
       <geometry>
-        <mesh filename="package://assets/sts3215_03a_no_horn_v1.stl"/>
+        <mesh filename="assets/sts3215_03a_no_horn_v1.stl"/>
       </geometry>
     </collision>
     <!-- Part wrist_roll_pitch_so101_v2 -->
     <visual>
       <origin xyz="0 -0.028 0.0181" rpy="-1.5708 -1.5708 0"/>
       <geometry>
-        <mesh filename="package://assets/wrist_roll_pitch_so101_v2.stl"/>
+        <mesh filename="assets/wrist_roll_pitch_so101_v2.stl"/>
       </geometry>
       <material name="wrist_roll_pitch_so101_v2_material">
         <color rgba="0.964706 0.964706 0.952941 1.0"/>
@@ -277,7 +286,7 @@
     <collision>
       <origin xyz="0 -0.028 0.0181" rpy="-1.5708 -1.5708 0"/>
       <geometry>
-        <mesh filename="package://assets/wrist_roll_pitch_so101_v2.stl"/>
+        <mesh filename="assets/wrist_roll_pitch_so101_v2.stl"/>
       </geometry>
     </collision>
   </link>
@@ -292,7 +301,7 @@
     <visual>
       <origin xyz="0.0077 0.0001 -0.0234" rpy="-1.5708 -5.19179e-17 -1.66533e-16"/>
       <geometry>
-        <mesh filename="package://assets/sts3215_03a_v1.stl"/>
+        <mesh filename="assets/sts3215_03a_v1.stl"/>
       </geometry>
       <material name="sts3215_03a_v1_5_material">
         <color rgba="0.627451 0.627451 0.627451 1.0"/>
@@ -301,14 +310,14 @@
     <collision>
       <origin xyz="0.0077 0.0001 -0.0234" rpy="-1.5708 -5.19179e-17 -1.66533e-16"/>
       <geometry>
-        <mesh filename="package://assets/sts3215_03a_v1.stl"/>
+        <mesh filename="assets/sts3215_03a_v1.stl"/>
       </geometry>
     </collision>
     <!-- Part wrist_roll_follower_so101_v1 -->
     <visual>
       <origin xyz="0 -0.000218214 0.000949706" rpy="-3.14159 -5.55112e-17 0"/>
       <geometry>
-        <mesh filename="package://assets/wrist_roll_follower_so101_v1.stl"/>
+        <mesh filename="assets/wrist_roll_follower_so101_v1.stl"/>
       </geometry>
       <material name="wrist_roll_follower_so101_v1_material">
         <color rgba="0.964706 0.964706 0.952941 1.0"/>
@@ -317,7 +326,7 @@
     <collision>
       <origin xyz="0 -0.000218214 0.000949706" rpy="-3.14159 -5.55112e-17 0"/>
       <geometry>
-        <mesh filename="package://assets/wrist_roll_follower_so101_v1.stl"/>
+        <mesh filename="assets/wrist_roll_follower_so101_v1.stl"/>
       </geometry>
     </collision>
   </link>
@@ -347,7 +356,7 @@
     <visual>
       <origin xyz="-5.55112e-17 0 0.0189" rpy="9.53145e-17 6.93889e-18 1.24077e-24"/>
       <geometry>
-        <mesh filename="package://assets/moving_jaw_so101_v1.stl"/>
+        <mesh filename="assets/moving_jaw_so101_v1.stl"/>
       </geometry>
       <material name="moving_jaw_so101_v1_material">
         <color rgba="0.964706 0.964706 0.952941 1.0"/>
@@ -356,7 +365,7 @@
     <collision>
       <origin xyz="-5.55112e-17 0 0.0189" rpy="9.53145e-17 6.93889e-18 1.24077e-24"/>
       <geometry>
-        <mesh filename="package://assets/moving_jaw_so101_v1.stl"/>
+        <mesh filename="assets/moving_jaw_so101_v1.stl"/>
       </geometry>
     </collision>
   </link>
