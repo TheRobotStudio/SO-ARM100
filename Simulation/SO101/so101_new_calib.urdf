@@ -377,6 +377,18 @@
     <axis xyz="0 0 1"/>
     <limit effort="10" velocity="10" lower="-0.174533" upper="1.74533"/>
   </joint>
+
+  <transmission name="6_trans">
+    <type>transmission_interface/SimpleTransmission</type>
+    <joint name="6">
+      <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+    </joint>
+    <actuator name="motor6">
+      <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+      <mechanicalReduction>1</mechanicalReduction>
+    </actuator>
+  </transmission>
+  
   <!-- Joint from wrist to gripper -->
   <joint name="5" type="revolute">
     <origin xyz="2.77556e-16 -0.0611 0.0181" rpy="1.5708 0.0486795 3.14159"/>
@@ -385,6 +397,18 @@
     <axis xyz="0 0 1"/>
     <limit effort="10" velocity="10" lower="-2.74385" upper="2.84121"/>
   </joint>
+
+  <transmission name="5_trans">
+    <type>transmission_interface/SimpleTransmission</type>
+    <joint name="5">
+      <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+    </joint>
+    <actuator name="motor5">
+      <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+      <mechanicalReduction>1</mechanicalReduction>
+    </actuator>
+  </transmission>
+
   <!-- Joint from lower_arm to wrist -->
   <joint name="4" type="revolute">
     <origin xyz="-0.1349 0.0052 8.44651e-17" rpy="4.02456e-15 8.67362e-16 -1.5708"/>
@@ -393,6 +417,18 @@
     <axis xyz="0 0 1"/>
     <limit effort="10" velocity="10" lower="-1.65806" upper="1.65806"/>
   </joint>
+
+  <transmission name="4_trans">
+    <type>transmission_interface/SimpleTransmission</type>
+    <joint name="4">
+      <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+    </joint>
+    <actuator name="motor4">
+      <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+      <mechanicalReduction>1</mechanicalReduction>
+    </actuator>
+  </transmission>
+
   <!-- Joint from upper_arm to lower_arm -->
   <joint name="3" type="revolute">
     <origin xyz="-0.11257 -0.028 2.09886e-16" rpy="-3.63608e-16 8.74301e-16 1.5708"/>
@@ -401,6 +437,18 @@
     <axis xyz="0 0 1"/>
     <limit effort="10" velocity="10" lower="-1.74533" upper="1.5708"/>
   </joint>
+
+  <transmission name="3_trans">
+    <type>transmission_interface/SimpleTransmission</type>
+    <joint name="3">
+      <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+    </joint>
+    <actuator name="motor3">
+      <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+      <mechanicalReduction>1</mechanicalReduction>
+    </actuator>
+  </transmission>
+
   <!-- Joint from shoulder to upper_arm -->
   <joint name="2" type="revolute">
     <origin xyz="-0.0303992 -0.0182778 -0.0542" rpy="-1.5708 -1.5708 0"/>
@@ -409,6 +457,18 @@
     <axis xyz="0 0 1"/>
     <limit effort="10" velocity="10" lower="-1.74533" upper="1.74533"/>
   </joint>
+
+  <transmission name="2_trans">
+    <type>transmission_interface/SimpleTransmission</type>
+    <joint name="2">
+      <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+    </joint>
+    <actuator name="motor2">
+      <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+      <mechanicalReduction>1</mechanicalReduction>
+    </actuator>
+  </transmission>
+
   <!-- Joint from base to shoulder -->
   <joint name="1" type="revolute">
     <origin xyz="-0.124202 -0.168068 0.0948817" rpy="3.14159 4.18253e-17 -3.14159"/>
@@ -417,4 +477,16 @@
     <axis xyz="0 0 1"/>
     <limit effort="10" velocity="10" lower="-1.91986" upper="1.91986"/>
   </joint>
+
+  <transmission name="1_trans">
+    <type>transmission_interface/SimpleTransmission</type>
+    <joint name="1">
+      <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+    </joint>
+    <actuator name="motor1">
+      <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+      <mechanicalReduction>1</mechanicalReduction>
+    </actuator>
+  </transmission>
+
 </robot>
