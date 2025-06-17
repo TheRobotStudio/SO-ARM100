@@ -5,8 +5,8 @@
   <compiler angle="radian" meshdir="assets" autolimits="true"/>
   <default>
     <default class="so101_new_calib">
-      <joint frictionloss="0.1" armature="0.005"/>
-      <position kp="50" dampratio="1"/>
+      <joint damping="1" frictionloss="0.1" armature="0.005"/>
+      <position kp="50"/>
       <default class="visual">
         <geom type="mesh" contype="0" conaffinity="0" group="2"/>
       </default>
@@ -21,7 +21,7 @@
       <geom contype="0" conaffinity="0"/>
       <joint damping="0.60" frictionloss="0.052" armature="0.028"/>
       <!-- For lerobot this are not exactly the motor params as the Kp and Kd not map 1-to-1 thus motor idendification with lerobot Kp=16 and Kd=32 should actually be done -->
-      <position kp="17.8" kv="1.0" forcerange="-3.35 3.35"/>
+      <position kp="17.8"/>
     </default>
     <default class="backlash">
       <!-- +/- 0.5° of backlash -->
@@ -150,12 +150,12 @@
     <material name="moving_jaw_so101_v1_material" rgba="0.964706 0.964706 0.952941 1"/>
   </asset>
   <actuator>
-    <position class="sts3215" name="1" joint="1" inheritrange="1"/>
-    <position class="sts3215" name="2" joint="2" inheritrange="1"/>
-    <position class="sts3215" name="3" joint="3" inheritrange="1"/>
-    <position class="sts3215" name="4" joint="4" inheritrange="1"/>
-    <position class="sts3215" name="5" joint="5" inheritrange="1"/>
-    <position class="sts3215" name="6" joint="6" inheritrange="1"/>
+    <position class="sts3215" name="1" joint="1" forcerange="-3.35 3.35"/>
+    <position class="sts3215" name="2" joint="2" forcerange="-3.35 3.35"/>
+    <position class="sts3215" name="3" joint="3" forcerange="-3.35 3.35"/>
+    <position class="sts3215" name="4" joint="4" forcerange="-3.35 3.35"/>
+    <position class="sts3215" name="5" joint="5" forcerange="-3.35 3.35"/>
+    <position class="sts3215" name="6" joint="6" forcerange="-3.35 3.35"/>
   </actuator>
   <equality/>
 </mujoco>
