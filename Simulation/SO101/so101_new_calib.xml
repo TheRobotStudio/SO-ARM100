@@ -5,8 +5,8 @@
   <compiler angle="radian" meshdir="assets" autolimits="true"/>
   <default>
     <default class="so101_new_calib">
-      <joint frictionloss="0.1" armature="0.005"/>
-      <position kp="50" dampratio="1"/>
+      <joint damping="1" frictionloss="0.1" armature="0.005"/>
+      <position kp="50"/>
       <default class="visual">
         <geom type="mesh" contype="0" conaffinity="0" group="2"/>
       </default>
@@ -31,20 +31,15 @@
   <worldbody>
     <!-- Link base -->
     <body name="base" pos="0 0 0" quat="1 0 0 0" childclass="so101_new_calib">
-      <freejoint name="base_freejoint"/>
       <inertial pos="0.0137179 -5.19711e-05 0.0334843" mass="0.147" fullinertia="0.000114686 0.000136117 0.000130364 -4.59787e-07 4.97151e-06 9.75275e-08"/>
       <!-- Part base_motor_holder_so101_v1 -->
       <geom type="mesh" class="visual" pos="-0.00636471 -9.94414e-05 -0.0024" quat="0.5 0.5 0.5 0.5" mesh="base_motor_holder_so101_v1" material="base_motor_holder_so101_v1_material"/>
-      <geom type="mesh" class="collision" pos="-0.00636471 -9.94414e-05 -0.0024" quat="0.5 0.5 0.5 0.5" mesh="base_motor_holder_so101_v1" material="base_motor_holder_so101_v1_material"/>
       <!-- Part base_so101_v2 -->
       <geom type="mesh" class="visual" pos="-0.00636471 -8.97657e-09 -0.0024" quat="0.5 0.5 0.5 0.5" mesh="base_so101_v2" material="base_so101_v2_material"/>
-      <geom type="mesh" class="collision" pos="-0.00636471 -8.97657e-09 -0.0024" quat="0.5 0.5 0.5 0.5" mesh="base_so101_v2" material="base_so101_v2_material"/>
       <!-- Part sts3215_03a_v1 -->
       <geom type="mesh" class="visual" pos="0.0263353 -8.97657e-09 0.0437" quat="1 -2.85511e-16 -9.64433e-17 6.12908e-16" mesh="sts3215_03a_v1" material="sts3215_03a_v1_material"/>
-      <geom type="mesh" class="collision" pos="0.0263353 -8.97657e-09 0.0437" quat="1 -2.85511e-16 -9.64433e-17 6.12908e-16" mesh="sts3215_03a_v1" material="sts3215_03a_v1_material"/>
       <!-- Part waveshare_mounting_plate_so101_v2 -->
       <geom type="mesh" class="visual" pos="-0.0309827 -0.000199441 0.0474" quat="0.5 0.5 0.5 0.5" mesh="waveshare_mounting_plate_so101_v2" material="waveshare_mounting_plate_so101_v2_material"/>
-      <geom type="mesh" class="collision" pos="-0.0309827 -0.000199441 0.0474" quat="0.5 0.5 0.5 0.5" mesh="waveshare_mounting_plate_so101_v2" material="waveshare_mounting_plate_so101_v2_material"/>
       <!-- Frame baseframe -->
       <site group="3" name="baseframe" pos="8.67362e-19 9.55596e-18 3.46945e-18" quat="1 -8.17396e-19 3.78392e-17 2.22045e-16"/>
       <!-- Link shoulder -->
@@ -155,12 +150,12 @@
     <material name="moving_jaw_so101_v1_material" rgba="0.964706 0.964706 0.952941 1"/>
   </asset>
   <actuator>
-    <position class="sts3215" name="1" joint="1" inheritrange="1"/>
-    <position class="sts3215" name="2" joint="2" inheritrange="1"/>
-    <position class="sts3215" name="3" joint="3" inheritrange="1"/>
-    <position class="sts3215" name="4" joint="4" inheritrange="1"/>
-    <position class="sts3215" name="5" joint="5" inheritrange="1"/>
-    <position class="sts3215" name="6" joint="6" inheritrange="1"/>
+    <position class="sts3215" name="1" joint="1" forcerange="-3.35 3.35" ctrlrange="-1.91986 1.91986"/>
+    <position class="sts3215" name="2" joint="2" forcerange="-3.35 3.35" ctrlrange="-1.74533 1.74533"/>
+    <position class="sts3215" name="3" joint="3" forcerange="-3.35 3.35" ctrlrange="-1.74533 1.5708"/>
+    <position class="sts3215" name="4" joint="4" forcerange="-3.35 3.35" ctrlrange="-1.65806 1.65806"/>
+    <position class="sts3215" name="5" joint="5" forcerange="-3.35 3.35" ctrlrange="-2.74385 2.84121"/>
+    <position class="sts3215" name="6" joint="6" forcerange="-3.35 3.35" ctrlrange="-0.17453 1.74533"/>
   </actuator>
   <equality/>
 </mujoco>
