@@ -1,5 +1,6 @@
 # Compliant Gripper Guide for the SO-101 Arm
-![Thumbnail(2)](https://github.com/user-attachments/assets/7fef0824-886a-449f-80ec-d08862e8f0d3)
+
+<img src="https://github.com/user-attachments/assets/26de0b8c-8bd6-4651-867f-1358532e2cc6" width="250">
 
 The compliant gripper is a modification of the original rigid gripper that is printed out of a flexible material (TPU). It uses a hollowed-out design with internal ribs to flexibly conform to the objects it grasps, thereby reducing the contact force exerted on the object. This gripper is ideal for objects with difficult geometries or fragile components (e.g., fruit) as it reduces the control precision required to safely manipulate objects. 
 
