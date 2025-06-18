@@ -219,6 +219,11 @@ Add touch sensing to your gripper.
 | <img src="media/cam_mount2.jpg" height="100"> | <img src="media/UVC_cam_mount.jpeg" height="100"> | <img src="media/UVC_cam_mount_plugin.jpg" height="100"> | <img src="media/d405_mount.jpg" height="100"> | <img src="media/UVC_cam_mount_so101.jpg" height="100"> |
 | [Instructions](Optional/Wrist_Cam_Mount_Vinmooog_Webcam) | [Instructions](Optional/Wrist_Cam_Mount_32x32_UVC_Module) | [Instructions](Optional/Wrist_Cam_Plug_Mount_32x32_UVC_Module) | [Instructions](Optional/Wrist_Cam_Mount_RealSense_D405) | [Instructions](Optional/SO101_Wrist_Cam_Hex-Nut_Mount_32x32_UVC_Module) |
 
+
+#### 6. Compliant Gripper
+Add some flexibility to your gripper by downloading the compliant gripper parts and printing them using a flexible filament like TPU 95A. See more [details and instructions here](optional/Compliant_Gripper/README.md). 
+![Thumbnail(2)](https://github.com/user-attachments/assets/26de0b8c-8bd6-4651-867f-1358532e2cc6)
+
 </details>
 
 ## Debugging Motors
