@@ -16,4 +16,4 @@ No modifications to the robot assembly process or installation are required with
 Simply print [Compliant_Moving_Jaw_SO101.stl](stl/Compliant_Moving_Jaw_SO101.stl) and [Compliant_Wrist_Roll_Follower_SO101.stl](stl/Compliant_Moving_Jaw_SO101.stl) using TPU 95A and install as normal. 
 
 ## Further details
-This design was created during the June 2025 Hugging Face LeRobot Hackathon by Zach Tabor and Caitlin Freeman from Memphis, TN. The design is loosely inspired from a common compliant gripper design that relies on the Fin Ray Effect &reg;, a concept that was popularized by Festo and used in their compliant grippers. 
+This design was created during the June 2025 Hugging Face LeRobot Hackathon by Zach Tabor and Caitlin Freeman from Memphis, TN. The design is loosely inspired from a common compliant gripper design that relies on the Fin Ray Effect&reg;, a concept that was popularized by Festo and used in their compliant grippers. 
