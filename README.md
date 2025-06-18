@@ -221,8 +221,9 @@ Add touch sensing to your gripper.
 
 
 #### 6. Compliant Gripper
-Add some flexibility to your gripper by downloading the compliant gripper parts and printing them using a flexible filament like TPU 95A. See more [details and instructions here](optional/Compliant_Gripper/README.md). 
-![Thumbnail(2)](https://github.com/user-attachments/assets/26de0b8c-8bd6-4651-867f-1358532e2cc6)
+Add some flexibility to your gripper by downloading the compliant gripper parts and printing them using a flexible filament like TPU 95A. 
+[→ View README](optional/Compliant_Gripper/README.md). 
+<img src="https://github.com/user-attachments/assets/26de0b8c-8bd6-4651-867f-1358532e2cc6" width="150">
 
 </details>
 
