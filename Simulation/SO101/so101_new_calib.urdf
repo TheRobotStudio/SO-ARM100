@@ -402,7 +402,7 @@
     <parent link="upper_arm"/>
     <child link="lower_arm"/>
     <axis xyz="0 0 1"/>
-    <limit effort="10" velocity="10" lower="-1.6580" upper="1.6581"/>
+    <limit effort="10" velocity="10" lower="-1.69" upper="1.69"/>
   </joint>
 
   <transmission name="3_trans">
