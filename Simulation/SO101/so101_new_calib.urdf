@@ -396,12 +396,13 @@
   </transmission>
 
   <!-- Joint from upper_arm to lower_arm -->
+  <!-- Note: 5-degree calibration offset applied to joint limits -->
   <joint name="3" type="revolute">
     <origin xyz="-0.11257 -0.028 2.46331e-16" rpy="-1.22818e-15 5.75928e-16 1.5708"/>
     <parent link="upper_arm"/>
     <child link="lower_arm"/>
     <axis xyz="0 0 1"/>
-    <limit effort="10" velocity="10" lower="-1.74533" upper="1.5708"/>
+    <limit effort="10" velocity="10" lower="-1.6580" upper="1.6581"/>
   </joint>
 
   <transmission name="3_trans">
