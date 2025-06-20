@@ -335,8 +335,9 @@
       </geometry>
     </collision>
   </link>
+
   <!-- Joint from gripper to moving_jaw_so101_v1 -->
-  <joint name="6" type="revolute">
+  <joint name="gripper" type="revolute">
     <origin xyz="0.0202 0.0188 -0.0234" rpy="1.5708 -5.14108e-17 -1.38655e-14"/>
     <parent link="gripper"/>
     <child link="moving_jaw_so101_v1"/>
@@ -344,9 +345,9 @@
     <limit effort="10" velocity="10" lower="-0.174533" upper="1.74533"/>
   </joint>
 
-  <transmission name="6_trans">
+  <transmission name="gripper_trans">
     <type>transmission_interface/SimpleTransmission</type>
-    <joint name="6">
+    <joint name="gripper">
       <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
     </joint>
     <actuator name="motor6">
@@ -356,7 +357,7 @@
   </transmission>
 
   <!-- Joint from wrist to gripper -->
-  <joint name="5" type="revolute">
+  <joint name="wrist_roll" type="revolute">
     <origin xyz="0 -0.0611 0.0181" rpy="1.5708 -9.38083e-08 3.14159"/>
     <parent link="wrist"/>
     <child link="gripper"/>
@@ -364,9 +365,9 @@
     <limit effort="10" velocity="10" lower="-2.79253" upper="2.79253"/>
   </joint>
 
-  <transmission name="5_trans">
+  <transmission name="wrist_roll_trans">
     <type>transmission_interface/SimpleTransmission</type>
-    <joint name="5">
+    <joint name="wrist_roll">
       <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
     </joint>
     <actuator name="motor5">
@@ -376,7 +377,7 @@
   </transmission>
 
   <!-- Joint from lower_arm to wrist -->
-  <joint name="4" type="revolute">
+  <joint name="wrist_flex" type="revolute">
     <origin xyz="-0.1349 0.0052 1.65232e-16" rpy="3.2474e-15 2.86219e-15 -1.5708"/>
     <parent link="lower_arm"/>
     <child link="wrist"/>
@@ -384,9 +385,9 @@
     <limit effort="10" velocity="10" lower="-1.65806" upper="1.65806"/>
   </joint>
 
-  <transmission name="4_trans">
+  <transmission name="wrist_flex_trans">
     <type>transmission_interface/SimpleTransmission</type>
-    <joint name="4">
+    <joint name="wrist_flex">
       <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
     </joint>
     <actuator name="motor4">
@@ -397,7 +398,7 @@
 
   <!-- Joint from upper_arm to lower_arm -->
   <!-- Note: 5-degree calibration offset applied to joint limits -->
-  <joint name="3" type="revolute">
+  <joint name="elbow_flex" type="revolute">
     <origin xyz="-0.11257 -0.028 2.46331e-16" rpy="-1.22818e-15 5.75928e-16 1.5708"/>
     <parent link="upper_arm"/>
     <child link="lower_arm"/>
@@ -405,9 +406,9 @@
     <limit effort="10" velocity="10" lower="-1.69" upper="1.69"/>
   </joint>
 
-  <transmission name="3_trans">
+  <transmission name="elbow_flex_trans">
     <type>transmission_interface/SimpleTransmission</type>
-    <joint name="3">
+    <joint name="elbow_flex">
       <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
     </joint>
     <actuator name="motor3">
@@ -417,7 +418,7 @@
   </transmission>
 
   <!-- Joint from shoulder to upper_arm -->
-  <joint name="2" type="revolute">
+  <joint name="shoulder_lift" type="revolute">
     <origin xyz="-0.0303992 -0.0182778 -0.0542" rpy="-1.5708 -1.5708 0"/>
     <parent link="shoulder"/>
     <child link="upper_arm"/>
@@ -425,9 +426,9 @@
     <limit effort="10" velocity="10" lower="-1.74533" upper="1.74533"/>
   </joint>
 
-  <transmission name="2_trans">
+  <transmission name="shoulder_lift_trans">
     <type>transmission_interface/SimpleTransmission</type>
-    <joint name="2">
+    <joint name="shoulder_lift">
       <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
     </joint>
     <actuator name="motor2">
@@ -437,7 +438,7 @@
   </transmission>
 
   <!-- Joint from base to shoulder -->
-  <joint name="1" type="revolute">
+  <joint name="shoulder_pan" type="revolute">
     <origin xyz="0.0207909 -0.0230745 0.0948817" rpy="-3.14159 6.03684e-16 1.5708"/>
     <parent link="base"/>
     <child link="shoulder"/>
@@ -445,9 +446,9 @@
     <limit effort="10" velocity="10" lower="-1.91986" upper="1.91986"/>
   </joint>
 
-  <transmission name="1_trans">
+  <transmission name="shoulder_pan_trans">
     <type>transmission_interface/SimpleTransmission</type>
-    <joint name="1">
+    <joint name="shoulder_pan">
       <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
     </joint>
     <actuator name="motor1">
