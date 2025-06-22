@@ -2,7 +2,7 @@
 
 <img src="../../media/d435_mount.png" width="600" />
 
-This 3D-printed mount lets you easily attach an Intel® RealSense™ D435 or D435i to the **SO100 wrist** — no modifications or extra hardware required.  
+This 3D-printed mount lets you easily attach an Intel® RealSense™ D435 or D435i to the **SO-100 wrist** — no modifications or extra hardware required.  
 You can reuse the spare screws included with the Feetech servos.
 
 
@@ -11,7 +11,7 @@ You can reuse the spare screws included with the Feetech servos.
 
 ### Assembly Instructions
 
-- Use **5 small screws** to attach the mount to the SO-arm wrist.  
+- Use **5 small screws** to attach the mount to the SO-100 wrist.  
 - Use **2 M3*6mm screws** to secure the Intel camera to the mount.
 
 
