@@ -1,6 +1,6 @@
 # Wrist Camera Mount for Intel® RealSense™ D435/D435i
 
-<img src="../../media/d435_mount.png" width="600" />
+<img src="../../media/d435_mount.jpg" width="600" />
 
 This 3D-printed mount lets you easily attach an Intel® RealSense™ D435 or D435i to the **SO-100 wrist** — no modifications or extra hardware required.  
 You can reuse the spare screws included with the Feetech servos.
@@ -31,4 +31,4 @@ You can reuse the spare screws included with the Feetech servos.
 
 You can also use this mount with a **Vinmooog camera** using the adapter below:
 
-<img src="../../media/d435_to_vinmooog_adapter.png" width="600" />
+<img src="../../media/d435_to_vinmooog_adapter.jpg" width="600" />
