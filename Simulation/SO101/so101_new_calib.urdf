@@ -362,7 +362,7 @@
     <parent link="wrist"/>
     <child link="gripper"/>
     <axis xyz="0 0 1"/>
-    <limit effort="10" velocity="10" lower="-2.79253" upper="2.79253"/>
+    <limit effort="10" velocity="10" lower="-2.74385" upper="2.84121"/>
   </joint>
 
   <transmission name="wrist_roll_trans">
