@@ -178,7 +178,7 @@
 
 
   <!-- Joint from base to shoulder -->
-  <joint name="1" type="revolute">
+  <joint name="shoulder_pan" type="revolute">
     <parent link="base"/>
     <child link="shoulder"/>
     <origin xyz="0 -0.0452 0.0165" rpy="1.57079 0 0"/>
@@ -186,9 +186,9 @@
     <limit lower="-2" upper="2" effort="35" velocity="1"/>
   </joint>
 
-  <transmission name="1_trans">
+  <transmission name="shoulder_pan_trans">
     <type>transmission_interface/SimpleTransmission</type>
-    <joint name="1">
+    <joint name="shoulder_pan">
       <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
     </joint>
     <actuator name="motor1">
@@ -198,7 +198,7 @@
   </transmission>
 
   <!-- Joint from shoulder to upper_arm -->
-  <joint name="2" type="revolute">
+  <joint name="shoulder_lift" type="revolute">
     <parent link="shoulder"/>
     <child link="upper_arm"/>
     <origin xyz="0 0.1025 0.0306" rpy="-1.8 0 0"/>
@@ -206,9 +206,9 @@
     <limit lower="0" upper="3.5" effort="35" velocity="1"/>
   </joint>
 
-  <transmission name="2_trans">
+  <transmission name="shoulder_lift_trans">
     <type>transmission_interface/SimpleTransmission</type>
-    <joint name="2">
+    <joint name="shoulder_lift">
       <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
     </joint>
     <actuator name="motor2">
@@ -218,7 +218,7 @@
   </transmission>
 
   <!-- Joint from upper_arm to lower_arm -->
-  <joint name="3" type="revolute">
+  <joint name="elbow_flex" type="revolute">
     <parent link="upper_arm"/>
     <child link="lower_arm"/>
     <origin xyz="0 0.11257 0.028" rpy="1.57079 0 0"/>
@@ -226,9 +226,9 @@
     <limit lower="-3.14158" upper="0" effort="35" velocity="1"/>
   </joint>
 
-  <transmission name="3_trans">
+  <transmission name="elbow_flex_trans">
     <type>transmission_interface/SimpleTransmission</type>
-    <joint name="3">
+    <joint name="elbow_flex">
       <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
     </joint>
     <actuator name="motor3">
@@ -238,7 +238,7 @@
   </transmission>
 
   <!-- Joint from lower_arm to wrist -->
-  <joint name="4" type="revolute">
+  <joint name="wrist_flex" type="revolute">
     <parent link="lower_arm"/>
     <child link="wrist"/>
     <origin xyz="0 0.0052 0.1349" rpy="-1 0 0"/>
@@ -246,9 +246,9 @@
     <limit lower="-2.5" upper="1.2" effort="35" velocity="1"/>
   </joint>
 
-  <transmission name="4_trans">
+  <transmission name="wrist_flex_trans">
     <type>transmission_interface/SimpleTransmission</type>
-    <joint name="4">
+    <joint name="wrist_flex">
       <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
     </joint>
     <actuator name="motor4">
@@ -258,7 +258,7 @@
   </transmission>
 
   <!-- Joint from wrist to gripper -->
-  <joint name="5" type="revolute">
+  <joint name="wrist_roll" type="revolute">
     <parent link="wrist"/>
     <child link="gripper"/>
     <origin xyz="0 -0.0601 0" rpy="0 1.57079 0"/>
@@ -266,9 +266,9 @@
     <limit lower="-3.14158" upper="3.14158" effort="35" velocity="1"/>
   </joint>
 
-  <transmission name="5_trans">
+  <transmission name="wrist_roll_trans">
     <type>transmission_interface/SimpleTransmission</type>
-    <joint name="5">
+    <joint name="wrist_roll">
       <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
     </joint>
     <actuator name="motor5">
@@ -278,7 +278,7 @@
   </transmission>
 
   <!-- Joint from gripper to jaw -->
-  <joint name="6" type="revolute">
+  <joint name="gripper" type="revolute">
     <parent link="gripper"/>
     <child link="jaw"/>
     <origin xyz="-0.0202 -0.0244 0" rpy="0 3.14158 0"/>
@@ -286,9 +286,9 @@
     <limit lower="-0.2" upper="2.0" effort="35" velocity="1"/>
   </joint>
 
-  <transmission name="6_trans">
+  <transmission name="gripper_trans">
     <type>transmission_interface/SimpleTransmission</type>
-    <joint name="6">
+    <joint name="gripper">
       <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
     </joint>
     <actuator name="motor6">

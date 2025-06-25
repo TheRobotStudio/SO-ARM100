@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Generated using onshape-to-robot -->
 <!-- Onshape https://cad.onshape.com/documents/7715cc284bb430fe6dab4ffd/w/4fd0791b683777b02f8d975a/e/826c553ede3b7592eb9ca800 -->
 <robot name="so101_new_calib">
@@ -75,7 +75,21 @@
       </geometry>
     </collision>
   </link>
-
+  <!-- Frame baseframe (dummy link + fixed joint) -->
+  <link name="baseframe">
+    <origin xyz="0 0 0" rpy="0 -0 0"/>
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <mass value="1e-9"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+    </inertial>
+  </link>
+  <joint name="baseframe_frame" type="fixed">
+    <origin xyz="0.020791 0.0157608 0.0324817" rpy="2.77556e-17 -9.52796e-30 -2.64454e-46"/>
+    <parent link="base"/>
+    <child link="baseframe"/>
+    <axis xyz="0 0 0"/>
+  </joint>
   <!-- Link shoulder -->
   <link name="shoulder">
     <inertial>
@@ -126,7 +140,6 @@
       </geometry>
     </collision>
   </link>
-
   <!-- Link upper_arm -->
   <link name="upper_arm">
     <inertial>
@@ -163,7 +176,6 @@
       </geometry>
     </collision>
   </link>
-
   <!-- Link lower_arm -->
   <link name="lower_arm">
     <inertial>
@@ -214,7 +226,6 @@
       </geometry>
     </collision>
   </link>
-
   <!-- Link wrist -->
   <link name="wrist">
     <inertial>
@@ -251,7 +262,6 @@
       </geometry>
     </collision>
   </link>
-
   <!-- Link gripper -->
   <link name="gripper">
     <inertial>
@@ -288,9 +298,23 @@
       </geometry>
     </collision>
   </link>
-
-  <!-- Link jaw -->
-  <link name="jaw">
+  <!-- Frame gripperframe (dummy link + fixed joint) -->
+  <link name="gripperframe">
+    <origin xyz="0 0 0" rpy="0 -0 0"/>
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <mass value="1e-9"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+    </inertial>
+  </link>
+  <joint name="gripperframe_frame" type="fixed">
+    <origin xyz="-0.0079 -0.000218121 -0.0981274" rpy="1.5708 1.22465e-16 1.5708"/>
+    <parent link="gripper"/>
+    <child link="gripperframe"/>
+    <axis xyz="0 0 0"/>
+  </joint>
+  <!-- Link moving_jaw_so101_v1 -->
+  <link name="moving_jaw_so101_v1">
     <inertial>
       <origin xyz="-0.00157495 -0.0300244 0.0192755" rpy="0 0 0"/>
       <mass value="0.012"/>
@@ -312,18 +336,18 @@
     </collision>
   </link>
 
-  <!-- Joint from gripper to jaw -->
-  <joint name="6" type="revolute">
+  <!-- Joint from gripper to moving_jaw_so101_v1 -->
+  <joint name="gripper" type="revolute">
     <origin xyz="0.0202 0.0188 -0.0234" rpy="1.5708 -5.14108e-17 -1.38655e-14"/>
     <parent link="gripper"/>
-    <child link="jaw"/>
+    <child link="moving_jaw_so101_v1"/>
     <axis xyz="0 0 1"/>
     <limit effort="10" velocity="10" lower="-0.174533" upper="1.74533"/>
   </joint>
 
-  <transmission name="6_trans">
+  <transmission name="gripper_trans">
     <type>transmission_interface/SimpleTransmission</type>
-    <joint name="6">
+    <joint name="gripper">
       <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
     </joint>
     <actuator name="motor6">
@@ -333,17 +357,17 @@
   </transmission>
 
   <!-- Joint from wrist to gripper -->
-  <joint name="5" type="revolute">
+  <joint name="wrist_roll" type="revolute">
     <origin xyz="0 -0.0611 0.0181" rpy="1.5708 -9.38083e-08 3.14159"/>
     <parent link="wrist"/>
     <child link="gripper"/>
     <axis xyz="0 0 1"/>
-    <limit effort="10" velocity="10" lower="-2.79253" upper="2.79253"/>
+    <limit effort="10" velocity="10" lower="-2.74385" upper="2.84121"/>
   </joint>
 
-  <transmission name="5_trans">
+  <transmission name="wrist_roll_trans">
     <type>transmission_interface/SimpleTransmission</type>
-    <joint name="5">
+    <joint name="wrist_roll">
       <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
     </joint>
     <actuator name="motor5">
@@ -353,7 +377,7 @@
   </transmission>
 
   <!-- Joint from lower_arm to wrist -->
-  <joint name="4" type="revolute">
+  <joint name="wrist_flex" type="revolute">
     <origin xyz="-0.1349 0.0052 1.65232e-16" rpy="3.2474e-15 2.86219e-15 -1.5708"/>
     <parent link="lower_arm"/>
     <child link="wrist"/>
@@ -361,9 +385,9 @@
     <limit effort="10" velocity="10" lower="-1.65806" upper="1.65806"/>
   </joint>
 
-  <transmission name="4_trans">
+  <transmission name="wrist_flex_trans">
     <type>transmission_interface/SimpleTransmission</type>
-    <joint name="4">
+    <joint name="wrist_flex">
       <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
     </joint>
     <actuator name="motor4">
@@ -373,17 +397,18 @@
   </transmission>
 
   <!-- Joint from upper_arm to lower_arm -->
-  <joint name="3" type="revolute">
+  <!-- Note: 5-degree calibration offset applied to joint limits -->
+  <joint name="elbow_flex" type="revolute">
     <origin xyz="-0.11257 -0.028 2.46331e-16" rpy="-1.22818e-15 5.75928e-16 1.5708"/>
     <parent link="upper_arm"/>
     <child link="lower_arm"/>
     <axis xyz="0 0 1"/>
-    <limit effort="10" velocity="10" lower="-1.74533" upper="1.5708"/>
+    <limit effort="10" velocity="10" lower="-1.69" upper="1.69"/>
   </joint>
 
-  <transmission name="3_trans">
+  <transmission name="elbow_flex_trans">
     <type>transmission_interface/SimpleTransmission</type>
-    <joint name="3">
+    <joint name="elbow_flex">
       <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
     </joint>
     <actuator name="motor3">
@@ -393,7 +418,7 @@
   </transmission>
 
   <!-- Joint from shoulder to upper_arm -->
-  <joint name="2" type="revolute">
+  <joint name="shoulder_lift" type="revolute">
     <origin xyz="-0.0303992 -0.0182778 -0.0542" rpy="-1.5708 -1.5708 0"/>
     <parent link="shoulder"/>
     <child link="upper_arm"/>
@@ -401,9 +426,9 @@
     <limit effort="10" velocity="10" lower="-1.74533" upper="1.74533"/>
   </joint>
 
-  <transmission name="2_trans">
+  <transmission name="shoulder_lift_trans">
     <type>transmission_interface/SimpleTransmission</type>
-    <joint name="2">
+    <joint name="shoulder_lift">
       <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
     </joint>
     <actuator name="motor2">
@@ -413,7 +438,7 @@
   </transmission>
 
   <!-- Joint from base to shoulder -->
-  <joint name="1" type="revolute">
+  <joint name="shoulder_pan" type="revolute">
     <origin xyz="0.0207909 -0.0230745 0.0948817" rpy="-3.14159 6.03684e-16 1.5708"/>
     <parent link="base"/>
     <child link="shoulder"/>
@@ -421,15 +446,15 @@
     <limit effort="10" velocity="10" lower="-1.91986" upper="1.91986"/>
   </joint>
 
-  <transmission name="1_trans">
+  <transmission name="shoulder_pan_trans">
     <type>transmission_interface/SimpleTransmission</type>
-    <joint name="1">
+    <joint name="shoulder_pan">
       <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
     </joint>
     <actuator name="motor1">
       <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
       <mechanicalReduction>1</mechanicalReduction>
     </actuator>
-  </transmission>
+  </transmission> 
 
 </robot>
