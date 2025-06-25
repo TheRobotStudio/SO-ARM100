@@ -197,12 +197,12 @@ For bird’s‑eye views in single or bi‑manual setups.
 <img src="https://github.com/user-attachments/assets/a652e133-8672-448d-baa0-bdd494a0a515" height="200"> | <img src="media/overhead_cam_two_followers.png" height="200"> 
 | [Instructions](Optional/Overhead_Cam_Mount_Webcam/README.md) | [Instructions](Optional/Overhead_Cam_Mount_32x32_UVC_Module/README.md) 
 
-#### 3. Raised Leader Base  
-Lift your leader arm for low‑ground tasks.
+#### 3. Base Mounts
 
-[→ Download STL](Optional/Raised_Base/Raised_Base_Extension.stl)
-
-<img src="media/Raised_Base.jpeg" alt="Raised Leader Base" width="150">
+| Raised Leader Base | 4040 Aluminum Profile Mount |
+|:-------------------:|:---------------------------:|
+<img src="media/Raised_Base.jpeg" height="150"> | <img src="media/4040_base_mount.jpg" height="150">  
+[Download STL](Optional/Raised_Base/Raised_Base_Extension.stl) | [Instructions](Optional/4040_Base_Mount/README.md)
 
 #### 4. Tactile Sensing (AnySkin)  
 Add touch sensing to your gripper.  
