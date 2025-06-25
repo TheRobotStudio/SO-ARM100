@@ -1,4 +1,4 @@
-# Wrist Camera Integrated Installation Guide for SO-100/SO-101
+# Wrist Camera Integrated/One-Piece Installation Guide for SO-100/SO-101
 
 <img width="250" src="../../media/Wrist_Cam_Mount_32x32_UVC_module_1.jpg" /> 
 <img width="250" src="../../media/Wrist_Cam_Mount_32x32_UVC_module_2.jpg" />
