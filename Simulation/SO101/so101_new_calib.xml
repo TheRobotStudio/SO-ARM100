@@ -136,19 +136,19 @@
     <mesh file="motor_holder_so101_wrist_v1.stl"/>
     <mesh file="sts3215_03a_no_horn_v1.stl"/>
     <mesh file="base_so101_v2.stl"/>
-    <material name="base_motor_holder_so101_v1_material" rgba="0.964706 0.964706 0.952941 1"/>
-    <material name="base_so101_v2_material" rgba="0.964706 0.964706 0.952941 1"/>
-    <material name="sts3215_03a_v1_material" rgba="0.627451 0.627451 0.627451 1"/>
-    <material name="waveshare_mounting_plate_so101_v2_material" rgba="0.964706 0.964706 0.952941 1"/>
-    <material name="motor_holder_so101_base_v1_material" rgba="0.964706 0.964706 0.952941 1"/>
-    <material name="rotation_pitch_so101_v1_material" rgba="0.964706 0.964706 0.952941 1"/>
-    <material name="upper_arm_so101_v1_material" rgba="0.964706 0.964706 0.952941 1"/>
-    <material name="under_arm_so101_v1_material" rgba="0.964706 0.964706 0.952941 1"/>
-    <material name="motor_holder_so101_wrist_v1_material" rgba="0.964706 0.964706 0.952941 1"/>
-    <material name="sts3215_03a_no_horn_v1_material" rgba="0.627451 0.627451 0.627451 1"/>
-    <material name="wrist_roll_pitch_so101_v2_material" rgba="0.964706 0.964706 0.952941 1"/>
-    <material name="wrist_roll_follower_so101_v1_material" rgba="0.964706 0.964706 0.952941 1"/>
-    <material name="moving_jaw_so101_v1_material" rgba="0.964706 0.964706 0.952941 1"/>
+    <material name="base_motor_holder_so101_v1_material" rgba="1 0.82 0.12 1"/>
+    <material name="base_so101_v2_material" rgba="1 0.82 0.12 1"/>
+    <material name="sts3215_03a_v1_material" rgba="0.1 0.1 0.1 1"/>
+    <material name="waveshare_mounting_plate_so101_v2_material" rgba="1 0.82 0.12 1"/>
+    <material name="motor_holder_so101_base_v1_material" rgba="1 0.82 0.12 1"/>
+    <material name="rotation_pitch_so101_v1_material" rgba="1 0.82 0.12 1"/>
+    <material name="upper_arm_so101_v1_material" rgba="1 0.82 0.12 1"/>
+    <material name="under_arm_so101_v1_material" rgba="1 0.82 0.12 1"/>
+    <material name="motor_holder_so101_wrist_v1_material" rgba="1 0.82 0.12 1"/>
+    <material name="sts3215_03a_no_horn_v1_material" rgba="0.1 0.1 0.1 1.0"/>
+    <material name="wrist_roll_pitch_so101_v2_material" rgba="1 0.82 0.12 1"/>
+    <material name="wrist_roll_follower_so101_v1_material" rgba="1 0.82 0.12 1"/>
+    <material name="moving_jaw_so101_v1_material" rgba="1 0.82 0.12 1"/>
   </asset>
   <actuator>
     <position class="sts3215" name="shoulder_pan" joint="shoulder_pan" forcerange="-3.35 3.35" ctrlrange="-1.91986 1.91986"/>
