@@ -182,6 +182,16 @@ Extend your SO‑100/SO‑101 with these add-ons.
 <details>
 <summary>Add‑ons</summary>
 
+#### 0. XLeRobot
+
+A dual-arm mobile robot for daily use, with 2x SO101 arms, 1x Lekiwi base, 1x 300Wh Anker Battery, 2x wrist RGB cameras, 1x head depth camera (with a 2-dof neck). Total cost 960$.
+
+<img src="https://github.com/user-attachments/assets/588b7b3d-8d6a-471b-8d00-9253f9822c4a" height="300">
+
+[→ Full Documentation](https://xlerobot.readthedocs.io/en/latest/index.html), with detailed BOM, 3D models, assembly guide, and complete simulation platform.
+<img src="https://github.com/user-attachments/assets/c1e45354-29e9-47b7-8d7d-8944496a3c22" height="300">
+
+
 #### 1. Mount Helper  
 Print the handy mount jig for easier alignment during assembly.  
 
