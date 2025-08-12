@@ -186,12 +186,12 @@ Extend your SO‑100/SO‑101 with these add-ons.
 
 #### 0. XLeRobot
 
-A dual-arm mobile robot for daily use, with 2x SO101 arms, 1x Lekiwi base, 1x 300Wh Anker Battery, 2x wrist RGB cameras, 1x head depth camera (with a 2-dof neck). Total cost 960$.
+A dual-arm mobile robot for daily use, with 2x SO101 arms, 1x Lekiwi base, 1x 300Wh Anker Battery, 2x wrist RGB cameras, 1x head depth camera (with a 2-dof neck). Total cost 660$.
 
-<img src="https://github.com/user-attachments/assets/588b7b3d-8d6a-471b-8d00-9253f9822c4a" height="300">
+<img width="1725" height="1140" alt="82c2b72eab7c716b90fafac0a9caf895" src="https://github.com/user-attachments/assets/10819ef0-80a2-4cfe-be81-7daa8918cca1" />
 
-[→ Full Documentation](https://xlerobot.readthedocs.io/en/latest/index.html), with detailed BOM, 3D models, assembly guide, and complete simulation platform.
-<img src="https://github.com/user-attachments/assets/c1e45354-29e9-47b7-8d7d-8944496a3c22" height="300">
+
+[→ Full Documentation](https://xlerobot.readthedocs.io/en/latest/index.html), with detailed BOM, 3D printing models, assembly guide, simulation, and teleop guide.
 
 
 #### 1. Mount Helper  
@@ -242,6 +242,12 @@ Add some flexibility to your gripper by downloading the compliant gripper parts 
 
 <img src="https://github.com/user-attachments/assets/26de0b8c-8bd6-4651-867f-1358532e2cc6" width="150">
 
+#### 7. Compliant Gripper (new)
+Printed with TPU 95A for the finger and PLA for the base. 
+Better structure and better grasp (both precision and power). No need to print support for the TPU finger. Requires 2 additional M3 screws, optional 3M gripper tape for higher friction.
+![d2e57534a9e55a3d4dc0d644242cd044](https://github.com/user-attachments/assets/e814ed0a-72ce-43ad-80bf-5f03b7f16b90)
+
+[→ Find on XLeRobot](https://github.com/Vector-Wangel/XLeRobot/tree/main/hardware)
 </details>
 
 ## Debugging Motors
