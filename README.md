@@ -242,6 +242,12 @@ Add some flexibility to your gripper by downloading the compliant gripper parts 
 
 <img src="https://github.com/user-attachments/assets/26de0b8c-8bd6-4651-867f-1358532e2cc6" width="150">
 
+#### 7. Compliant Gripper (new)
+Add some flexibility to your gripper by downloading the compliant gripper parts and printing them using a flexible filament like TPU 95A. 
+Better structure and better grasp (both precision and power). No need to print support for the TPU finger. Requires 2 additional M3 screws, optional 3M gripper tape for higher friction.
+![d2e57534a9e55a3d4dc0d644242cd044](https://github.com/user-attachments/assets/e814ed0a-72ce-43ad-80bf-5f03b7f16b90)
+
+[→ Find on XLeRobot](https://github.com/Vector-Wangel/XLeRobot/tree/main/hardware)
 </details>
 
 ## Debugging Motors
