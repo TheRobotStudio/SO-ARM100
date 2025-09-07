@@ -1,8 +1,11 @@
 # Overhead Camera (Realsense D435)
 
+<img height="400" src="../../media/overhead_cam_realsense1.jpg" />
+<img height="400" src="../../media/overhead_cam_realsense2.jpg" />
+
 This STL is a rough combination of
-* [the original overhead camera (32x32 Camera Module) top mount](https://github.com/TheRobotStudio/SO-ARM100/tree/main/Optional/Overhead_Cam_Mount_32x32_UVC_Module)
-* [the original wrist-mounted Realsense D435](https://github.com/TheRobotStudio/SO-ARM100/tree/main/Optional/Wrist_Cam_Mount_RealSense_D435)
+* [the overhead camera (32x32 Camera Module) top mount](../Overhead_Cam_Mount_32x32_UVC_Module)
+* [the wrist-mounted Realsense D435](../Wrist_Cam_Mount_RealSense_D435)
 
 Credits to the original authors.
 
