@@ -56,6 +56,7 @@ You can find all optional for SO-100/SO-101 kits here:
 - from WowRobo :earth_africa: [International](https://shop.wowrobo.com/products/so-arm101-diy-kit-assembled-version-1) or :cn: [China](https://item.taobao.com/item.htm?ft=t&id=860171734711) (They include **assembled** versions)
 - from Sudoremove :kr: [South Korea](https://smartstore.naver.com/sudoremove/products/12022333117)
 - from NeoBot :cn: [China](https://item.taobao.com/item.htm?ft=t&id=957685951340)
+- from AZTRobotics :cn: [China](https://item.taobao.com/item.htm?id=922840646137)  (include **3d printed kits** and also sell LeKiwi)
 
 Additionally you can find SO-100 follower arm kit (without leader arm) on [Phospho](https://robots.phospho.ai). It can be especially useful if you own a VR headset.
 
