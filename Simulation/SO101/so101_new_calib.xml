@@ -20,8 +20,11 @@
     <default class="sts3215">
       <geom contype="0" conaffinity="0"/>
       <joint damping="0.60" frictionloss="0.052" armature="0.028"/>
-      <!-- For lerobot this are not exactly the motor params as the Kp and Kd not map 1-to-1 thus motor idendification with lerobot Kp=16 and Kd=32 should actually be done -->
-      <position kp="17.8"/>
+      <!-- These gains are not a 1-to-1 mapping of the servo gains used in
+           Lerobot. These position gains and forces were calculated according to
+           https://github.com/Gregory119/RBE501-RL-arm-project/blob/main/gymnasium_env/README.md,
+           assuming that the servo proportional gain is set to 16. -->
+      <position kp="998.22" kv="2.731" forcerange="-2.94 2.94"/>
     </default>
     <default class="backlash">
       <!-- +/- 0.5° of backlash -->
