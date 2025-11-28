@@ -251,5 +251,8 @@ Better structure and better grasp (both precision and power). No need to print s
 </details>
 
 ## Debugging Motors
-For debugging, any Windows PC can connect over USB to program the servos and to debug or do tests. To do so download [Feetech Software](https://www.feetechrc.com/software.html). For Ubuntu, you can use [FT_SCServo_Debug_Qt](https://github.com/Kotakku/FT_SCServo_Debug_Qt). Note: This step is not necessary as motors can be configured using the LeRobot Library, but this can be helpful for debugging.
+For debugging, any Windows PC can connect over USB to program the servos and to debug or do tests. To do so download the proprietary [Feetech Software](https://www.feetechrc.com/software.html). 
 
+Two Open Source alternatives exist. For Ubuntu, you can use [FT_SCServo_Debug_Qt](https://github.com/Kotakku/FT_SCServo_Debug_Qt). For Windows, Linux and MacOS there is [Feetech-Servo-Tool](https://github.com/dgmz/feetech-servo-tool).
+
+Note: This step is not necessary as motors can be configured using the LeRobot Library, but this can be helpful for debugging.
