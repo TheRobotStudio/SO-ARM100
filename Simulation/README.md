@@ -27,4 +27,4 @@ rerun Simulation/SO101/so101_old_calib.urdf
   - The differences between the **old** and **new calibration** URDFs.
   - How the **MJCF** file was generated from the CAD model.
 
-👉 See the file [`Simulation/SO101/README.md`](Simulation/SO101/README.md).
+👉 See the file [`Simulation/SO101/README.md`](SO101/README.md).
