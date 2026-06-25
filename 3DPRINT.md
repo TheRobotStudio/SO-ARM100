@@ -1,15 +1,21 @@
 # 3D Printing Services
 
-There are different ways to get your parts 3D printed, below are the options and which one to choose. We will add more services once we verify them. If you tried another service please let us know so we can add it here. Additionaly SeeedStudio also sells the 3D printed parts only: [SO-ARM100 3D-Printed Enclosure](https://www.seeedstudio.com/SO-ARM100-3D-printed-Enclosure-p-6409.html).  
+There are different ways to get your parts 3D printed, below are the options and which one to choose. We will add more services once we verify them. If you tried another service please let us know so we can add it here. Additionally SeeedStudio also sells the 3D printed parts only: [SO-ARM100 3D-Printed Enclosure](https://www.seeedstudio.com/SO-ARM100-3D-printed-Enclosure-p-6409.html).  
 
 - [Europe](#craftcloud3d) (Craftcloud3d) :fr: :de: :uk: :it: :es:
 - [US](#craftcloud3d) (Craftcloud3d) :us:
 - [China](#pcbway) (PCBWay) :cn:
 
 ### [Craftcloud3d](https://craftcloud3d.com)
-**PCBWay** ships worldwide and has partners in different countries that produce the parts. This makes it flexible, although pricing can vary.
+**Craftcloud** is a marketplace that routes your order to manufacturing partners in different countries. This makes it flexible, although pricing can vary.
 
-To get your parts made you can go to [craftcloud3d.com](https://craftcloud3d.com/upload) and upload all files inside these two folders (25 files in total): `stl_files_for_3dprinting/Individual/Follower` and `stl_files_for_3dprinting/Individual/Leader` here:
+To get your parts made you can go to [craftcloud3d.com](https://craftcloud3d.com/upload) and upload the individual part files from `STL/SO101/Individual/`. There are 14 distinct parts (9 shared parts plus the leader- and follower-specific parts) — see the [Individual Part Files](README.md#step-4-print-the-parts) table in the README for the full breakdown. A few things to note:
+
+- **Do not** upload `SO101 Assembly.stl` — it is a reference model of the whole arm, not a printable part.
+- Upload only **one** mounting plate, `WaveShare_Mounting_Plate_SO101.stl` **or** `Seeedstudio_Mounting_Plate_SO101.stl`, matching your servo driver board.
+- The 9 shared parts are used on **both** arms, so set their quantity to **2** if you are building a leader + follower pair.
+
+Upload them here:
 
 ![Craftcloud3d](./media/3dprinting/craftcloud1.png)
 
@@ -33,12 +39,12 @@ Finally choose your manufacturer. You can choose manufacturer based on price, de
 
 ![Craftcloud3d](./media/3dprinting/craftcloud5.png)
 
-And thats it, once the parts arrive you are ready to assemble your SO100!
+And that's it, once the parts arrive you are ready to assemble your SO-101!
 
-### [PCBWay](pcbway.com)
+### [PCBWay](https://www.pcbway.com)
 **PCBWay** ships worldwide but outside of China import taxes should be paid. This makes it more expensive to order here.
 
-To get your parts made you can go to [pcbway.com](https://www.pcbway.com/rapid-prototyping/manufacture/?type=2) and upload these two files `stl_files_for_3dprinting/Leader/Print_Leader_SO_ARM100_08k_Ender.STL` and `stl_files_for_3dprinting/Follower/Print_Follower_SO_ARM100_08k_Ender.STL` here:
+To get your parts made you can go to [pcbway.com](https://www.pcbway.com/rapid-prototyping/manufacture/?type=2) and upload these two all-in-one plate files `STL/SO101/Leader/Ender_Leader_SO101.stl` and `STL/SO101/Follower/Ender_Follower_SO101.stl` here:
 
 ![PCBWay](./media/3dprinting/pcb_way.png)
 
