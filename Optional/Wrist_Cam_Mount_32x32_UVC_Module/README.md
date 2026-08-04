@@ -12,7 +12,7 @@ This guide provides step-by-step instructions for installing a **Wrist Camera** 
 - fewer parts
 - no additional screws/hardware needed to attach camera
 
-#### Disdvantages:
+#### Disadvantages:
 - requires removal/replacement of existing **Wrist Roll** vs an add-on
 
 ## Required Components

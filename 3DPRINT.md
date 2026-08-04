@@ -1,6 +1,6 @@
 # 3D Printing Services
 
-There are different ways to get your parts 3D printed, below are the options and which one to choose. We will add more services once we verify them. If you tried another service please let us know so we can add it here. Additionaly SeeedStudio also sells the 3D printed parts only: [SO-ARM100 3D-Printed Enclosure](https://www.seeedstudio.com/SO-ARM100-3D-printed-Enclosure-p-6409.html).  
+There are different ways to get your parts 3D printed, below are the options and which one to choose. We will add more services once we verify them. If you tried another service please let us know so we can add it here. Additionally SeeedStudio also sells the 3D printed parts only: [SO-ARM100 3D-Printed Enclosure](https://www.seeedstudio.com/SO-ARM100-3D-printed-Enclosure-p-6409.html).
 
 - [Europe](#craftcloud3d) (Craftcloud3d) :fr: :de: :uk: :it: :es:
 - [US](#craftcloud3d) (Craftcloud3d) :us:
@@ -33,7 +33,7 @@ Finally choose your manufacturer. You can choose manufacturer based on price, de
 
 ![Craftcloud3d](./media/3dprinting/craftcloud5.png)
 
-And thats it, once the parts arrive you are ready to assemble your SO100!
+And that's it, once the parts arrive you are ready to assemble your SO100!
 
 ### [PCBWay](pcbway.com)
 **PCBWay** ships worldwide but outside of China import taxes should be paid. This makes it more expensive to order here.
@@ -56,4 +56,3 @@ This tells PCBWay we want to use [FDM](https://www.hubs.com/knowledge-base/what-
 Now the parts will be verified and you will be given a final quotation with shipping costs. The pricing can vary but our experience was that the total for both a leader and a follower was around ~95,- dollars. You can have contact with PCBWay via their online portal.
 
 ![PCBWay](./media/3dprinting/pcb_way3.png)
-

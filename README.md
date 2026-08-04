@@ -28,7 +28,7 @@ These arms are designed to work seamlessly with the open‑source 🤗 LeRobot l
 
 ### Documentation 📖
 - For the SO‑101 docs, follow this page further.
-- Here you can find the [SO‑100 docs](SO100.md) which is deprecated.
+- Here you can find the [SO‑100 docs](SO100.md), which are deprecated.
 
 ### Getting Your Own SO‑101 
 You have two options:
@@ -41,7 +41,7 @@ You have two options:
    - Optionally follow our [Assembly Guide](https://huggingface.co/docs/lerobot/so101).
 
 ### Setup with LeRobot 🤗
-After sourcing all parts you can setup your SO-101 with LeRobot [tutorial](https://huggingface.co/docs/lerobot/so101). 
+After sourcing all parts, you can set up your SO-101 using the LeRobot [tutorial](https://huggingface.co/docs/lerobot/so101).
 
 ### Optional Hardware 🔧
 This repository also includes a range of optional hardware designs such as a raised leader base and different camera mounts. Here you can explore the [full list](#optional-hardware).
@@ -49,7 +49,7 @@ This repository also includes a range of optional hardware designs such as a rai
 
 ## Kits
 
-You can find all optional for SO-100/SO-101 kits here:
+You can find all options for SO-100/SO-101 kits here:
 
 - from PartaBot :us: [US](https://partabot.com) (They include **assembled** versions, and also sell LeKiwi and Koch robots)
 - from Seeed studio :earth_africa: [International](https://www.seeedstudio.com/SO-ARM100-Low-Cost-AI-Arm-Kit.html) or :cn: [China](https://item.taobao.com/item.htm?id=878010637397&skuId=5915703371829&spm=a213gs.v2success.0.0.4cbf4831mkqWLn) or :jp: [Akizuki Denshi](https://akizukidenshi.com/catalog/g/g131169/) or [Aliexpress](https://www.aliexpress.com/item/3256808696884714.html?gatewayAdapt=4itemAdapt) (They include **3d printed kits**)
@@ -62,12 +62,12 @@ Additionally you can find SO-100 follower arm kit (without leader arm) on [Phosp
 
 ## Sourcing Parts
 
-The follower and leader arm for this teleoperation setup will almost the same off the shelf parts (except for the motors). If you plan on creating the classic teleoperation set up to be used with the `LeRobot` library please buy from the Parts for Two Arms below. 
+The follower and leader arms for this teleoperation setup use almost the same off-the-shelf parts (except for the motors). If you plan on creating the classic teleoperation setup to be used with the `LeRobot` library, please buy from the Parts for Two Arms below.
 
 We only have links for US, EU, CN, and JP for now. If you find links for other countries, please create an issue or PR so that we add them to the list. Note that prices and items may vary depending on geographic location.
 
 > [!IMPORTANT]  
-> The STS3215 motors for the follower arm comes in two sizes. The 7.4V has a stall torque of 16.5kg.cm at 6V (and likely slightly less for a 5V power supply). The 12V version has a stall torque of 30kg.cm. While we found the 7.4V to be sufficient, if you would like more powerful motors you can buy the 12V version [here](https://www.alibaba.com/product-detail/6PCS-12V-30KG-STS3215-High-Torque_1601216757543.html). Note if you do this, you will also have to buy a 12V 5A+ power supply instead of a 5V one. The leader arm is always 7.4V for the SO101.
+> The STS3215 motors for the follower arm come in two sizes. The 7.4V has a stall torque of 16.5kg.cm at 6V (and likely slightly less for a 5V power supply). The 12V version has a stall torque of 30kg.cm. While we found the 7.4V to be sufficient, if you would like more powerful motors you can buy the 12V version [here](https://www.alibaba.com/product-detail/6PCS-12V-30KG-STS3215-High-Torque_1601216757543.html). Note if you do this, you will also have to buy a 12V 5A+ power supply instead of a 5V one. The leader arm is always 7.4V for the SO101.
 
 #### Parts For Two Arms (Follower and Leader Setup):
 
@@ -98,11 +98,11 @@ We only have links for US, EU, CN, and JP for now. If you find links for other c
 | Screwdriver Set<sup>[1](#myfootnote1)</sup> | 1      | $6             | [Amazon](https://www.amazon.com/Precision-Phillips-Screwdriver-Electronics-Computer/dp/B0DB227RTH)                                                    | €9            | [Amazon](https://www.amazon.fr/Vinabo-Magnétique-Electronique-Réparation-Informatique/dp/B0BNQBNFFJ)                                                                                                        | ￥14.9          | [TaoBao](https://detail.tmall.com/item.htm?id=675684600845&skuId=4856851392176) | ￥500         | [Amazon](https://www.amazon.co.jp/dp/B01MDNJVMN)  |
 | Total                                       | ---    | $121.94           | ---                                                                                                                                                   | €124.3        | ---                                                                                                                                                   | ￥682.23        | ---                                                                             | ￥24,414        | ---                                                                             |
 
-<a name="myfootnote1">1</a>: You do not need to use this exact screwdriver set, but it is highly recommended to have phillips head screw driver sizes #0 and #1 for easiest screw installation and removal. These are both standard sizes which will likely appear in most small screwdriver sets.
+<a name="myfootnote1">1</a>: You do not need to use this exact screwdriver set, but it is highly recommended to have Phillips-head screwdriver sizes #0 and #1 for the easiest screw installation and removal. These are both standard sizes that will likely appear in most small screwdriver sets.
 
 ## Printing the Parts
 
-A variety of 3D printers are acceptable to print the parts necessary of the follower and leader arm. Follow the steps below to ensure a good print.
+A variety of 3D printers can print the parts necessary for the follower and leader arms. Follow the steps below to ensure a good print.
 
 ### Step 1: Choose a Printer
 The STL files provided are ready to print on many FDM printers. Below are the tested and suggested settings though others may work.
@@ -112,25 +112,25 @@ The STL files provided are ready to print on many FDM printers. Below are the te
    4. Sample Printers: [Prusa MINI+](https://www.prusa3d.com/product/original-prusa-mini-semi-assembled-3d-printer-4/), [UP Plus 2](https://shop.tiertime.com/product/tiertime-up-plus-2-3d-printer/), [Creality Ender 3](https://www.amazon.com/Comgrow-Creality-Ender-Aluminum-220x220x250mm/dp/B07BR3F9N6/), [Bambu Lab A/P/X-series](https://bambulab.com)
 
 ### Step 2: Set up the Printer
-   1. Ensure that the printer is calibrated and the bed level is correctly set using the printer specific instructions.
+   1. Ensure that the printer is calibrated and the bed level is correctly set using the printer-specific instructions.
    2. Clean the print bed, making sure it is free from dust, or grease. If cleaning the bed using water, or other liquid, dry the bed.
    3. If your printer recommends it, use a standard glue stick and apply a thin, even layer of glue across the print area of the bed. Avoid clumping or uneven application.
-   4. Load the printer filament using printer specific instructions.
+   4. Load the printer filament using printer-specific instructions.
    5. Ensure the printer settings match the ones suggested above (most printers have multiple settings so choose the ones that most closely match).
    6. Set for supports everywhere but ignore slopes greater than 45 degrees to the horizontal.
    7. There should be no supports in the screw holes with horizontal axes.
 ### Step 3: Check Printer Accuracy
-   1. In the [Gauges](STL/Gauges) folder, there are two types of gauges, one to check the size of print against a standard 4x2 lego block and one against a STS3215 servo.
+   1. In the [Gauges](STL/Gauges) folder, there are two types of gauges, one to check the size of a print against a standard 4x2 LEGO block and one against an STS3215 servo.
       1. If you have a STS3215 servo, print:
          1. [Gauge Zero](STL/Gauges/Gauge_0.STL)
          2. [Gauge Tight](STL/Gauges/Gauge_tight_1.STL)
-      2. If you have a standard lego block, print:
+      2. If you have a standard LEGO block, print:
          1. [Gauge Zero](STL/Gauges/Lego_Size_Test_02_zero.STL)
          2. [Gauge -0.1](STL/Gauges/Lego_Size_Test_02_minuspoint1.STL)
    2. Test the gauge 0 against your given object (Lego or Servo). The fit should be similar to this [tutorial](https://youtu.be/dss8E3DG2rA).
-   3. If the fit is appropriate, go onto Step 4, otherwise, change your printer settings and try again or create an issue.
+   3. If the fit is appropriate, go on to Step 4. Otherwise, change your printer settings and try again or create an issue.
 ### Step 4: Print the Parts
-All the parts for the leader or follower are for easy 3D printing already contained in a **single file**, correctly orientated for z upwards to minimize supports.
+All the parts for the leader or follower are contained in a **single file** for easy 3D printing, correctly oriented with the Z-axis upward to minimize supports.
    1. For printer bed sizes of 220mmx220mm (such as the Ender), print these files:
       - [Follower](STL/SO101/Follower/Ender_Follower_SO101.stl)
       - [Leader](STL/SO101/Leader/Ender_Leader_SO101.stl)
@@ -173,7 +173,7 @@ This table contains all individual files:
 </details>
 
 ### Step 5: Remove Supports
-   1. After the print is done, use a putty knife to scrape the the parts off the print bed.
+   1. After the print is done, use a putty knife to scrape the parts off the print bed.
    2. Remove any support material from parts.
 
 ### Don't Own a 3D printer?
@@ -253,4 +253,3 @@ Better structure and better grasp (both precision and power). No need to print s
 
 ## Debugging Motors
 For debugging, any Windows PC can connect over USB to program the servos and to debug or do tests. To do so download [Feetech Software](https://www.feetechrc.com/software.html). For Ubuntu, you can use [FT_SCServo_Debug_Qt](https://github.com/Kotakku/FT_SCServo_Debug_Qt). Note: This step is not necessary as motors can be configured using the LeRobot Library, but this can be helpful for debugging.
-
