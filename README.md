@@ -173,7 +173,7 @@ This table contains all individual files:
 </details>
 
 ### Step 5: Remove Supports
-   1. After the print is done, use a putty knife to scrape the the parts off the print bed.
+   1. After the print is done, use a putty knife to scrape the parts off the print bed.
    2. Remove any support material from parts.
 
 ### Don't Own a 3D printer?
@@ -253,4 +253,3 @@ Better structure and better grasp (both precision and power). No need to print s
 
 ## Debugging Motors
 For debugging, any Windows PC can connect over USB to program the servos and to debug or do tests. To do so download [Feetech Software](https://www.feetechrc.com/software.html). For Ubuntu, you can use [FT_SCServo_Debug_Qt](https://github.com/Kotakku/FT_SCServo_Debug_Qt). Note: This step is not necessary as motors can be configured using the LeRobot Library, but this can be helpful for debugging.
-

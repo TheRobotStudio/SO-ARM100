@@ -10,7 +10,7 @@ This repository contains the URDF and MuJoCo (MJCF) files for the SO101 robot.
 
 ## Calibration Methods
 
-The MuJoCo file `scene.xml` supports two differenly calibrated SO101 robot files:
+The MuJoCo file `scene.xml` supports two differently calibrated SO101 robot files:
 
 - **New Calibration (Default)**: Each joint's virtual zero is set to the **middle** of its joint range. Use -> `so101_new_calib.xml`. 
 - **Old Calibration**: Each joint's virtual zero is set to the configuration where the robot is **fully extended horizontally**. Use -> `so101_old_calib.xml`.

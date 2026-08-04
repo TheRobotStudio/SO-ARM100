@@ -6,7 +6,7 @@
 ## Overview
 This guide provides step-by-step instructions for installing a **Wrist Camera** (alternate "McGartoll-Fung" design) on the SO-100 robot using a **Camera Module** and a 3D-printed **Plug-in Camera adapter**.
 
-This an adapatation of [Wrist Camera (MF) UVC Module](../Wrist_Cam_Mount_32x32_UVC_Module/)
+This is an adaptation of [Wrist Camera (MF) UVC Module](../Wrist_Cam_Mount_32x32_UVC_Module/)
 
 ## Comparison to Main Design
 #### Advantages:
@@ -16,8 +16,8 @@ This an adapatation of [Wrist Camera (MF) UVC Module](../Wrist_Cam_Mount_32x32_U
 - no removal/replacement of existing pieces
 - easy removal/replacement
 
-#### Disdvantages:
-- still require to adapt to new camera
+#### Disadvantages:
+- still requires adapting to a new camera
 
 ## Required Components
 ### Hardware:
