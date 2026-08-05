@@ -21,6 +21,7 @@ This guide provides step-by-step instructions for installing an **Overhead Camer
 - **Camera Module** (1) - A 32mm x 32mm camera module. This is the [tested / recommended model](https://www.amazon.com/dp/B0CLRJZG8D), but many types are available.
 - **3D-printed parts**
     - [Arm Base](stl/arm_base.stl) (1 per follower arm)
+    - [Base Connection Extension](stl/Base_connection_extension.stl) (optional, 1 per follower arm)
     - [Camera Mount Bottom](stl/cam_mount_bottom.stl) (1)
     - [Camera Mount Middle](stl/cam_mount_middle.stl) (1)
     - [Camera Mount Top](stl/cam_mount_top.stl) (1)
@@ -54,6 +55,9 @@ This guide provides step-by-step instructions for installing an **Overhead Camer
 ### Step 4: Attach the **Arm Base** to the **Mount Bottom**.
 <img height="250" src="https://github.com/user-attachments/assets/732977ac-dd4a-4289-9d9c-8752c0369ff0"/></br>
 1. Push the **Arm Base** into the joint lines on the side of the **Mount Bottom**.  (Repeat if you have 2 follower arms.)
+
+For additional spacing, insert the optional **Base Connection Extension** between the **Mount Bottom** and an **Arm Base**. It can be installed on either the left or right side using the original slot-fit connection, with no additional fasteners required. Matching M2 screw holes are included for optional reinforcement. The extension has been physically tested with both PLA and PETG.
+
 ### Step 5: Attach the **Follower arm** to the **Arm Base**.
 <img height="250" src="https://github.com/user-attachments/assets/24b4c0ce-e62b-4fd6-963c-09448e7ae6f9" /></br>
 1. Align the bottom of the **Follower arm** with the top of the **Arm Base**. (Repeat if you have 2 follower arms.)
