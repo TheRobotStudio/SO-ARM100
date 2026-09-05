@@ -51,6 +51,7 @@ This repository also includes a range of optional hardware designs such as a rai
 
 You can find all optional for SO-100/SO-101 kits here:
 
+- from RobotEd :switzerland: [Switzerland](https://roboted.ch/en/shop/so-101-robot-arm-kit) (They include **3d printed frame kits**, **electronics kits** and **complete arm kits**)
 - from Robonine :earth_africa: [International](https://robonine.com/) (They include **parts** kits)
 - from PartaBot :us: [US](https://partabot.com) (They include **assembled** versions, and also sell LeKiwi and Koch robots)
 - from ForgeMotion Labs :us: [US](https://forgemotionlabs.com/products) or [Amazon US](https://www.amazon.com/s?me=A3TE39P97BKL59) (They include **3d printed frame kits**, **electronics kits** and **complete arm kits**)
