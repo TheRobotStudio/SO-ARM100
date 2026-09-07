@@ -21,10 +21,11 @@ rerun Simulation/SO100/so100.urdf
 ```bash
 rerun Simulation/SO101/so101_new_calib.urdf
 rerun Simulation/SO101/so101_old_calib.urdf
+rerun Simulation/SO101/so101_new_calib_camera.urdf  # new calib + wrist camera mount
 ```
 
 - For more details on:
-  - The differences between the **old** and **new calibration** URDFs.
+  - The differences between the **old**, **new**, and **wrist camera** calibration URDFs.
   - How the **MJCF** file was generated from the CAD model.
 
 👉 See the file [`Simulation/SO101/README.md`](SO101/README.md).

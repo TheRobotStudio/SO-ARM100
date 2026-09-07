@@ -10,10 +10,11 @@ This repository contains the URDF and MuJoCo (MJCF) files for the SO101 robot.
 
 ## Calibration Methods
 
-The MuJoCo file `scene.xml` supports two differenly calibrated SO101 robot files:
+The MuJoCo file `scene.xml` supports three differenly calibrated SO101 robot files:
 
 - **New Calibration (Default)**: Each joint's virtual zero is set to the **middle** of its joint range. Use -> `so101_new_calib.xml`. 
 - **Old Calibration**: Each joint's virtual zero is set to the configuration where the robot is **fully extended horizontally**. Use -> `so101_old_calib.xml`.
+- **New Calibration + Wrist Camera**: Adds a [wrist camera mount](../../README.md#optional-hardware) (Hex-Nut, 32×32 UVC) as fixed links off the gripper. Use -> `so101_new_calib_camera.xml`.
 
 To switch between calibration methods, modify the included robot file in `scene.xml`.
 
