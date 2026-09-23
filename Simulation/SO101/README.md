@@ -17,6 +17,16 @@ The MuJoCo file `scene.xml` supports two differenly calibrated SO101 robot files
 
 To switch between calibration methods, modify the included robot file in `scene.xml`.
 
+## Leader Arm URDF
+
+`so101_leader_new_calib.urdf` is a URDF for the **SO-101 leader** (teleoperation) arm, sharing the "new calibration" zero convention above. It reuses the follower's base/shoulder/upper-arm/lower-arm/wrist links and meshes; only the gripper subtree differs: the fixed follower gripper body is replaced by `Wrist_Roll_SO101.stl` and `Handle_SO101.stl`, and the moving jaw by `Trigger_SO101.stl` (meshes converted from `STEP/SO101/Leader_Specific/`). The actuated joint keeps the name `gripper` for compatibility with the other five arm joints.
+
+```bash
+rerun Simulation/SO101/so101_leader_new_calib.urdf
+```
+
+**Calibration caveat:** the five arm joints carry the same calibration as `so101_new_calib.urdf`. The trigger joint's zero, travel limits (provisionally 0–45°) and the printed-part inertia estimates were derived from CAD geometry and a rough average printed-part density, not from a measured leader unit — there is no MJCF/XML counterpart yet.
+
 ## Motor Parameters
 
 Motor properties for the STS3215 motors used in the robot are adapted from the [Open Duck Mini project](https://github.com/apirrone/Open_Duck_Mini).
