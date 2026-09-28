@@ -36,6 +36,7 @@ You have two options:
    - Source the components from the [Bill of Materials](#sourcing-parts).
    - 3D print the parts (or order the 3D printed parts), explained in [Printing the Parts](#printing-the-parts).
    - Follow our [Assembly Guide](https://huggingface.co/docs/lerobot/so101).
+   - Community: [interactive step-by-step assembly guide](https://kitsmith.dev/so101/) with a 3D view per step and vendor part numbers cross-referenced.
 - **Buy a Kit**
    - Buy assembled arms or a parts kit from one of the vendors [here](#kits).
    - Optionally follow our [Assembly Guide](https://huggingface.co/docs/lerobot/so101).
