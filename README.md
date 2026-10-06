@@ -43,6 +43,8 @@ You have two options:
 ### Setup with LeRobot 🤗
 After sourcing all parts you can setup your SO-101 with LeRobot [tutorial](https://huggingface.co/docs/lerobot/so101). 
 
+[中文保姆级教程Chinese Doc, very detailed](https://zihao-ai.feishu.cn/wiki/space/7589642043471924447)
+
 ### Optional Hardware 🔧
 This repository also includes a range of optional hardware designs such as a raised leader base and different camera mounts. Here you can explore the [full list](#optional-hardware).
 
