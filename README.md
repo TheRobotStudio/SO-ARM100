@@ -43,6 +43,9 @@ You have two options:
 ### Setup with LeRobot 🤗
 After sourcing all parts you can setup your SO-101 with LeRobot [tutorial](https://huggingface.co/docs/lerobot/so101). 
 
+### Browser Control (Optional) 🌐
+The SO-101 is available as a community-built program on [orobot.io](https://orobot.io/o/program/BROKER-2/so-101-teleop-arm) with a browser-based control sandbox, BOM, and build guide — useful if you want to operate the arm remotely or share access with a collaborator without installing additional software.
+
 ### Optional Hardware 🔧
 This repository also includes a range of optional hardware designs such as a raised leader base and different camera mounts. Here you can explore the [full list](#optional-hardware).
 
