@@ -255,5 +255,5 @@ Better structure and better grasp (both precision and power). No need to print s
 </details>
 
 ## Debugging Motors
-For debugging, any Windows PC can connect over USB to program the servos and to debug or do tests. To do so download [Feetech Software](https://www.feetechrc.com/software.html). For Ubuntu, you can use [FT_SCServo_Debug_Qt](https://github.com/Kotakku/FT_SCServo_Debug_Qt). Note: This step is not necessary as motors can be configured using the LeRobot Library, but this can be helpful for debugging.
+For debugging, any Windows PC can connect over USB to program the servos and to debug or do tests. To do so download [Feetech Software](https://www.feetechrc.com/software.html). For Ubuntu, you can use [FT_SCServo_Debug_Qt](https://github.com/Kotakku/FT_SCServo_Debug_Qt). Note: This step is not necessary as motors can be configured using the LeRobot Library, but this can be helpful for debugging. To calibrate an SO-101 step by step with checks (motor ids, supply voltage, ranges, joint directions) and keep every calibration as a version, you can use [so101-calibrator](https://github.com/fport/so101-calibrator).
 
