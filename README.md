@@ -69,6 +69,8 @@ The follower and leader arm for this teleoperation setup will almost the same of
 
 We only have links for US, EU, CN, and JP for now. If you find links for other countries, please create an issue or PR so that we add them to the list. Note that prices and items may vary depending on geographic location.
 
+The BOM prices below are list prices from the linked stores and they drift. For a dated comparison, a [US retail check on Oct 30, 2026](https://robotusecases.com/guides/so-101-parts-list-cost) came to $131.69 for one follower arm and $254.48 for a leader + follower pair, before shipping, tax and the screwdriver set.
+
 > [!IMPORTANT]  
 > The STS3215 motors for the follower arm comes in two sizes. The 7.4V has a stall torque of 16.5kg.cm at 6V (and likely slightly less for a 5V power supply). The 12V version has a stall torque of 30kg.cm. While we found the 7.4V to be sufficient, if you would like more powerful motors you can buy the 12V version [here](https://www.alibaba.com/product-detail/6PCS-12V-30KG-STS3215-High-Torque_1601216757543.html). Note if you do this, you will also have to buy a 12V 5A+ power supply instead of a 5V one. The leader arm is always 7.4V for the SO101.
 
