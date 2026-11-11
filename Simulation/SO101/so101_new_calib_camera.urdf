@@ -336,7 +336,7 @@
     <parent link="gripper_link"/>
     <child link="moving_jaw_so101_v1_link"/>
     <axis xyz="0 0 1"/>
-    <limit effort="10" velocity="10" lower="-0.174533" upper="1.74533"/>
+    <limit effort="1.9123" velocity="5.4542" lower="-0.174533" upper="1.74533"/>
   </joint>
 
   <transmission name="gripper_trans">
@@ -356,7 +356,7 @@
     <parent link="wrist_link"/>
     <child link="gripper_link"/>
     <axis xyz="0 0 1"/>
-    <limit effort="10" velocity="10" lower="-2.74385" upper="2.84121"/>
+    <limit effort="1.9123" velocity="5.4542" lower="-2.74385" upper="2.84121"/>
   </joint>
 
   <transmission name="wrist_roll_trans">
@@ -376,7 +376,7 @@
     <parent link="lower_arm_link"/>
     <child link="wrist_link"/>
     <axis xyz="0 0 1"/>
-    <limit effort="10" velocity="10" lower="-1.65806" upper="1.65806"/>
+    <limit effort="1.9123" velocity="5.4542" lower="-1.65806" upper="1.65806"/>
   </joint>
 
   <transmission name="wrist_flex_trans">
@@ -397,7 +397,7 @@
     <parent link="upper_arm_link"/>
     <child link="lower_arm_link"/>
     <axis xyz="0 0 1"/>
-    <limit effort="10" velocity="10" lower="-1.69" upper="1.69"/>
+    <limit effort="1.9123" velocity="5.4542" lower="-1.69" upper="1.69"/>
   </joint>
 
   <transmission name="elbow_flex_trans">
@@ -417,7 +417,7 @@
     <parent link="shoulder_link"/>
     <child link="upper_arm_link"/>
     <axis xyz="0 0 1"/>
-    <limit effort="10" velocity="10" lower="-1.74533" upper="1.74533"/>
+    <limit effort="1.9123" velocity="5.4542" lower="-1.74533" upper="1.74533"/>
   </joint>
 
   <transmission name="shoulder_lift_trans">
@@ -437,7 +437,7 @@
     <parent link="base_link"/>
     <child link="shoulder_link"/>
     <axis xyz="0 0 1"/>
-    <limit effort="10" velocity="10" lower="-1.91986" upper="1.91986"/>
+    <limit effort="1.9123" velocity="5.4542" lower="-1.91986" upper="1.91986"/>
   </joint>
 
   <transmission name="shoulder_pan_trans">
