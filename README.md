@@ -58,6 +58,7 @@ You can find all optional for SO-100/SO-101 kits here:
 - from PartaBot :us: [US](https://partabot.com) (They include **assembled** versions, and also sell LeKiwi and Koch robots)
 - from ForgeMotion Labs :us: [US](https://forgemotionlabs.com/products) or [Amazon US](https://www.amazon.com/s?me=A3TE39P97BKL59) (They include **3d printed frame kits**, **electronics kits** and **complete arm kits**)
 - from RoboSEasy :kr: [South Korea](https://smartstore.naver.com/roboseasy)
+- from BrainUs :kr: [South Korea](https://www.brainus.io/)
 - from NeoBot :cn: [China](https://item.taobao.com/item.htm?ft=t&id=957685951340)
 - from Autodiscovery :eu: [EU](https://autodiscovery.eu/en/products/so-101-kit??utm_source=hf&utm_medium=shop&utm_content=web)
 
