@@ -28,6 +28,7 @@ These arms are designed to work seamlessly with the open‑source 🤗 LeRobot l
 
 ### Documentation 📖
 - For the SO‑101 docs, follow this page further.
+- For additional assembly instructions and videos, see the [Robonine SO-ARM101 assembly and calibration guide](https://robonine.com/docs/so-arm101/).
 - Here you can find the [SO‑100 docs](SO100.md) which is deprecated.
 
 ### Getting Your Own SO‑101 
@@ -51,10 +52,10 @@ This repository also includes a range of optional hardware designs such as a rai
 
 You can find all optional for SO-100/SO-101 kits here:
 
+- from Robonine :earth_africa: [International](https://robonine.com/shop/so-arm101-black-white-robotic-arm-kit/?utm_source=github&utm_medium=referral&utm_campaign=so_arm100) (They include **parts** kits with a wrist camera and an ArUco cube)
 - from Seeed studio :earth_africa: [International](https://www.seeedstudio.com/SO-ARM100-Low-Cost-AI-Arm-Kit.html) or :cn: [China](https://item.taobao.com/item.htm?id=878010637397&skuId=5915703371829&spm=a213gs.v2success.0.0.4cbf4831mkqWLn) or :jp: [Akizuki Denshi](https://akizukidenshi.com/catalog/g/g131169/) or [Aliexpress](https://www.aliexpress.com/item/3256808696884714.html?gatewayAdapt=4itemAdapt) (They include **3d printed kits**)
 - from WowRobo :earth_africa: [International](https://shop.wowrobo.com/products/so-arm101-diy-kit-assembled-version-1) or :cn: [China](https://item.taobao.com/item.htm?ft=t&id=860171734711) (They include **assembled** versions)
 - from RobotEd :switzerland: [Switzerland](https://roboted.ch/en/shop/so-101-robot-arm-kit) (They include **3d printed frame kits**, **electronics kits** and **complete arm kits**)
-- from Robonine :earth_africa: [International](https://robonine.com/shop/so-arm101-black-white-robotic-arm-kit/) (They include **parts** kits with a wrist camera and an ArUco cube)
 - from PartaBot :us: [US](https://partabot.com) (They include **assembled** versions, and also sell LeKiwi and Koch robots)
 - from ForgeMotion Labs :us: [US](https://forgemotionlabs.com/products) or [Amazon US](https://www.amazon.com/s?me=A3TE39P97BKL59) (They include **3d printed frame kits**, **electronics kits** and **complete arm kits**)
 - from RoboSEasy :kr: [South Korea](https://smartstore.naver.com/roboseasy)
