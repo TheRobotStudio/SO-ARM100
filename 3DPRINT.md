@@ -1,6 +1,8 @@
 # 3D Printing Services
 
-There are different ways to get your parts 3D printed, below are the options and which one to choose. We will add more services once we verify them. If you tried another service please let us know so we can add it here. Additionally SeeedStudio also sells the 3D printed parts only: [SO-ARM100 3D-Printed Enclosure](https://www.seeedstudio.com/SO-ARM100-3D-printed-Enclosure-p-6409.html).  
+There are different ways to get your parts 3D printed, below are the options and which one to choose. We will add more services once we verify them. If you tried another service please let us know so we can add it here. Seeed Studio also sells printed-only enclosures for the [SO-ARM100](https://www.seeedstudio.com/SO-ARM100-3D-printed-Enclosure-p-6409.html) and the [SO-101](https://www.seeedstudio.com/SO-101-3D-printed-Enclosure-p-6428.html). Before ordering, check your arm revision and the mounting plate your servo-driver board needs.
+
+[Modurobot’s free SO-101 printed-parts guide](https://modurobot.com/so101-printed-parts.html) shows a worked filament estimate and links to a free budget worksheet. The guide labels an optional affiliate link.  
 
 - [Europe](#craftcloud3d) (Craftcloud3d) :fr: :de: :uk: :it: :es:
 - [US](#craftcloud3d) (Craftcloud3d) :us:
