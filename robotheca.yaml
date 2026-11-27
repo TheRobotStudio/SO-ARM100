@@ -1,0 +1,47 @@
+# Proposed by Robotheca for this repository. Every line is yours to
+# change: check it before merging.
+
+format_version: "1.0"
+name: SO-101
+summary: A low-cost 3D-printed robot arm built as a leader and follower pair, for teleoperation and for teaching tasks by demonstration with LeRobot.
+category: arm
+difficulty: beginner
+license:
+  hardware: Apache-2.0
+  software: Apache-2.0
+source:
+  repository: https://github.com/TheRobotStudio/SO-ARM100
+estimated_cost:
+  amount: 226.3
+  currency: EUR
+  note: Parts for two arms (leader and follower); 3D printing not included.
+tools:
+  - 3D printer
+files:
+  urdf: Simulation/SO101/so101_new_calib.urdf
+  parts_3d: STL/SO101/
+  cad: STEP/SO101/
+  bom: README.md
+  docs: 3DPRINT.md
+  simulation: Simulation/SO101/
+  images:
+    - media/SO101_Follower.webp
+software:
+  framework: lerobot
+build_steps:
+  - title: Get the parts for both arms
+    doc: README.md
+  - title: Print the parts
+    doc: README.md
+  - title: Install LeRobot
+    url: https://huggingface.co/docs/lerobot/so101#install-lerobot-
+  - title: Set the motor IDs and baud rates
+    url: https://huggingface.co/docs/lerobot/so101#configure-the-motors
+  - title: Assemble the arms joint by joint
+    url: https://huggingface.co/docs/lerobot/so101#step-by-step-assembly-instructions
+  - title: Calibrate the leader and follower arms
+    url: https://huggingface.co/docs/lerobot/so101#calibrate
+external_links:
+  - type: docs
+    url: https://github.com/huggingface/lerobot
+    label: LeRobot, the software the README sets the arm up with
