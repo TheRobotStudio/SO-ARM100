@@ -284,7 +284,7 @@
     <collision>
       <origin xyz="8.32667e-17 -0.000218214 0.000949706" rpy="-3.14159 -5.55112e-17 0"/>
       <geometry>
-        <mesh filename="assets/wrist_roll_follower_so101_v1.stl"/>
+        <mesh filename="assets/wrist_roll_follower_so101_collision_v1.stl"/>
       </geometry>
     </collision>
   </link>
@@ -324,7 +324,7 @@
     <collision>
       <origin xyz="-5.55112e-17 -5.55112e-17 0.0189" rpy="9.53145e-17 6.93889e-18 1.24077e-24"/>
       <geometry>
-        <mesh filename="assets/moving_jaw_so101_v1.stl"/>
+        <mesh filename="assets/moving_jaw_so101_collision_v1.stl"/>
       </geometry>
     </collision>
   </link>
